@@ -9,7 +9,7 @@ import sys
 
 logging_format = "[%(asctime)s] %(filename)s:%(lineno)d (%(levelname)s): %(message)s"
 logging_format = "(%(levelname)s): %(message)s"
-file_handler = logging.FileHandler(filename="logs/data_validator.log", mode="w")
+file_handler = logging.FileHandler(filename="log/data_validator.log", mode="w")
 stdout_handler = logging.StreamHandler(sys.stdout)
 handlers = [file_handler, stdout_handler]
 logging.basicConfig(
