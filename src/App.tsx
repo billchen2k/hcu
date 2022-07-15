@@ -5,10 +5,10 @@ import Sidebar from './components/Sidebar';
 import ContentLayout from './components/ContentLayout';
 
 const headingFont = {
-  fontFamily: 'FZQKBYS, serif, --apple-family',
+  fontFamily: 'New York, FZQKBYS, serif, --apple-family',
 };
 const bodyFont = {
-  fontFamily: 'FZCS, serif, --apple-family',
+  fontFamily: 'New York, FZQKBYS, FZCS, serif, --apple-family',
 };
 
 const theme = createTheme({
