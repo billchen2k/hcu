@@ -8,12 +8,348 @@
         "c9": true
     },
     {
+        "name": "中国人民大学",
+        "englishName": "RUC",
+        "establishYear": "1937",
+        "establishMonth": "08",
+        "location": "北京市",
+        "c9": false
+    },
+    {
         "name": "清华大学",
         "englishName": "THU",
         "establishYear": "1911",
         "establishMonth": "04",
         "location": "北京市",
         "c9": true
+    },
+    {
+        "name": "北京交通大学",
+        "englishName": "BJTU",
+        "establishYear": "1896",
+        "establishMonth": "00",
+        "location": "北京市",
+        "c9": false
+    },
+    {
+        "name": "北京工业大学",
+        "englishName": "BJUT",
+        "establishYear": "1960",
+        "establishMonth": "00",
+        "location": "北京市",
+        "c9": false
+    },
+    {
+        "name": "北京航空航天大学",
+        "englishName": "BUAA",
+        "establishYear": "1952",
+        "establishMonth": "10",
+        "location": "北京市",
+        "c9": false
+    },
+    {
+        "name": "北京理工大学",
+        "englishName": "BIT",
+        "establishYear": "1940",
+        "establishMonth": "00",
+        "location": "北京市",
+        "c9": false
+    },
+    {
+        "name": "北京科技大学",
+        "englishName": "USTB",
+        "establishYear": "1952",
+        "establishMonth": "00",
+        "location": "北京市",
+        "c9": false
+    },
+    {
+        "name": "北京邮电大学",
+        "englishName": "BUPT",
+        "establishYear": "1955",
+        "establishMonth": "09",
+        "location": "北京市",
+        "c9": false
+    },
+    {
+        "name": "中国农业大学",
+        "englishName": "CAU",
+        "establishYear": "1905",
+        "establishMonth": "12",
+        "location": "北京市",
+        "c9": false
+    },
+    {
+        "name": "北京林业大学",
+        "englishName": "BFU",
+        "establishYear": "1952",
+        "establishMonth": "10",
+        "location": "北京市",
+        "c9": false
+    },
+    {
+        "name": "北京协和医学院",
+        "englishName": "PUMC",
+        "establishYear": "1917",
+        "establishMonth": "00",
+        "location": "北京市",
+        "c9": false
+    },
+    {
+        "name": "北京中医药大学",
+        "englishName": "BUCM",
+        "establishYear": "1956",
+        "establishMonth": "00",
+        "location": "北京市",
+        "c9": false
+    },
+    {
+        "name": "北京师范大学",
+        "englishName": "BNU",
+        "establishYear": "1902",
+        "establishMonth": "00",
+        "location": "北京市",
+        "c9": false
+    },
+    {
+        "name": "首都师范大学",
+        "englishName": "CNUEF",
+        "establishYear": "1954",
+        "establishMonth": "00",
+        "location": "北京市",
+        "c9": false
+    },
+    {
+        "name": "北京外国语大学",
+        "englishName": "BFSU",
+        "establishYear": "1941",
+        "establishMonth": "09",
+        "location": "北京市",
+        "c9": false
+    },
+    {
+        "name": "中国传媒大学",
+        "englishName": "CUC",
+        "establishYear": "1954",
+        "establishMonth": "00",
+        "location": "北京市",
+        "c9": false
+    },
+    {
+        "name": "对外经济贸易大学",
+        "englishName": "UIBE",
+        "establishYear": "1951",
+        "establishMonth": "07",
+        "location": "北京市",
+        "c9": false
+    },
+    {
+        "name": "外交学院",
+        "englishName": "CFAU",
+        "establishYear": "1955",
+        "establishMonth": "09",
+        "location": "北京市",
+        "c9": false
+    },
+    {
+        "name": "中国人民公安大学",
+        "englishName": "PPSUC",
+        "establishYear": "1948",
+        "establishMonth": "07",
+        "location": "北京市",
+        "c9": false
+    },
+    {
+        "name": "北京体育大学",
+        "englishName": "BSU",
+        "establishYear": "1953",
+        "establishMonth": "11",
+        "location": "北京市",
+        "c9": false
+    },
+    {
+        "name": "中央音乐学院",
+        "englishName": "CCOM",
+        "establishYear": "1949",
+        "establishMonth": "10",
+        "location": "北京市",
+        "c9": false
+    },
+    {
+        "name": "中国音乐学院",
+        "englishName": "CCMUSIC",
+        "establishYear": "1964",
+        "establishMonth": "09",
+        "location": "北京市",
+        "c9": false
+    },
+    {
+        "name": "中央美术学院",
+        "englishName": "CAFA",
+        "establishYear": "1918",
+        "establishMonth": "00",
+        "location": "北京市",
+        "c9": false
+    },
+    {
+        "name": "中央戏剧学院",
+        "englishName": "CHNTHEATRE",
+        "establishYear": "1950",
+        "establishMonth": "04",
+        "location": "北京市",
+        "c9": false
+    },
+    {
+        "name": "中央民族大学",
+        "englishName": "CUN",
+        "establishYear": "1951",
+        "establishMonth": "06",
+        "location": "北京市",
+        "c9": false
+    },
+    {
+        "name": "中国政法大学",
+        "englishName": "CUPL",
+        "establishYear": "1952",
+        "establishMonth": "05",
+        "location": "北京市",
+        "c9": false
+    },
+    {
+        "name": "南开大学",
+        "englishName": "NKY",
+        "establishYear": "1919",
+        "establishMonth": "02",
+        "location": "天津市",
+        "c9": false
+    },
+    {
+        "name": "天津大学",
+        "englishName": "TJU",
+        "establishYear": "1895",
+        "establishMonth": "10",
+        "location": "天津市",
+        "c9": false
+    },
+    {
+        "name": "天津工业大学",
+        "englishName": "TJPU",
+        "establishYear": "1912",
+        "establishMonth": "00",
+        "location": "天津市",
+        "c9": false
+    },
+    {
+        "name": "天津医科大学",
+        "englishName": "TMU",
+        "establishYear": "1951",
+        "establishMonth": "00",
+        "location": "天津市",
+        "c9": false
+    },
+    {
+        "name": "天津中医药大学",
+        "englishName": "TJUTCM",
+        "establishYear": "1958",
+        "establishMonth": "10",
+        "location": "天津市",
+        "c9": false
+    },
+    {
+        "name": "华北电力大学",
+        "englishName": "NCEPU",
+        "establishYear": "1958",
+        "establishMonth": "10",
+        "location": "北京市",
+        "c9": false
+    },
+    {
+        "name": "河北工业大学",
+        "englishName": "HEBUT",
+        "establishYear": "1903",
+        "establishMonth": "00",
+        "location": "天津市",
+        "c9": false
+    },
+    {
+        "name": "山西大学",
+        "englishName": "SXU",
+        "establishYear": "1902",
+        "establishMonth": "05",
+        "location": "太原市",
+        "c9": false
+    },
+    {
+        "name": "太原理工大学",
+        "englishName": "TYUT",
+        "establishYear": "1902",
+        "establishMonth": "06",
+        "location": "太原市",
+        "c9": false
+    },
+    {
+        "name": "内蒙古大学",
+        "englishName": "IMU",
+        "establishYear": "1957",
+        "establishMonth": "10",
+        "location": "呼和浩特市",
+        "c9": false
+    },
+    {
+        "name": "辽宁大学",
+        "englishName": "LNU",
+        "establishYear": "1948",
+        "establishMonth": "11",
+        "location": "沈阳市",
+        "c9": false
+    },
+    {
+        "name": "大连理工大学",
+        "englishName": "DUT",
+        "establishYear": "1949",
+        "establishMonth": "04",
+        "location": "大连市",
+        "c9": false
+    },
+    {
+        "name": "东北大学",
+        "englishName": "NEU",
+        "establishYear": "1923",
+        "establishMonth": "04",
+        "location": "沈阳市",
+        "c9": false
+    },
+    {
+        "name": "大连海事大学",
+        "englishName": "DMU",
+        "establishYear": "1909",
+        "establishMonth": "00",
+        "location": "大连市",
+        "c9": false
+    },
+    {
+        "name": "吉林大学",
+        "englishName": "JLU",
+        "establishYear": "1946",
+        "establishMonth": "10",
+        "location": "长春市",
+        "c9": false
+    },
+    {
+        "name": "延边大学",
+        "englishName": "YBU",
+        "establishYear": "1949",
+        "establishMonth": "03",
+        "location": "延边朝鲜族自治州",
+        "c9": false
+    },
+    {
+        "name": "东北师范大学",
+        "englishName": "NENU",
+        "establishYear": "1946",
+        "establishMonth": "00",
+        "location": "长春市",
+        "c9": false
     },
     {
         "name": "哈尔滨工业大学",
@@ -24,12 +360,44 @@
         "c9": true
     },
     {
+        "name": "哈尔滨工程大学",
+        "englishName": "HEU",
+        "establishYear": "1953",
+        "establishMonth": "00",
+        "location": "哈尔滨市",
+        "c9": false
+    },
+    {
+        "name": "东北农业大学",
+        "englishName": "NEAU",
+        "establishYear": "1948",
+        "establishMonth": "00",
+        "location": "哈尔滨市",
+        "c9": false
+    },
+    {
+        "name": "东北林业大学",
+        "englishName": "NEFU",
+        "establishYear": "1952",
+        "establishMonth": "10",
+        "location": "哈尔滨市",
+        "c9": false
+    },
+    {
         "name": "复旦大学",
         "englishName": "FDU",
         "establishYear": "1905",
         "establishMonth": "09",
         "location": "上海市",
         "c9": true
+    },
+    {
+        "name": "同济大学",
+        "englishName": "TONGJI",
+        "establishYear": "1907",
+        "establishMonth": "10",
+        "location": "上海市",
+        "c9": false
     },
     {
         "name": "上海交通大学",
@@ -40,12 +408,212 @@
         "c9": true
     },
     {
+        "name": "华东理工大学",
+        "englishName": "ECUST",
+        "establishYear": "1953",
+        "establishMonth": "10",
+        "location": "上海市",
+        "c9": false
+    },
+    {
+        "name": "东华大学",
+        "englishName": "DHU",
+        "establishYear": "1951",
+        "establishMonth": "00",
+        "location": "上海市",
+        "c9": false
+    },
+    {
+        "name": "上海海洋大学",
+        "englishName": "SHOU",
+        "establishYear": "1912",
+        "establishMonth": "01",
+        "location": "上海市",
+        "c9": false
+    },
+    {
+        "name": "上海中医药大学",
+        "englishName": "SHUTCM",
+        "establishYear": "1956",
+        "establishMonth": "00",
+        "location": "上海市",
+        "c9": false
+    },
+    {
+        "name": "华东师范大学",
+        "englishName": "ECNU",
+        "establishYear": "1951",
+        "establishMonth": "70",
+        "location": "上海市",
+        "c9": false
+    },
+    {
+        "name": "上海外国语大学",
+        "englishName": "SISU",
+        "establishYear": "1949",
+        "establishMonth": "12",
+        "location": "上海市",
+        "c9": false
+    },
+    {
+        "name": "上海财经大学",
+        "englishName": "SUFE",
+        "establishYear": "1917",
+        "establishMonth": "90",
+        "location": "上海市",
+        "c9": false
+    },
+    {
+        "name": "上海体育学院",
+        "englishName": "SUS",
+        "establishYear": "1952",
+        "establishMonth": "11",
+        "location": "上海市",
+        "c9": false
+    },
+    {
+        "name": "上海音乐学院",
+        "englishName": "SHCM",
+        "establishYear": "1927",
+        "establishMonth": "11",
+        "location": "上海市",
+        "c9": false
+    },
+    {
+        "name": "上海大学",
+        "englishName": "SHU",
+        "establishYear": "1994",
+        "establishMonth": "50",
+        "location": "上海市",
+        "c9": false
+    },
+    {
         "name": "南京大学",
         "englishName": "NJU",
         "establishYear": "1902",
         "establishMonth": "05",
         "location": "江苏省南京市",
         "c9": true
+    },
+    {
+        "name": "苏州大学",
+        "englishName": "SUDA",
+        "establishYear": "1900",
+        "establishMonth": "50",
+        "location": "江苏省南京市",
+        "c9": false
+    },
+    {
+        "name": "东南大学",
+        "englishName": "SEU",
+        "establishYear": "1902",
+        "establishMonth": "05",
+        "location": "江苏省南京市",
+        "c9": false
+    },
+    {
+        "name": "南京航空航天大学",
+        "englishName": "NUAA",
+        "establishYear": "1952",
+        "establishMonth": "06",
+        "location": "江苏省南京市",
+        "c9": false
+    },
+    {
+        "name": "南京理工大学",
+        "englishName": "NJUST",
+        "establishYear": "1953",
+        "establishMonth": "11",
+        "location": "江苏省南京市",
+        "c9": false
+    },
+    {
+        "name": "中国矿业大学",
+        "englishName": "CUMT",
+        "establishYear": "1909",
+        "establishMonth": "03",
+        "location": "江苏省南京市",
+        "c9": false
+    },
+    {
+        "name": "南京邮电大学",
+        "englishName": "NJUPT",
+        "establishYear": "1942",
+        "establishMonth": "00",
+        "location": "江苏省南京市",
+        "c9": false
+    },
+    {
+        "name": "河海大学",
+        "englishName": "HHU",
+        "establishYear": "1915",
+        "establishMonth": "03",
+        "location": "江苏省南京市",
+        "c9": false
+    },
+    {
+        "name": "江南大学",
+        "englishName": "JNU",
+        "establishYear": "1902",
+        "establishMonth": "05",
+        "location": "江苏省南京市",
+        "c9": false
+    },
+    {
+        "name": "南京林业大学",
+        "englishName": "NJFU",
+        "establishYear": "1902",
+        "establishMonth": "05",
+        "location": "江苏省南京市",
+        "c9": false
+    },
+    {
+        "name": "南京信息工程大学",
+        "englishName": "NUIST",
+        "establishYear": "1960",
+        "establishMonth": "00",
+        "location": "江苏省南京市",
+        "c9": false
+    },
+    {
+        "name": "南京农业大学",
+        "englishName": "NJAU",
+        "establishYear": "1902",
+        "establishMonth": "05",
+        "location": "江苏省南京市",
+        "c9": false
+    },
+    {
+        "name": "南京医科大学",
+        "englishName": "NMU",
+        "establishYear": "1934",
+        "establishMonth": "00",
+        "location": "江苏省南京市",
+        "c9": false
+    },
+    {
+        "name": "南京中医药大学",
+        "englishName": "NUCM",
+        "establishYear": "1954",
+        "establishMonth": "10",
+        "location": "江苏省南京市",
+        "c9": false
+    },
+    {
+        "name": "中国药科大学",
+        "englishName": "CPU",
+        "establishYear": "1936",
+        "establishMonth": "00",
+        "location": "江苏省南京市",
+        "c9": false
+    },
+    {
+        "name": "南京师范大学",
+        "englishName": "NNU",
+        "establishYear": "1902",
+        "establishMonth": "00",
+        "location": "江苏省南京市",
+        "c9": false
     },
     {
         "name": "浙江大学",
@@ -56,6 +624,382 @@
         "c9": true
     },
     {
+        "name": "中国美术学院",
+        "englishName": "CAA",
+        "establishYear": "1928",
+        "establishMonth": "00",
+        "location": "浙江省杭州市",
+        "c9": false
+    },
+    {
+        "name": "安徽大学",
+        "englishName": "AHU",
+        "establishYear": "1928",
+        "establishMonth": "04",
+        "location": "安徽省合肥市",
+        "c9": false
+    },
+    {
+        "name": "中国科学技术大学",
+        "englishName": "USTC",
+        "establishYear": "1958",
+        "establishMonth": "09",
+        "location": "安徽省合肥市",
+        "c9": false
+    },
+    {
+        "name": "合肥工业大学",
+        "englishName": "HFUT",
+        "establishYear": "1945",
+        "establishMonth": "10",
+        "location": "安徽省合肥市",
+        "c9": false
+    },
+    {
+        "name": "厦门大学",
+        "englishName": "XMU",
+        "establishYear": "1921",
+        "establishMonth": "04",
+        "location": "福建省厦门市",
+        "c9": false
+    },
+    {
+        "name": "福州大学",
+        "englishName": "FZU",
+        "establishYear": "1958",
+        "establishMonth": "00",
+        "location": "福建省福州市",
+        "c9": false
+    },
+    {
+        "name": "福建师范大学",
+        "englishName": "FNU",
+        "establishYear": "1907",
+        "establishMonth": "00",
+        "location": "福建省福州市",
+        "c9": false
+    },
+    {
+        "name": "南昌大学",
+        "englishName": "NCU",
+        "establishYear": "1921",
+        "establishMonth": "00",
+        "location": "江西省南昌市",
+        "c9": false
+    },
+    {
+        "name": "山东大学",
+        "englishName": "SDU",
+        "establishYear": "1901",
+        "establishMonth": "00",
+        "location": "山东省济南市",
+        "c9": false
+    },
+    {
+        "name": "中国海洋大学",
+        "englishName": "OUC",
+        "establishYear": "1924",
+        "establishMonth": "00",
+        "location": "山东省青岛市",
+        "c9": false
+    },
+    {
+        "name": "中国石油大学（华东）",
+        "englishName": "UPC",
+        "establishYear": "1953",
+        "establishMonth": "00",
+        "location": "山东省青岛市",
+        "c9": false
+    },
+    {
+        "name": "郑州大学",
+        "englishName": "ZZU",
+        "establishYear": "1956",
+        "establishMonth": "00",
+        "location": "河南省郑州市",
+        "c9": false
+    },
+    {
+        "name": "河南大学",
+        "englishName": "HENU",
+        "establishYear": "1912",
+        "establishMonth": "09",
+        "location": "河南省郑州市",
+        "c9": false
+    },
+    {
+        "name": "武汉大学",
+        "englishName": "WHU",
+        "establishYear": "1893",
+        "establishMonth": "00",
+        "location": "湖北省武汉市",
+        "c9": false
+    },
+    {
+        "name": "华中科技大学",
+        "englishName": "HUST",
+        "establishYear": "1952",
+        "establishMonth": "11",
+        "location": "湖北省武汉市",
+        "c9": false
+    },
+    {
+        "name": "中国地质大学（武汉）",
+        "englishName": "CUG",
+        "establishYear": "1952",
+        "establishMonth": "00",
+        "location": "湖北省武汉市",
+        "c9": false
+    },
+    {
+        "name": "武汉理工大学",
+        "englishName": "WUT",
+        "establishYear": "1898",
+        "establishMonth": "00",
+        "location": "湖北省武汉市",
+        "c9": false
+    },
+    {
+        "name": "华中农业大学",
+        "englishName": "HZAU",
+        "establishYear": "1898",
+        "establishMonth": "00",
+        "location": "湖北省武汉市",
+        "c9": false
+    },
+    {
+        "name": "华中师范大学",
+        "englishName": "CCNU",
+        "establishYear": "1903",
+        "establishMonth": "00",
+        "location": "湖北省武汉市",
+        "c9": false
+    },
+    {
+        "name": "中南财经政法大学",
+        "englishName": "ZUEL",
+        "establishYear": "1948",
+        "establishMonth": "00",
+        "location": "湖北省武汉市",
+        "c9": false
+    },
+    {
+        "name": "湘潭大学",
+        "englishName": "XYU",
+        "establishYear": "1958",
+        "establishMonth": "09",
+        "location": "湘潭市",
+        "c9": false
+    },
+    {
+        "name": "湖南大学",
+        "englishName": "HNU",
+        "establishYear": "1800",
+        "establishMonth": "00",
+        "location": "长沙市",
+        "c9": false
+    },
+    {
+        "name": "中南大学",
+        "englishName": "CSU",
+        "establishYear": "2000",
+        "establishMonth": "04",
+        "location": "长沙市",
+        "c9": false
+    },
+    {
+        "name": "湖南师范大学",
+        "englishName": "Hunan Normal University",
+        "establishYear": "1938",
+        "establishMonth": "00",
+        "location": "长沙市",
+        "c9": false
+    },
+    {
+        "name": "中山大学",
+        "englishName": "SYSU",
+        "establishYear": "1924",
+        "establishMonth": "00",
+        "location": "广州市",
+        "c9": false
+    },
+    {
+        "name": "暨南大学",
+        "englishName": "JNU",
+        "establishYear": "1906",
+        "establishMonth": "00",
+        "location": "广州市",
+        "c9": false
+    },
+    {
+        "name": "华南理工大学",
+        "englishName": "SCUT",
+        "establishYear": "1952",
+        "establishMonth": "00",
+        "location": "广州市",
+        "c9": false
+    },
+    {
+        "name": "华南农业大学",
+        "englishName": "SCAU",
+        "establishYear": "1909",
+        "establishMonth": "00",
+        "location": "广州市",
+        "c9": false
+    },
+    {
+        "name": "广州医科大学",
+        "englishName": "GMU",
+        "establishYear": "1958",
+        "establishMonth": "06",
+        "location": "广州市",
+        "c9": false
+    },
+    {
+        "name": "广州中医药大学",
+        "englishName": "GUCM",
+        "establishYear": "1924",
+        "establishMonth": "00",
+        "location": "广州市",
+        "c9": false
+    },
+    {
+        "name": "华南师范大学",
+        "englishName": "SCNU",
+        "establishYear": "1933",
+        "establishMonth": "00",
+        "location": "广州市",
+        "c9": false
+    },
+    {
+        "name": "海南大学",
+        "englishName": "HNU",
+        "establishYear": "1958",
+        "establishMonth": "00",
+        "location": "海口市",
+        "c9": false
+    },
+    {
+        "name": "广西大学",
+        "englishName": "GXU",
+        "establishYear": "1928",
+        "establishMonth": "06",
+        "location": "南宁市",
+        "c9": false
+    },
+    {
+        "name": "四川大学",
+        "englishName": "SCU",
+        "establishYear": "1896",
+        "establishMonth": "06",
+        "location": "成都市",
+        "c9": false
+    },
+    {
+        "name": "重庆大学",
+        "englishName": "CQU",
+        "establishYear": "1929",
+        "establishMonth": "10",
+        "location": "重庆市",
+        "c9": false
+    },
+    {
+        "name": "西南交通大学",
+        "englishName": "SWJTU",
+        "establishYear": "1896",
+        "establishMonth": "00",
+        "location": "成都市",
+        "c9": false
+    },
+    {
+        "name": "电子科技大学",
+        "englishName": "UESTC",
+        "establishYear": "1956",
+        "establishMonth": "00",
+        "location": "成都市",
+        "c9": false
+    },
+    {
+        "name": "西南石油大学",
+        "englishName": "SWPU",
+        "establishYear": "1958",
+        "establishMonth": "00",
+        "location": "成都市",
+        "c9": false
+    },
+    {
+        "name": "成都理工大学",
+        "englishName": "CDUT",
+        "establishYear": "1956",
+        "establishMonth": "00",
+        "location": "成都市",
+        "c9": false
+    },
+    {
+        "name": "四川农业大学",
+        "englishName": "SICAU",
+        "establishYear": "1906",
+        "establishMonth": "00",
+        "location": "雅安市",
+        "c9": false
+    },
+    {
+        "name": "成都中医药大学",
+        "englishName": "CDUTCM",
+        "establishYear": "1956",
+        "establishMonth": "00",
+        "location": "成都市",
+        "c9": false
+    },
+    {
+        "name": "西南大学",
+        "englishName": "SWU",
+        "establishYear": "1906",
+        "establishMonth": "00",
+        "location": "重庆市",
+        "c9": false
+    },
+    {
+        "name": "西南财经大学",
+        "englishName": "SWUFE",
+        "establishYear": "1902",
+        "establishMonth": "06",
+        "location": "成都市",
+        "c9": false
+    },
+    {
+        "name": "贵州大学",
+        "englishName": "GZU",
+        "establishYear": "1902",
+        "establishMonth": "00",
+        "location": "贵阳市",
+        "c9": false
+    },
+    {
+        "name": "云南大学",
+        "englishName": "YNU",
+        "establishYear": "1922",
+        "establishMonth": "00",
+        "location": "昆明市",
+        "c9": false
+    },
+    {
+        "name": "西藏大学",
+        "englishName": "TU",
+        "establishYear": "1951",
+        "establishMonth": "00",
+        "location": "拉萨市",
+        "c9": false
+    },
+    {
+        "name": "西北大学",
+        "englishName": "NWU",
+        "establishYear": "1902",
+        "establishMonth": "00",
+        "location": "西安市",
+        "c9": false
+    },
+    {
         "name": "西安交通大学",
         "englishName": "XJTU",
         "establishYear": "1896",
@@ -64,11 +1008,163 @@
         "c9": true
     },
     {
+        "name": "西北工业大学",
+        "englishName": "NPU",
+        "establishYear": "1938",
+        "establishMonth": "10",
+        "location": "西安市",
+        "c9": false
+    },
+    {
+        "name": "西安电子科技大学",
+        "englishName": "XDU",
+        "establishYear": "1931",
+        "establishMonth": "00",
+        "location": "西安市",
+        "c9": false
+    },
+    {
+        "name": "长安大学",
+        "englishName": "CHD",
+        "establishYear": "1951",
+        "establishMonth": "00",
+        "location": "西安市",
+        "c9": false
+    },
+    {
+        "name": "西北农林科技大学",
+        "englishName": "NWAFU",
+        "establishYear": "1934",
+        "establishMonth": "00",
+        "location": "西安市",
+        "c9": false
+    },
+    {
+        "name": "陕西师范大学",
+        "englishName": "SNNW",
+        "establishYear": "1944",
+        "establishMonth": "00",
+        "location": "西安市",
+        "c9": false
+    },
+    {
+        "name": "兰州大学",
+        "englishName": "LZU",
+        "establishYear": "1909",
+        "establishMonth": "00",
+        "location": "兰州市",
+        "c9": false
+    },
+    {
+        "name": "青海大学",
+        "englishName": "QHU",
+        "establishYear": "1958",
+        "establishMonth": "00",
+        "location": "西宁市",
+        "c9": false
+    },
+    {
+        "name": "宁夏大学",
+        "englishName": "NHU",
+        "establishYear": "1958",
+        "establishMonth": "00",
+        "location": "银川市",
+        "c9": false
+    },
+    {
+        "name": "新疆大学",
+        "englishName": "XJU",
+        "establishYear": "1924",
+        "establishMonth": "00",
+        "location": "乌鲁木齐市",
+        "c9": false
+    },
+    {
+        "name": "石河子大学",
+        "englishName": "SHZU",
+        "establishYear": "1949",
+        "establishMonth": "00",
+        "location": "石河子市",
+        "c9": false
+    },
+    {
+        "name": "中国矿业大学（北京）",
+        "englishName": "CUMTB",
+        "establishYear": "1909",
+        "establishMonth": "00",
+        "location": "北京市",
+        "c9": false
+    },
+    {
+        "name": "中国石油大学（北京）",
+        "englishName": "CUP",
+        "establishYear": "1953",
+        "establishMonth": "00",
+        "location": "北京市",
+        "c9": false
+    },
+    {
+        "name": "中国地质大学（北京）",
+        "englishName": "CUGB",
+        "establishYear": "1952",
+        "establishMonth": "00",
+        "location": "北京市",
+        "c9": false
+    },
+    {
+        "name": "宁波大学",
+        "englishName": "NBU",
+        "establishYear": "1986",
+        "establishMonth": "00",
+        "location": "宁波市",
+        "c9": false
+    },
+    {
+        "name": "南方科技大学",
+        "englishName": "SUSTech",
+        "establishYear": "2010",
+        "establishMonth": "00",
+        "location": "深圳市",
+        "c9": false
+    },
+    {
+        "name": "上海科技大学",
+        "englishName": "STech",
+        "establishYear": "2013",
+        "establishMonth": "00",
+        "location": "上海市",
+        "c9": false
+    },
+    {
         "name": "中国科学院大学",
         "englishName": "UCAS",
         "establishYear": "1978",
         "establishMonth": "00",
         "location": "北京市",
         "c9": true
+    },
+    {
+        "name": "国防科技大学",
+        "englishName": "NUDT",
+        "establishYear": "1953",
+        "establishMonth": "00",
+        "location": "长沙市",
+        "c9": false
+    },
+    {
+        "name": "海军军医大学",
+        "englishName": "SMMU",
+        "establishYear": "1949",
+        "establishMonth": "00",
+        "location": "上海市",
+        "c9": false
+    },
+    {
+        "name": "空军军医大学",
+        "englishName": "FMMU",
+        "establishYear": "1941",
+        "establishMonth": "00",
+        "location": "西安市",
+        "c9": false
     }
 ]

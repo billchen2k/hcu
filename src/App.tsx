@@ -5,16 +5,19 @@ import Sidebar from './components/Sidebar';
 import ContentLayout from './components/ContentLayout';
 
 const headingFont = {
-  fontFamily: 'FZQingKeBenYueSong, serif, --apple-family',
+  fontFamily: 'FZQKBYS, serif, --apple-family',
 };
 const bodyFont = {
-  fontFamily: 'FZCuSong, serif, --apple-family',
+  fontFamily: 'FZCS, serif, --apple-family',
 };
 
 const theme = createTheme({
   palette: {
     background: {
       default: rgbToHex('rgb(252, 249, 236)'),
+    },
+    primary: {
+      main: '#0F0A04',
     },
   },
   typography: {
@@ -42,7 +45,7 @@ function App() {
           <Box sx={{display: 'flex', width: 400}}>
             <Sidebar />
           </Box>
-          <Box sx={{display: 'flex', flex: 1, ml: 2}}>
+          <Box sx={{display: 'flex', flex: 1, ml: 1}}>
             <ContentLayout />
           </Box>
         </Box>

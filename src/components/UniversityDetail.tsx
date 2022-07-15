@@ -6,7 +6,7 @@ export interface IUniversityDetailProps {
 export default function UniversityDetail(props: IUniversityDetailProps) {
   return (
     <div>
-UniversityDetail
+      UniversityDetail
     </div>
   );
 }

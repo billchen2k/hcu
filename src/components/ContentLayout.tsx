@@ -7,7 +7,7 @@ export interface IContentLayoutProps {
 
 export default function ContentLayout(props: IContentLayoutProps) {
   return (
-    <Box>
+    <Box sx={{width: '100%'}}>
       <Overview />
     </Box>
   );
