@@ -42,7 +42,7 @@ function App() {
           <Box sx={{display: 'flex', width: 400}}>
             <Sidebar />
           </Box>
-          <Box sx={{display: 'flex', flex: 1}}>
+          <Box sx={{display: 'flex', flex: 1, ml: 2}}>
             <ContentLayout />
           </Box>
         </Box>

@@ -1,0 +1,74 @@
+[
+    {
+        "name": "北京大学",
+        "englishName": "PKU",
+        "establishYear": "1898",
+        "establishMonth": "07",
+        "location": "北京市",
+        "c9": true
+    },
+    {
+        "name": "清华大学",
+        "englishName": "THU",
+        "establishYear": "1911",
+        "establishMonth": "04",
+        "location": "北京市",
+        "c9": true
+    },
+    {
+        "name": "哈尔滨工业大学",
+        "englishName": "HIT",
+        "establishYear": "1920",
+        "establishMonth": "10",
+        "location": "哈尔滨市",
+        "c9": true
+    },
+    {
+        "name": "复旦大学",
+        "englishName": "FDU",
+        "establishYear": "1905",
+        "establishMonth": "09",
+        "location": "上海市",
+        "c9": true
+    },
+    {
+        "name": "上海交通大学",
+        "englishName": "SJTU",
+        "establishYear": "1896",
+        "establishMonth": "12",
+        "location": "上海市",
+        "c9": true
+    },
+    {
+        "name": "南京大学",
+        "englishName": "NJU",
+        "establishYear": "1902",
+        "establishMonth": "05",
+        "location": "江苏省南京市",
+        "c9": true
+    },
+    {
+        "name": "浙江大学",
+        "englishName": "ZJU",
+        "establishYear": "1897",
+        "establishMonth": "05",
+        "location": "浙江省杭州市",
+        "c9": true
+    },
+    {
+        "name": "西安交通大学",
+        "englishName": "XJTU",
+        "establishYear": "1896",
+        "establishMonth": "00",
+        "location": "西安市",
+        "c9": true
+    },
+    {
+        "name": "中国科学院大学",
+        "englishName": "UCAS",
+        "establishYear": "1978",
+        "establishMonth": "00",
+        "location": "北京市",
+        "c9": true
+    }
+]

@@ -1,6 +1,8 @@
 export interface IUniversityInfo {
-    fullName: string;
+    name: string;
     englishName: string;
     establishYear: number;
     establishMonth: number;
+    location: string;
+    logo?: string;
 }
