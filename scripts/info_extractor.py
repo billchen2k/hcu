@@ -1,7 +1,11 @@
+from asyncio import unix_events
 import random
 from typing import List
+from numpy import void
 import pandas as pd
 import json
+import re
+import os
 
 C9_ONLY = False
 c9_universities = [
@@ -28,26 +32,83 @@ type_map = {
 }
 
 data_info = pd.read_csv('data/uniinfo-0716.csv')
-data_history = pd.read_csv('data/unidata-0715.csv')
-output_file = 'src/data/uni_info.json'
+data_event = pd.read_csv('data/unidata-0715.csv')
+info_output_file = 'src/data/uni_info.json'
+event_output_file = 'src/data/uni_event.json'
+logo_dir = 'public/assets/logo'
 
-output = []
+info_output = []
+event_output = []
+
+
+class Event:
+
+    EVENT_RENAME = 'rename'
+    EVENT_RELOCATION = 'relocation'
+    EVENT_RESTRUCTURE = 'restructure'
+
+    def __init__(self, event: str, university, year: int) -> None:
+        self.event = event
+        self.event_type = None
+        self.detail = {}
+        self.university = university
+        self.year = year
+
+    def match_event(self) -> bool:
+        if match := re.match(r'更名：(.+)$', self.event):
+            self.event_type = self.EVENT_RENAME
+            self.detail = {'name': match.group(1)}
+            return True
+        if match := re.match(r'迁址：由(?P<location>.+)迁往(?P<location1>.+)$',
+                             self.event):
+            self.event_type = self.EVENT_RELOCATION
+            self.detail = {'source': match.group(1), 'target': match.group(2)}
+            return True
+        if match := re.match(r'院校合并：与([^、]+、)*([^、]+)合并成立(.+)', self.event):
+            self.event_type = self.EVENT_RESTRUCTURE
+            self.detail = {'target': match.group(2)}
+            return True
+        if match := re.match(
+                r'院系(迁出|迁入)：([^-、]+-[^-、]+、)*([^-、]+-[^-、]+)并入(.+)',
+                self.event):
+            self.event_type = self.EVENT_RESTRUCTURE
+            self.detail = {'target': match.group(2)}
+            return True
+        return False
+
+    def event_json(self) -> dict:
+        return {
+             'university': self.university,
+            'event': self.event_type,
+            'detail': self.detail,
+            'year': self.year,
+        }
 
 
 def get_events(university: str) -> List:
-    events = []
-    history = list(zip(data_history["DATE"].round(2), university))
+    events = list(zip(data_event["DATE"].round(2), data_event[university]))
+    events = list(filter(lambda x: not pd.isna(x[1]), events))
     return events
+
+
+def get_university_logo(university_en_name: str) -> str:
+    logos = os.listdir(logo_dir)
+    for logo in logos:
+        if logo.startswith(university_en_name):
+            return logo
+    return 'PKU.svg'
 
 
 def main():
 
     for row in data_info.iloc():
+
+        # Get info
         uni_info = dict(row)
         if C9_ONLY:
             if not uni_info['university'] in c9_universities:
                 continue
-        print(f'Processing {uni_info["university"]}')
+        print(f'Processing info for {uni_info["university"]}')
         if uni_info['type'] not in type_map.keys():
             print(f'Unknown type {uni_info["type"]}')
         info = {
@@ -61,22 +122,51 @@ def main():
                 int(str('%.2f' % uni_info['established']).split('.')[1]),
             'location':
                 uni_info['location'],
-            'type': type_map[uni_info['type']],
-            'manager': uni_info['manager'],
+            'type':
+                type_map[uni_info['type']],
+            'manager':
+                uni_info['manager'],
             'c9':
                 True if uni_info['C9'] == 1 else False,
-            '985': uni_info['level'].find('985') != -1,
-            '211': uni_info['level'].find('211') != -1,
-            'logo': random.choice(['THU.svg', 'PKU.svg'])
+            '985':
+                uni_info['level'].find('985') != -1,
+            '211':
+                uni_info['level'].find('211') != -1,
+            'logo':
+                get_university_logo(uni_info['english_name']),
         }
         # Deal with 湖南大学
         info['establishYear'] = max(info['establishYear'], 1800)
         # if uni_info['university'] in c9_universities:
         #     info['c9'] = True
-        output.append(info)
+        info_output.append(info)
 
-    with open(output_file, 'w') as f:
-        f.write(json.dumps(output, indent=4, ensure_ascii=False))
+    ###############
+
+    universities = data_event.columns[1:]
+    for u in universities:
+        print(f'Processing events for {u}...')
+        counter = 0
+        events = get_events(u)
+        for date, event_str in events:
+            if pd.isna(date):
+                continue
+            for event_str_item in event_str.split('；'):
+                event = Event(event=event_str_item,
+                              university=u,
+                              year=int(str(date).split('.')[0]))
+                if event.match_event():
+                    counter += 1
+                    event_output.append(event.event_json())
+        print(f'{counter} events found for {u}')
+    print(f'{len(event_output)} events found.')
+
+    with open(info_output_file, 'w') as f:
+        f.write(json.dumps(info_output, indent=4, ensure_ascii=False))
+
+    with open(event_output_file, 'w') as f:
+        f.write(json.dumps(event_output, indent=4, ensure_ascii=False))
+
 
 if __name__ == '__main__':
     main()

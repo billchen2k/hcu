@@ -1,4 +1,4 @@
-import {IUniversityTypeConfig, UniversityType} from '../types';
+import {IUniversityEventConfig, IUniversityTypeConfig, UniversityEventType, UniversityType} from '../types';
 
 const universityTypes: Record<UniversityType, IUniversityTypeConfig> = {
   composite: {
@@ -43,9 +43,25 @@ const universityTypes: Record<UniversityType, IUniversityTypeConfig> = {
   },
 };
 
+const universityEvents: Record<UniversityEventType, IUniversityEventConfig> = {
+  'rename': {
+    color: '#333333',
+    name: '更名',
+  },
+  'relocation': {
+    color: '#fcf7ed',
+    name: '迁址',
+  },
+  'restructure': {
+    color: '#ae2910',
+    name: '院校合并',
+  },
+};
+
 
 const config = {
   universityTypes,
+  universityEvents,
   colors: {
     background: '#fcf7ed',
     universityHover: '#fc5908',

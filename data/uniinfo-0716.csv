@@ -1,4 +1,4 @@
-﻿university,整理人,检查人,english_name,established,location,type,manager,level,C9,source
+university,整理人,检查人,english_name,established,location,type,manager,level,C9,source
 北京大学,zyn,wff,PKU,1898.07,北京市,综合,教育部,985、211,1,
 中国人民大学,zph,wff,RUC,1937.08,北京市,综合,教育部,985、211,,
 清华大学,zph,wff,THU,1911.04,北京市,理工,教育部,985、211,1,
@@ -26,7 +26,7 @@
 中央戏剧学院,zph,wff,CHNTHEATRE,1950.04,北京市,民族艺体,教育部,否,,
 中央民族大学,mzy,zph,CUN,1951.06,北京市,民族艺体,国家民族事务委员会,985、211,,
 中国政法大学,mzy,zph,CUPL,1952.05,北京市,财经政法,教育部,211,,
-南开大学,mzy,zph,NKY,1919.02,天津市,综合,教育部,985、211,,
+南开大学,mzy,zph,NKU,1919.02,天津市,综合,教育部,985、211,,
 天津大学,mzy,zph,TJU,1895.1,天津市,理工,教育部,985、211,,
 天津工业大学,mzy,zph,TJPU,1912,天津市,理工,天津市,否,,
 天津医科大学,mzy,zph,TMU,1951,天津市,医药,天津市,211,,
@@ -35,13 +35,13 @@
 河北工业大学,mzy,zph,HEBUT,1903,天津市,理工,河北省,211,,
 山西大学,mzy,zph,SXU,1902.05,太原市,综合,山西省,否,,
 太原理工大学,mzy,zph,TYUT,1902.06,太原市,综合,山西省,211,,
-内蒙古大学,mzy,zph,IMU,1957.1,呼和浩特市,综合,内蒙古自治区,211,,
+内蒙古大学,mzy,zph,IMU,1957.1,内蒙古省呼和浩特市,综合,内蒙古自治区,211,,
 辽宁大学,mzy,zph,LNU,1948.11,沈阳市,综合,辽宁省,211,,
 大连理工大学,mzy,zph,DUT,1949.04,大连市,理工,教育部,985、211,,
 东北大学,mzy,zph,NEU,1923.04,沈阳市,理工,教育部,985、211,,
 大连海事大学,mzy,zph,DMU,1909,大连市,理工,交通运输部,211,,
 吉林大学,mzy,zph,JLU,1946.1,长春市,综合,教育部,985、211,,
-延边大学,mzy,zph,YBU,1949.03,延边朝鲜族自治州,综合,吉林省,211,,
+延边大学,mzy,zph,YBU,1949.03,吉林省延边朝鲜族自治州,综合,吉林省,211,,
 东北师范大学,mzy,zph,NENU,1946,长春市,师范语言,教育部,985、211,,
 哈尔滨工业大学,mzy,zph,HIT,1920.1,哈尔滨市,理工,工业和信息化部,985、211,1,http://www.hit.edu.cn/11540/list.htm
 哈尔滨工程大学,mzy,zph,HEU,1953,哈尔滨市,理工,工业和信息化部,211,,http://www.hrbeu.edu.cn/xygk/lsyg.aspx
@@ -56,7 +56,7 @@
 上海中医药大学,cjt,mzy,SHUTCM,1956,上海市,医药,上海市,否,,https://xxgk.shutcm.edu.cn/2020/1102/c1342a127480/page.htm
 华东师范大学,cjt,mzy,ECNU,1951.7,上海市,师范语言,教育部,985、211,,https://www.ecnu.edu.cn/wzcd/xxgk/xsyg.htm
 上海外国语大学,cjt,mzy,SISU,1949.12,上海市,师范语言,教育部,211,,http://www.shisu.edu.cn/about/history-at-a-glance
-上海财经大学,cjt,mzy,SUFE,1917.9,上海市,财经政法,教育部,985、211,,https://www.sufe.edu.cn/41/list.htm
+上海财经大学,cjt,mzy,SUFE,1917.9,上海市,财经政法,教育部,211,,https://www.sufe.edu.cn/41/list.htm
 上海体育学院,cjt,mzy,SUS,1952.11,上海市,民族艺体,上海市,否,,https://www.sus.edu.cn/xxgk/lsyg.htm
 上海音乐学院,cjt,mzy,SHCM,1927.11,上海市,民族艺体,上海市,否,,https://baike.baidu.com/item/%E4%B8%8A%E6%B5%B7%E9%9F%B3%E4%B9%90%E5%AD%A6%E9%99%A2/545259
 上海大学,cjt,mzy,SHU,1994.5,上海市,综合,上海市,上海市,,https://xxgk.shu.edu.cn/info/1050/9786.htm

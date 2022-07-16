@@ -2,16 +2,22 @@
 
 import * as React from 'react';
 import * as d3 from 'd3';
-import UniInfo from '../data/uni_info.json';
 import {Box} from '@mui/material';
 import {svg} from 'd3';
-import {IUniversityInfo} from '../types';
+import {IUniversityEvent, IUniversityInfo} from '../types';
 import config from '../config';
+
+const UniInfo: IUniversityInfo[] = require('../data/uni_info.json');
+const UniEvent: IUniversityEvent[] = require('../data/uni_event.json');
+
 export interface IOverviewProps {
 }
 
 export default function Overview(props: IOverviewProps) {
   const svgRef = React.useRef<SVGSVGElement>(null);
+
+  const hcuLogoTimer = React.useRef<number>(0);
+  const hoverSwitchTimer = React.useRef<number>(0);
 
   React.useEffect(() => {
     // Core drawing code here
@@ -22,11 +28,11 @@ export default function Overview(props: IOverviewProps) {
     }
     // Global data
     let loaded = false;
-    const currentData: | IUniversityInfo = null;
 
     const width = svg.clientWidth;
     const height = svg.clientHeight;
     const size = Math.min(width, height) * 0.95;
+    const paddingAngle = 0.015;
     const innerRadius = size * 0.4 / 2;
     const outerRadius = size * 1 / 2;
     const logoRadius = size * 0.12 / 2;
@@ -67,7 +73,7 @@ export default function Overview(props: IOverviewProps) {
         .outerRadius((d) => y(2022 - d['establishYear']))
         .startAngle((d) => x(d['name']))
         .endAngle((d) => x(d['name']) + x.bandwidth())
-        .padAngle(0.015)
+        .padAngle(paddingAngle)
         .padRadius(innerRadius);
     const arcSvg = g.append('g')
         .selectAll('path')
@@ -101,6 +107,22 @@ export default function Overview(props: IOverviewProps) {
         .on('mouseout', (event, d) => {
           onUniversityUnhover(d);
         });
+
+    // Event markers
+    const eventMarker = g.append('g')
+        .selectAll('path')
+        .data(UniEvent.filter((d) => d.event == 'rename'))
+        .enter()
+        .append('path')
+        .attr('fill', (d) => config.universityEvents[d.event].color)
+        .attr('d', d3.arc()
+            .innerRadius((d: IUniversityEvent) => y(2022 - d.year))
+            .outerRadius((d: IUniversityEvent) => y(2022 - d.year) + 1)
+            .startAngle((d: IUniversityEvent) => x(d.university))
+            .endAngle((d) => x(d.university) + x.bandwidth())
+            .padAngle(paddingAngle)
+            .padRadius(innerRadius),
+        );
 
 
     const isRightHalf = (d: IUniversityInfo) => {
@@ -150,7 +172,15 @@ export default function Overview(props: IOverviewProps) {
         .attr('height', logoRadius * 2)
         .style('opacity', 0.8)
         // .style('filter', 'saturate(0)')
-        .attr('href', ``);
+        .attr('href', '');
+
+    const hcuLogo = detail.append('svg:image')
+        .attr('id', 'center-detail-logo')
+        .attr('x', -logoRadius * 1.5)
+        .attr('y', -logoRadius * 1.5)
+        .attr('width', logoRadius * 2 * 1.5)
+        .attr('height', logoRadius * 2 * 1.5)
+        .attr('href', '/assets/hcu.png');
 
     const universityName = detail.append('text')
         .attr('id', 'center-detail-university-name')
@@ -177,7 +207,7 @@ export default function Overview(props: IOverviewProps) {
         .attr('fill', config.colors.primaryText)
         .attr('alignment-baseline', 'middle')
         .attr('text-anchor', 'middle')
-        .text('');
+        .text((d) => d);
 
 
     // Year Scales
@@ -228,9 +258,17 @@ export default function Overview(props: IOverviewProps) {
           .style('opacity', (d2) => d2.name === d.name ? 1 : 0.5);
       arcSvg.filter((d2) => d2.name === d.name)
           .attr('fill', config.colors.universityHover);
+      hcuLogo.attr('opacity', 0);
+      if (hcuLogoTimer.current) {
+        clearTimeout(hcuLogoTimer.current);
+      }
+      if (hoverSwitchTimer.current) {
+        clearTimeout(hoverSwitchTimer.current);
+      }
 
       universityName.text(d.name);
-      logo.attr('href', `/assets/logo/PKU.svg`);
+      console.log(`/assets/logo/${d.logo}`);
+      logo.attr('href', `/assets/logo/${d.logo}`);
       universityDetails.text((d2, i) => {
         const line = [];
         d.c9 && line.push('C9');
@@ -239,7 +277,7 @@ export default function Overview(props: IOverviewProps) {
         line.push(`${d.manager}主管`);
         switch (i) {
           case 0:
-            return `成立于 ${d.establishYear} 年`;
+            return `建校于 ${d.name == '湖南大学' ? 976 : d.establishYear} 年`;
           case 1:
             return line.join(' · ');
           case 2:
@@ -252,6 +290,7 @@ export default function Overview(props: IOverviewProps) {
       if (!loaded) {
         return;
       }
+
       labels
           .transition()
           .duration(200)
@@ -263,9 +302,18 @@ export default function Overview(props: IOverviewProps) {
       arcSvg.filter((d2) => d2.name === d.name)
           .attr('fill', config.universityTypes[d.type].color);
 
-      universityName.text('');
-      logo.attr('href', ``);
-      universityDetails.text('');
+      hoverSwitchTimer.current = setTimeout(() => {
+        universityName.text('');
+        logo.attr('href', null);
+        universityDetails.text('');
+      }, 200);
+
+      hcuLogoTimer.current = setTimeout(() => {
+        hcuLogo.
+            transition()
+            .duration(400)
+            .attr('opacity', 1);
+      }, 600);
     };
   }, [svg]);
 
