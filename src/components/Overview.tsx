@@ -20,26 +20,35 @@ export default function Overview(props: IOverviewProps) {
     if (!svg) {
       return;
     }
+    // Global data
+    let loaded = false;
+    const currentData: | IUniversityInfo = null;
+
     const width = svg.clientWidth;
     const height = svg.clientHeight;
     const size = Math.min(width, height) * 0.95;
     const innerRadius = size * 0.4 / 2;
     const outerRadius = size * 1 / 2;
+    const logoRadius = size * 0.12 / 2;
     // const marginX = (width - size) / 2;
     // const marginY = (height - size) / 2;
     const data = UniInfo
-        .sort((a, b) => config.universityTypes[a.type].priority - config.universityTypes[b.type].priority);
+        .sort((a, b) => {
+          return config.universityTypes[a.type].priority - config.universityTypes[b.type].priority;
+        });
     // .filter((d) => d.c9);
 
     const graph = d3.select(svg)
         .html('')
         .attr('width', width)
-        .attr('hesght', height);
+        .attr('height', height);
 
 
+    /**
+     * Center anchor
+     */
     const g = graph.append('g')
         .attr('transform', `translate(${width / 2}, ${height / 2})`);
-
 
     // Scales
     const x = d3.scaleBand()
@@ -53,30 +62,44 @@ export default function Overview(props: IOverviewProps) {
 
 
     // Bars
-
     const arc = d3.arc() // imagine your doing a part of a donut plot
         .innerRadius(innerRadius)
         .outerRadius((d) => y(2022 - d['establishYear']))
         .startAngle((d) => x(d['name']))
         .endAngle((d) => x(d['name']) + x.bandwidth())
-        .padAngle(0.02)
+        .padAngle(0.015)
         .padRadius(innerRadius);
-    g.append('g')
+    const arcSvg = g.append('g')
         .selectAll('path')
         .data(data)
         .enter()
         .append('path')
         .attr('fill', (d) => config.universityTypes[d.type].color)
-        .transition()
-        .duration(1000)
+        .style('cursor', (d) => d.c9 ? 'pointer' : 'default');
+
+    arcSvg.transition()
+        .duration(500)
         .ease(d3.easeQuadOut)
-        .delay((d, i) => i * 6)
+        .delay((d, i) => i * 5)
         .attrTween('d', (d, i) => {
           const interpolate = d3.interpolate(innerRadius, y(2022 - d['establishYear']));
           return (t) => {
             arc.outerRadius(interpolate(t));
             return arc(d);
           };
+        })
+        .on('end', (d) => {
+          setInterval(() => {
+            loaded = true;
+          }, 5 * data.length);
+        });
+
+    arcSvg
+        .on('mouseover', (event, d) => {
+          onUniversityHover(d);
+        })
+        .on('mouseout', (event, d) => {
+          onUniversityUnhover(d);
         });
 
 
@@ -85,7 +108,7 @@ export default function Overview(props: IOverviewProps) {
     };
 
     // Labels
-    g.append('g')
+    const labels = g.append('g')
         .selectAll('g')
         .data(data)
         .enter()
@@ -98,14 +121,63 @@ export default function Overview(props: IOverviewProps) {
         .attr('transform', function(d) {
           return isRightHalf(d) ? 'rotate(180)' : 'rotate(0)';
         })
-        .style('font-size', '10px')
-        .style('font-family', 'FZQKBYS')
-        .attr('alignment-baseline', 'middle')
-        .attr('opacity', 0.05)
+        .style('font-size', '9px')
+        .style('font-family', (d) => d.c9 ? 'FZCS, sans-serif' : 'FZQKBYS, sans-serif')
+        .attr('fill', (d) => d.c9 ? config.colors.importantText : config.colors.primaryText)
+        .attr('alignment-baseline', 'middle');
+    labels.attr('opacity', 0.05)
         .transition()
         .delay((d, i) => i * 5)
         .duration(1000)
         .attr('opacity', 1);
+    labels
+        .on('mouseover', (event, d) => {
+          onUniversityHover(d);
+        })
+        .on('mouseout', (event, d) => {
+          onUniversityUnhover(d);
+        });
+
+    // Center detail
+    const detail = g.append('g')
+        .attr('id', 'center-detail');
+
+    const logo = detail.append('svg:image')
+        .attr('id', 'center-detail-logo')
+        .attr('x', -logoRadius)
+        .attr('y', -logoRadius)
+        .attr('width', logoRadius * 2)
+        .attr('height', logoRadius * 2)
+        .style('opacity', 0.8)
+        // .style('filter', 'saturate(0)')
+        .attr('href', ``);
+
+    const universityName = detail.append('text')
+        .attr('id', 'center-detail-university-name')
+        .attr('x', 0)
+        .attr('y', -logoRadius * 1.5)
+        .style('font-size', '14px')
+        .style('font-family', 'FZCS, FZQKBYS, sans-serif')
+        .attr('fill', config.colors.primaryText)
+        .attr('alignment-baseline', 'middle')
+        .attr('text-anchor', 'middle')
+        .text('');
+
+    // 3 lines of text can be displayed here
+    const universityDetails = detail.append('g')
+        .selectAll('g')
+        .data(['', '', ''])
+        .enter()
+        .append('text')
+        .attr('id', (d, i) => `center-detail-university-detail-${i + 1}`)
+        .attr('x', 0)
+        .attr('y', (d, i) => logoRadius * 1.5 + i * 20)
+        .style('font-size', '12px')
+        .style('font-family', 'FZQKBYS, sans-serif')
+        .attr('fill', config.colors.primaryText)
+        .attr('alignment-baseline', 'middle')
+        .attr('text-anchor', 'middle')
+        .text('');
 
 
     // Year Scales
@@ -120,7 +192,8 @@ export default function Overview(props: IOverviewProps) {
         .attr('stroke-width', '1px')
         .attr('opacity', 0.5)
         .attr('r', (d) => y(2022 - d))
-        .attr('style', 'stroke-dasharray: 5, 5;');
+        .attr('style', 'stroke-dasharray: 5, 5;')
+        .attr('filter', 'drop-shadow(0px 10px 10px rgba(0, 0, 0, 0.9))');
     yearScale.append('text')
         .attr('y', (d) => -y(2022 - d) + 4)
         .attr('fill', '#aaa')
@@ -131,13 +204,69 @@ export default function Overview(props: IOverviewProps) {
         .style('font-size', '13px')
         .style('font-family', 'FZQKBYS');
 
+    // Initial transition
     g.transition()
         .ease(d3.easeQuadOut)
         .duration(3000)
         .attrTween('transform', () => {
-          const interpolate = d3.interpolate(0.9, 1);
-          return (t) => `translate(${width / 2}, ${height / 2}) scale(${interpolate(t)})`;
+          const scaleInterp = d3.interpolate(0.9, 1);
+          const rotateInterp = d3.interpolate(10, 0);
+          return (t) => `translate(${width / 2}, ${height / 2}) scale(${scaleInterp(t)}) rotate(${rotateInterp(t)})`;
         });
+
+    const onUniversityHover = (d: IUniversityInfo) => {
+      if (!loaded) {
+        return;
+      }
+      labels
+          .transition()
+          .duration(200)
+          .style('opacity', (d2) => d2.name === d.name ? 1 : 0.5);
+      arcSvg
+          .transition()
+          .duration(200)
+          .style('opacity', (d2) => d2.name === d.name ? 1 : 0.5);
+      arcSvg.filter((d2) => d2.name === d.name)
+          .attr('fill', config.colors.universityHover);
+
+      universityName.text(d.name);
+      logo.attr('href', `/assets/logo/PKU.svg`);
+      universityDetails.text((d2, i) => {
+        const line = [];
+        d.c9 && line.push('C9');
+        d[985] && line.push('985');
+        d[211] && line.push('211');
+        line.push(`${d.manager}主管`);
+        switch (i) {
+          case 0:
+            return `成立于 ${d.establishYear} 年`;
+          case 1:
+            return line.join(' · ');
+          case 2:
+            return `${d.location}`;
+        };
+      });
+    };
+
+    const onUniversityUnhover = (d: IUniversityInfo) => {
+      if (!loaded) {
+        return;
+      }
+      labels
+          .transition()
+          .duration(200)
+          .style('opacity', 1);
+      arcSvg
+          .transition()
+          .duration(200)
+          .style('opacity', 1);
+      arcSvg.filter((d2) => d2.name === d.name)
+          .attr('fill', config.universityTypes[d.type].color);
+
+      universityName.text('');
+      logo.attr('href', ``);
+      universityDetails.text('');
+    };
   }, [svg]);
 
   return (

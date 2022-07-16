@@ -9,7 +9,7 @@ const universityTypes: Record<UniversityType, IUniversityTypeConfig> = {
   normal: {
     color: '#EDA7A2',
     name: '师范 / 语言类',
-    priority: 2,
+    priority: 3.5,
   },
   science: {
     color: '#E2CA66',
@@ -46,6 +46,12 @@ const universityTypes: Record<UniversityType, IUniversityTypeConfig> = {
 
 const config = {
   universityTypes,
+  colors: {
+    background: '#fcf7ed',
+    universityHover: '#fc5908',
+    primaryText: '#0F0A04',
+    importantText: '#ae2910',
+  },
 };
 
 export default config;

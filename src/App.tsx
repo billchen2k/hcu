@@ -3,6 +3,7 @@ import {Box, createTheme, CssBaseline, Grid, rgbToHex, ThemeProvider, Typography
 import './styles/main.scss';
 import Sidebar from './components/Sidebar';
 import ContentLayout from './components/ContentLayout';
+import config from './config';
 
 const headingFont = {
   fontFamily: 'New York, FZQKBYS, serif, --apple-family',
@@ -14,10 +15,10 @@ const bodyFont = {
 const theme = createTheme({
   palette: {
     background: {
-      default: rgbToHex('rgb(252, 249, 236)'),
+      default: config.colors.background,
     },
     primary: {
-      main: '#0F0A04',
+      main: config.colors.primaryText,
     },
   },
   typography: {

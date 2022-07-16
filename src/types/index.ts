@@ -5,6 +5,9 @@ export interface IUniversityInfo {
     establishMonth: number;
     location: string;
     logo?: string;
+    985: boolean;
+    211: boolean;
+    c9: boolean;
 }
 
 export interface IUniversityTypeConfig {

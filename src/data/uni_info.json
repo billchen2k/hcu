@@ -6,9 +6,11 @@
         "establishMonth": 7,
         "location": "北京市",
         "type": "composite",
+        "manager": "教育部",
         "c9": true,
         "985": true,
-        "211": true
+        "211": true,
+        "logo": "PKU.svg"
     },
     {
         "name": "中国人民大学",
@@ -17,9 +19,11 @@
         "establishMonth": 8,
         "location": "北京市",
         "type": "composite",
+        "manager": "教育部",
         "c9": false,
         "985": true,
-        "211": true
+        "211": true,
+        "logo": "PKU.svg"
     },
     {
         "name": "清华大学",
@@ -28,9 +32,11 @@
         "establishMonth": 4,
         "location": "北京市",
         "type": "science",
+        "manager": "教育部",
         "c9": true,
         "985": true,
-        "211": true
+        "211": true,
+        "logo": "THU.svg"
     },
     {
         "name": "北京交通大学",
@@ -39,9 +45,11 @@
         "establishMonth": 0,
         "location": "北京市",
         "type": "science",
+        "manager": "教育部",
         "c9": false,
         "985": false,
-        "211": true
+        "211": true,
+        "logo": "PKU.svg"
     },
     {
         "name": "北京工业大学",
@@ -50,9 +58,11 @@
         "establishMonth": 0,
         "location": "北京市",
         "type": "science",
+        "manager": "北京市",
         "c9": false,
         "985": false,
-        "211": true
+        "211": true,
+        "logo": "THU.svg"
     },
     {
         "name": "北京航空航天大学",
@@ -61,9 +71,11 @@
         "establishMonth": 10,
         "location": "北京市",
         "type": "science",
+        "manager": "工信部",
         "c9": false,
         "985": true,
-        "211": true
+        "211": true,
+        "logo": "PKU.svg"
     },
     {
         "name": "北京理工大学",
@@ -72,9 +84,11 @@
         "establishMonth": 0,
         "location": "北京市",
         "type": "science",
+        "manager": "工信部",
         "c9": false,
         "985": true,
-        "211": true
+        "211": true,
+        "logo": "PKU.svg"
     },
     {
         "name": "北京科技大学",
@@ -83,9 +97,11 @@
         "establishMonth": 0,
         "location": "北京市",
         "type": "science",
+        "manager": "教育部",
         "c9": false,
         "985": false,
-        "211": true
+        "211": true,
+        "logo": "THU.svg"
     },
     {
         "name": "北京邮电大学",
@@ -94,9 +110,11 @@
         "establishMonth": 9,
         "location": "北京市",
         "type": "science",
+        "manager": "教育部",
         "c9": false,
         "985": false,
-        "211": true
+        "211": true,
+        "logo": "PKU.svg"
     },
     {
         "name": "中国农业大学",
@@ -105,9 +123,11 @@
         "establishMonth": 12,
         "location": "北京市",
         "type": "agriculture",
+        "manager": "教育部",
         "c9": false,
         "985": true,
-        "211": true
+        "211": true,
+        "logo": "PKU.svg"
     },
     {
         "name": "北京林业大学",
@@ -116,9 +136,11 @@
         "establishMonth": 10,
         "location": "北京市",
         "type": "agriculture",
+        "manager": "教育部",
         "c9": false,
         "985": false,
-        "211": true
+        "211": true,
+        "logo": "THU.svg"
     },
     {
         "name": "北京协和医学院",
@@ -127,9 +149,11 @@
         "establishMonth": 0,
         "location": "北京市",
         "type": "medicine",
+        "manager": "国家卫生健康委员会",
         "c9": false,
         "985": false,
-        "211": false
+        "211": false,
+        "logo": "THU.svg"
     },
     {
         "name": "北京中医药大学",
@@ -138,9 +162,11 @@
         "establishMonth": 0,
         "location": "北京市",
         "type": "medicine",
+        "manager": "教育部",
         "c9": false,
         "985": false,
-        "211": true
+        "211": true,
+        "logo": "PKU.svg"
     },
     {
         "name": "北京师范大学",
@@ -149,9 +175,11 @@
         "establishMonth": 0,
         "location": "北京市",
         "type": "normal",
+        "manager": "教育部",
         "c9": false,
         "985": true,
-        "211": true
+        "211": true,
+        "logo": "THU.svg"
     },
     {
         "name": "首都师范大学",
@@ -160,9 +188,11 @@
         "establishMonth": 0,
         "location": "北京市",
         "type": "normal",
+        "manager": "北京市",
         "c9": false,
         "985": false,
-        "211": false
+        "211": false,
+        "logo": "PKU.svg"
     },
     {
         "name": "北京外国语大学",
@@ -171,9 +201,11 @@
         "establishMonth": 9,
         "location": "北京市",
         "type": "normal",
+        "manager": "教育部",
         "c9": false,
         "985": false,
-        "211": true
+        "211": true,
+        "logo": "PKU.svg"
     },
     {
         "name": "中国传媒大学",
@@ -182,9 +214,11 @@
         "establishMonth": 0,
         "location": "北京市",
         "type": "normal",
+        "manager": "教育部",
         "c9": false,
         "985": false,
-        "211": true
+        "211": true,
+        "logo": "THU.svg"
     },
     {
         "name": "对外经济贸易大学",
@@ -193,9 +227,11 @@
         "establishMonth": 7,
         "location": "北京市",
         "type": "finance",
+        "manager": "教育部",
         "c9": false,
         "985": false,
-        "211": true
+        "211": true,
+        "logo": "THU.svg"
     },
     {
         "name": "外交学院",
@@ -204,9 +240,11 @@
         "establishMonth": 9,
         "location": "北京市",
         "type": "normal",
+        "manager": "外交部",
         "c9": false,
         "985": false,
-        "211": false
+        "211": false,
+        "logo": "PKU.svg"
     },
     {
         "name": "中国人民公安大学",
@@ -215,9 +253,11 @@
         "establishMonth": 7,
         "location": "北京市",
         "type": "finance",
+        "manager": "公安部",
         "c9": false,
         "985": false,
-        "211": false
+        "211": false,
+        "logo": "PKU.svg"
     },
     {
         "name": "北京体育大学",
@@ -226,9 +266,11 @@
         "establishMonth": 11,
         "location": "北京市",
         "type": "arts",
+        "manager": "国家体育总局",
         "c9": false,
         "985": false,
-        "211": true
+        "211": true,
+        "logo": "THU.svg"
     },
     {
         "name": "中央音乐学院",
@@ -237,9 +279,11 @@
         "establishMonth": 10,
         "location": "北京市",
         "type": "arts",
+        "manager": "教育部",
         "c9": false,
         "985": false,
-        "211": true
+        "211": true,
+        "logo": "PKU.svg"
     },
     {
         "name": "中国音乐学院",
@@ -248,9 +292,11 @@
         "establishMonth": 9,
         "location": "北京市",
         "type": "arts",
+        "manager": "北京市",
         "c9": false,
         "985": false,
-        "211": false
+        "211": false,
+        "logo": "PKU.svg"
     },
     {
         "name": "中央美术学院",
@@ -259,9 +305,11 @@
         "establishMonth": 0,
         "location": "北京市",
         "type": "arts",
+        "manager": "教育部",
         "c9": false,
         "985": false,
-        "211": false
+        "211": false,
+        "logo": "PKU.svg"
     },
     {
         "name": "中央戏剧学院",
@@ -270,9 +318,11 @@
         "establishMonth": 4,
         "location": "北京市",
         "type": "arts",
+        "manager": "教育部",
         "c9": false,
         "985": false,
-        "211": false
+        "211": false,
+        "logo": "PKU.svg"
     },
     {
         "name": "中央民族大学",
@@ -281,9 +331,11 @@
         "establishMonth": 6,
         "location": "北京市",
         "type": "arts",
+        "manager": "国家民族事务委员会",
         "c9": false,
         "985": true,
-        "211": true
+        "211": true,
+        "logo": "THU.svg"
     },
     {
         "name": "中国政法大学",
@@ -292,9 +344,11 @@
         "establishMonth": 5,
         "location": "北京市",
         "type": "finance",
+        "manager": "教育部",
         "c9": false,
         "985": false,
-        "211": true
+        "211": true,
+        "logo": "PKU.svg"
     },
     {
         "name": "南开大学",
@@ -303,9 +357,11 @@
         "establishMonth": 2,
         "location": "天津市",
         "type": "composite",
+        "manager": "教育部",
         "c9": false,
         "985": true,
-        "211": true
+        "211": true,
+        "logo": "PKU.svg"
     },
     {
         "name": "天津大学",
@@ -314,9 +370,11 @@
         "establishMonth": 10,
         "location": "天津市",
         "type": "science",
+        "manager": "教育部",
         "c9": false,
         "985": true,
-        "211": true
+        "211": true,
+        "logo": "THU.svg"
     },
     {
         "name": "天津工业大学",
@@ -325,9 +383,11 @@
         "establishMonth": 0,
         "location": "天津市",
         "type": "science",
+        "manager": "天津市",
         "c9": false,
         "985": false,
-        "211": false
+        "211": false,
+        "logo": "PKU.svg"
     },
     {
         "name": "天津医科大学",
@@ -336,9 +396,11 @@
         "establishMonth": 0,
         "location": "天津市",
         "type": "medicine",
+        "manager": "天津市",
         "c9": false,
         "985": false,
-        "211": true
+        "211": true,
+        "logo": "THU.svg"
     },
     {
         "name": "天津中医药大学",
@@ -347,9 +409,11 @@
         "establishMonth": 10,
         "location": "天津市",
         "type": "medicine",
+        "manager": "天津市",
         "c9": false,
         "985": false,
-        "211": false
+        "211": false,
+        "logo": "PKU.svg"
     },
     {
         "name": "华北电力大学",
@@ -358,9 +422,11 @@
         "establishMonth": 10,
         "location": "北京市",
         "type": "science",
+        "manager": "教育部",
         "c9": false,
         "985": false,
-        "211": true
+        "211": true,
+        "logo": "THU.svg"
     },
     {
         "name": "河北工业大学",
@@ -369,9 +435,11 @@
         "establishMonth": 0,
         "location": "天津市",
         "type": "science",
+        "manager": "河北省",
         "c9": false,
         "985": false,
-        "211": true
+        "211": true,
+        "logo": "THU.svg"
     },
     {
         "name": "山西大学",
@@ -380,9 +448,11 @@
         "establishMonth": 5,
         "location": "太原市",
         "type": "composite",
+        "manager": "山西省",
         "c9": false,
         "985": false,
-        "211": false
+        "211": false,
+        "logo": "PKU.svg"
     },
     {
         "name": "太原理工大学",
@@ -391,9 +461,11 @@
         "establishMonth": 6,
         "location": "太原市",
         "type": "composite",
+        "manager": "山西省",
         "c9": false,
         "985": false,
-        "211": true
+        "211": true,
+        "logo": "THU.svg"
     },
     {
         "name": "内蒙古大学",
@@ -402,9 +474,11 @@
         "establishMonth": 10,
         "location": "呼和浩特市",
         "type": "composite",
+        "manager": "内蒙古自治区",
         "c9": false,
         "985": false,
-        "211": true
+        "211": true,
+        "logo": "THU.svg"
     },
     {
         "name": "辽宁大学",
@@ -413,9 +487,11 @@
         "establishMonth": 11,
         "location": "沈阳市",
         "type": "composite",
+        "manager": "辽宁省",
         "c9": false,
         "985": false,
-        "211": true
+        "211": true,
+        "logo": "THU.svg"
     },
     {
         "name": "大连理工大学",
@@ -424,9 +500,11 @@
         "establishMonth": 4,
         "location": "大连市",
         "type": "science",
+        "manager": "教育部",
         "c9": false,
         "985": true,
-        "211": true
+        "211": true,
+        "logo": "PKU.svg"
     },
     {
         "name": "东北大学",
@@ -435,9 +513,11 @@
         "establishMonth": 4,
         "location": "沈阳市",
         "type": "science",
+        "manager": "教育部",
         "c9": false,
         "985": true,
-        "211": true
+        "211": true,
+        "logo": "THU.svg"
     },
     {
         "name": "大连海事大学",
@@ -446,9 +526,11 @@
         "establishMonth": 0,
         "location": "大连市",
         "type": "science",
+        "manager": "交通运输部",
         "c9": false,
         "985": false,
-        "211": true
+        "211": true,
+        "logo": "PKU.svg"
     },
     {
         "name": "吉林大学",
@@ -457,9 +539,11 @@
         "establishMonth": 10,
         "location": "长春市",
         "type": "composite",
+        "manager": "教育部",
         "c9": false,
         "985": true,
-        "211": true
+        "211": true,
+        "logo": "THU.svg"
     },
     {
         "name": "延边大学",
@@ -468,9 +552,11 @@
         "establishMonth": 3,
         "location": "延边朝鲜族自治州",
         "type": "composite",
+        "manager": "吉林省",
         "c9": false,
         "985": false,
-        "211": true
+        "211": true,
+        "logo": "PKU.svg"
     },
     {
         "name": "东北师范大学",
@@ -479,9 +565,11 @@
         "establishMonth": 0,
         "location": "长春市",
         "type": "normal",
+        "manager": "教育部",
         "c9": false,
         "985": true,
-        "211": true
+        "211": true,
+        "logo": "THU.svg"
     },
     {
         "name": "哈尔滨工业大学",
@@ -490,9 +578,11 @@
         "establishMonth": 10,
         "location": "哈尔滨市",
         "type": "science",
+        "manager": "工业和信息化部",
         "c9": true,
         "985": true,
-        "211": true
+        "211": true,
+        "logo": "PKU.svg"
     },
     {
         "name": "哈尔滨工程大学",
@@ -501,9 +591,11 @@
         "establishMonth": 0,
         "location": "哈尔滨市",
         "type": "science",
+        "manager": "工业和信息化部",
         "c9": false,
         "985": false,
-        "211": true
+        "211": true,
+        "logo": "THU.svg"
     },
     {
         "name": "东北农业大学",
@@ -512,9 +604,11 @@
         "establishMonth": 0,
         "location": "哈尔滨市",
         "type": "agriculture",
+        "manager": "黑龙江省",
         "c9": false,
         "985": false,
-        "211": true
+        "211": true,
+        "logo": "THU.svg"
     },
     {
         "name": "东北林业大学",
@@ -523,9 +617,11 @@
         "establishMonth": 10,
         "location": "哈尔滨市",
         "type": "agriculture",
+        "manager": "教育部",
         "c9": false,
         "985": false,
-        "211": true
+        "211": true,
+        "logo": "THU.svg"
     },
     {
         "name": "复旦大学",
@@ -534,9 +630,11 @@
         "establishMonth": 9,
         "location": "上海市",
         "type": "composite",
+        "manager": "教育部",
         "c9": true,
         "985": true,
-        "211": true
+        "211": true,
+        "logo": "PKU.svg"
     },
     {
         "name": "同济大学",
@@ -545,9 +643,11 @@
         "establishMonth": 10,
         "location": "上海市",
         "type": "composite",
+        "manager": "教育部",
         "c9": false,
         "985": true,
-        "211": true
+        "211": true,
+        "logo": "PKU.svg"
     },
     {
         "name": "上海交通大学",
@@ -556,9 +656,11 @@
         "establishMonth": 12,
         "location": "上海市",
         "type": "science",
+        "manager": "教育部",
         "c9": true,
         "985": true,
-        "211": true
+        "211": true,
+        "logo": "THU.svg"
     },
     {
         "name": "华东理工大学",
@@ -567,9 +669,11 @@
         "establishMonth": 10,
         "location": "上海市",
         "type": "science",
+        "manager": "教育部",
         "c9": false,
         "985": false,
-        "211": true
+        "211": true,
+        "logo": "PKU.svg"
     },
     {
         "name": "东华大学",
@@ -578,9 +682,11 @@
         "establishMonth": 0,
         "location": "上海市",
         "type": "composite",
+        "manager": "教育部",
         "c9": false,
         "985": false,
-        "211": true
+        "211": true,
+        "logo": "THU.svg"
     },
     {
         "name": "上海海洋大学",
@@ -589,9 +695,11 @@
         "establishMonth": 1,
         "location": "上海市",
         "type": "science",
+        "manager": "上海市",
         "c9": false,
         "985": false,
-        "211": false
+        "211": false,
+        "logo": "PKU.svg"
     },
     {
         "name": "上海中医药大学",
@@ -600,9 +708,11 @@
         "establishMonth": 0,
         "location": "上海市",
         "type": "medicine",
+        "manager": "上海市",
         "c9": false,
         "985": false,
-        "211": false
+        "211": false,
+        "logo": "THU.svg"
     },
     {
         "name": "华东师范大学",
@@ -611,9 +721,11 @@
         "establishMonth": 70,
         "location": "上海市",
         "type": "normal",
+        "manager": "教育部",
         "c9": false,
         "985": true,
-        "211": true
+        "211": true,
+        "logo": "PKU.svg"
     },
     {
         "name": "上海外国语大学",
@@ -622,9 +734,11 @@
         "establishMonth": 12,
         "location": "上海市",
         "type": "normal",
+        "manager": "教育部",
         "c9": false,
         "985": false,
-        "211": true
+        "211": true,
+        "logo": "THU.svg"
     },
     {
         "name": "上海财经大学",
@@ -633,9 +747,11 @@
         "establishMonth": 90,
         "location": "上海市",
         "type": "finance",
+        "manager": "教育部",
         "c9": false,
         "985": true,
-        "211": true
+        "211": true,
+        "logo": "THU.svg"
     },
     {
         "name": "上海体育学院",
@@ -644,9 +760,11 @@
         "establishMonth": 11,
         "location": "上海市",
         "type": "arts",
+        "manager": "上海市",
         "c9": false,
         "985": false,
-        "211": false
+        "211": false,
+        "logo": "THU.svg"
     },
     {
         "name": "上海音乐学院",
@@ -655,9 +773,11 @@
         "establishMonth": 11,
         "location": "上海市",
         "type": "arts",
+        "manager": "上海市",
         "c9": false,
         "985": false,
-        "211": false
+        "211": false,
+        "logo": "THU.svg"
     },
     {
         "name": "上海大学",
@@ -666,9 +786,11 @@
         "establishMonth": 50,
         "location": "上海市",
         "type": "composite",
+        "manager": "上海市",
         "c9": false,
         "985": false,
-        "211": false
+        "211": false,
+        "logo": "THU.svg"
     },
     {
         "name": "南京大学",
@@ -677,9 +799,11 @@
         "establishMonth": 5,
         "location": "江苏省南京市",
         "type": "composite",
+        "manager": "教育部",
         "c9": true,
         "985": true,
-        "211": true
+        "211": true,
+        "logo": "THU.svg"
     },
     {
         "name": "苏州大学",
@@ -688,9 +812,11 @@
         "establishMonth": 50,
         "location": "江苏省南京市",
         "type": "composite",
+        "manager": "江苏省",
         "c9": false,
         "985": false,
-        "211": true
+        "211": true,
+        "logo": "THU.svg"
     },
     {
         "name": "东南大学",
@@ -699,9 +825,11 @@
         "establishMonth": 5,
         "location": "江苏省南京市",
         "type": "composite",
+        "manager": "教育部",
         "c9": false,
         "985": true,
-        "211": true
+        "211": true,
+        "logo": "THU.svg"
     },
     {
         "name": "南京航空航天大学",
@@ -710,9 +838,11 @@
         "establishMonth": 6,
         "location": "江苏省南京市",
         "type": "science",
+        "manager": "工业化和信息部",
         "c9": false,
         "985": false,
-        "211": true
+        "211": true,
+        "logo": "THU.svg"
     },
     {
         "name": "南京理工大学",
@@ -721,9 +851,11 @@
         "establishMonth": 11,
         "location": "江苏省南京市",
         "type": "science",
+        "manager": "工业化和信息部",
         "c9": false,
         "985": false,
-        "211": true
+        "211": true,
+        "logo": "THU.svg"
     },
     {
         "name": "中国矿业大学",
@@ -732,9 +864,11 @@
         "establishMonth": 3,
         "location": "江苏省南京市",
         "type": "science",
+        "manager": "教育部",
         "c9": false,
         "985": false,
-        "211": true
+        "211": true,
+        "logo": "THU.svg"
     },
     {
         "name": "南京邮电大学",
@@ -743,9 +877,11 @@
         "establishMonth": 0,
         "location": "江苏省南京市",
         "type": "science",
+        "manager": "江苏省",
         "c9": false,
         "985": false,
-        "211": false
+        "211": false,
+        "logo": "THU.svg"
     },
     {
         "name": "河海大学",
@@ -754,9 +890,11 @@
         "establishMonth": 3,
         "location": "江苏省南京市",
         "type": "composite",
+        "manager": "教育部",
         "c9": false,
         "985": false,
-        "211": true
+        "211": true,
+        "logo": "THU.svg"
     },
     {
         "name": "江南大学",
@@ -765,9 +903,11 @@
         "establishMonth": 5,
         "location": "江苏省南京市",
         "type": "composite",
+        "manager": "教育部",
         "c9": false,
         "985": false,
-        "211": true
+        "211": true,
+        "logo": "THU.svg"
     },
     {
         "name": "南京林业大学",
@@ -776,9 +916,11 @@
         "establishMonth": 5,
         "location": "江苏省南京市",
         "type": "agriculture",
+        "manager": "江苏省",
         "c9": false,
         "985": false,
-        "211": false
+        "211": false,
+        "logo": "PKU.svg"
     },
     {
         "name": "南京信息工程大学",
@@ -787,9 +929,11 @@
         "establishMonth": 0,
         "location": "江苏省南京市",
         "type": "science",
+        "manager": "江苏省",
         "c9": false,
         "985": false,
-        "211": false
+        "211": false,
+        "logo": "THU.svg"
     },
     {
         "name": "南京农业大学",
@@ -798,9 +942,11 @@
         "establishMonth": 5,
         "location": "江苏省南京市",
         "type": "agriculture",
+        "manager": "教育部",
         "c9": false,
         "985": false,
-        "211": true
+        "211": true,
+        "logo": "PKU.svg"
     },
     {
         "name": "南京医科大学",
@@ -809,9 +955,11 @@
         "establishMonth": 0,
         "location": "江苏省南京市",
         "type": "medicine",
+        "manager": "江苏省",
         "c9": false,
         "985": false,
-        "211": false
+        "211": false,
+        "logo": "THU.svg"
     },
     {
         "name": "南京中医药大学",
@@ -820,9 +968,11 @@
         "establishMonth": 10,
         "location": "江苏省南京市",
         "type": "medicine",
+        "manager": "江苏省",
         "c9": false,
         "985": false,
-        "211": false
+        "211": false,
+        "logo": "THU.svg"
     },
     {
         "name": "中国药科大学",
@@ -831,9 +981,11 @@
         "establishMonth": 0,
         "location": "江苏省南京市",
         "type": "medicine",
+        "manager": "教育部",
         "c9": false,
         "985": true,
-        "211": true
+        "211": true,
+        "logo": "PKU.svg"
     },
     {
         "name": "南京师范大学",
@@ -842,9 +994,11 @@
         "establishMonth": 0,
         "location": "江苏省南京市",
         "type": "normal",
+        "manager": "江苏省",
         "c9": false,
         "985": false,
-        "211": true
+        "211": true,
+        "logo": "THU.svg"
     },
     {
         "name": "浙江大学",
@@ -853,9 +1007,11 @@
         "establishMonth": 5,
         "location": "浙江省杭州市",
         "type": "composite",
+        "manager": "教育部",
         "c9": true,
         "985": true,
-        "211": true
+        "211": true,
+        "logo": "PKU.svg"
     },
     {
         "name": "中国美术学院",
@@ -864,9 +1020,11 @@
         "establishMonth": 0,
         "location": "浙江省杭州市",
         "type": "arts",
+        "manager": "江苏省",
         "c9": false,
         "985": false,
-        "211": false
+        "211": false,
+        "logo": "PKU.svg"
     },
     {
         "name": "安徽大学",
@@ -875,9 +1033,11 @@
         "establishMonth": 4,
         "location": "安徽省合肥市",
         "type": "composite",
+        "manager": "安徽省",
         "c9": false,
         "985": false,
-        "211": true
+        "211": true,
+        "logo": "THU.svg"
     },
     {
         "name": "中国科学技术大学",
@@ -886,9 +1046,11 @@
         "establishMonth": 9,
         "location": "安徽省合肥市",
         "type": "science",
-        "c9": false,
+        "manager": "中国科学院",
+        "c9": true,
         "985": true,
-        "211": true
+        "211": true,
+        "logo": "PKU.svg"
     },
     {
         "name": "合肥工业大学",
@@ -897,9 +1059,11 @@
         "establishMonth": 10,
         "location": "安徽省合肥市",
         "type": "science",
+        "manager": "教育部",
         "c9": false,
         "985": false,
-        "211": true
+        "211": true,
+        "logo": "THU.svg"
     },
     {
         "name": "厦门大学",
@@ -908,9 +1072,11 @@
         "establishMonth": 4,
         "location": "福建省厦门市",
         "type": "composite",
+        "manager": "教育部",
         "c9": false,
         "985": true,
-        "211": true
+        "211": true,
+        "logo": "THU.svg"
     },
     {
         "name": "福州大学",
@@ -919,9 +1085,11 @@
         "establishMonth": 0,
         "location": "福建省福州市",
         "type": "composite",
+        "manager": "福建省",
         "c9": false,
         "985": false,
-        "211": true
+        "211": true,
+        "logo": "PKU.svg"
     },
     {
         "name": "福建师范大学",
@@ -930,9 +1098,11 @@
         "establishMonth": 0,
         "location": "福建省福州市",
         "type": "normal",
+        "manager": "福建省",
         "c9": false,
         "985": false,
-        "211": false
+        "211": false,
+        "logo": "THU.svg"
     },
     {
         "name": "南昌大学",
@@ -941,9 +1111,11 @@
         "establishMonth": 0,
         "location": "江西省南昌市",
         "type": "composite",
+        "manager": "江西省",
         "c9": false,
         "985": false,
-        "211": true
+        "211": true,
+        "logo": "THU.svg"
     },
     {
         "name": "山东大学",
@@ -952,9 +1124,11 @@
         "establishMonth": 0,
         "location": "山东省济南市",
         "type": "composite",
+        "manager": "教育部",
         "c9": false,
         "985": true,
-        "211": true
+        "211": true,
+        "logo": "THU.svg"
     },
     {
         "name": "中国海洋大学",
@@ -963,9 +1137,11 @@
         "establishMonth": 0,
         "location": "山东省青岛市",
         "type": "composite",
+        "manager": "教育部",
         "c9": false,
         "985": true,
-        "211": true
+        "211": true,
+        "logo": "PKU.svg"
     },
     {
         "name": "中国石油大学（华东）",
@@ -974,9 +1150,11 @@
         "establishMonth": 0,
         "location": "山东省青岛市",
         "type": "science",
+        "manager": "教育部",
         "c9": false,
         "985": false,
-        "211": true
+        "211": true,
+        "logo": "PKU.svg"
     },
     {
         "name": "郑州大学",
@@ -985,9 +1163,11 @@
         "establishMonth": 0,
         "location": "河南省郑州市",
         "type": "composite",
+        "manager": "河南省",
         "c9": false,
         "985": false,
-        "211": true
+        "211": true,
+        "logo": "PKU.svg"
     },
     {
         "name": "河南大学",
@@ -996,9 +1176,11 @@
         "establishMonth": 9,
         "location": "河南省郑州市",
         "type": "composite",
+        "manager": "河南省",
         "c9": false,
         "985": false,
-        "211": false
+        "211": false,
+        "logo": "PKU.svg"
     },
     {
         "name": "武汉大学",
@@ -1007,9 +1189,11 @@
         "establishMonth": 0,
         "location": "湖北省武汉市",
         "type": "composite",
+        "manager": "教育部",
         "c9": false,
         "985": true,
-        "211": true
+        "211": true,
+        "logo": "THU.svg"
     },
     {
         "name": "华中科技大学",
@@ -1018,9 +1202,11 @@
         "establishMonth": 11,
         "location": "湖北省武汉市",
         "type": "science",
+        "manager": "教育部",
         "c9": false,
         "985": true,
-        "211": true
+        "211": true,
+        "logo": "THU.svg"
     },
     {
         "name": "中国地质大学（武汉）",
@@ -1029,9 +1215,11 @@
         "establishMonth": 0,
         "location": "湖北省武汉市",
         "type": "science",
+        "manager": "教育部",
         "c9": false,
         "985": false,
-        "211": true
+        "211": true,
+        "logo": "THU.svg"
     },
     {
         "name": "武汉理工大学",
@@ -1040,9 +1228,11 @@
         "establishMonth": 0,
         "location": "湖北省武汉市",
         "type": "science",
+        "manager": "教育部",
         "c9": false,
         "985": false,
-        "211": true
+        "211": true,
+        "logo": "THU.svg"
     },
     {
         "name": "华中农业大学",
@@ -1051,9 +1241,11 @@
         "establishMonth": 0,
         "location": "湖北省武汉市",
         "type": "agriculture",
+        "manager": "教育部",
         "c9": false,
         "985": false,
-        "211": true
+        "211": true,
+        "logo": "PKU.svg"
     },
     {
         "name": "华中师范大学",
@@ -1062,9 +1254,11 @@
         "establishMonth": 0,
         "location": "湖北省武汉市",
         "type": "normal",
+        "manager": "教育部",
         "c9": false,
         "985": false,
-        "211": true
+        "211": true,
+        "logo": "PKU.svg"
     },
     {
         "name": "中南财经政法大学",
@@ -1073,9 +1267,11 @@
         "establishMonth": 0,
         "location": "湖北省武汉市",
         "type": "finance",
+        "manager": "教育部",
         "c9": false,
         "985": false,
-        "211": true
+        "211": true,
+        "logo": "PKU.svg"
     },
     {
         "name": "湘潭大学",
@@ -1084,9 +1280,11 @@
         "establishMonth": 9,
         "location": "湘潭市",
         "type": "composite",
+        "manager": "湖南省",
         "c9": false,
         "985": false,
-        "211": false
+        "211": false,
+        "logo": "THU.svg"
     },
     {
         "name": "湖南大学",
@@ -1095,9 +1293,11 @@
         "establishMonth": 0,
         "location": "长沙市",
         "type": "composite",
+        "manager": "教育部",
         "c9": false,
         "985": true,
-        "211": true
+        "211": true,
+        "logo": "THU.svg"
     },
     {
         "name": "中南大学",
@@ -1106,9 +1306,11 @@
         "establishMonth": 4,
         "location": "长沙市",
         "type": "composite",
+        "manager": "教育部",
         "c9": false,
         "985": true,
-        "211": true
+        "211": true,
+        "logo": "THU.svg"
     },
     {
         "name": "湖南师范大学",
@@ -1117,9 +1319,11 @@
         "establishMonth": 0,
         "location": "长沙市",
         "type": "normal",
+        "manager": "湖南省",
         "c9": false,
         "985": false,
-        "211": true
+        "211": true,
+        "logo": "PKU.svg"
     },
     {
         "name": "中山大学",
@@ -1128,9 +1332,11 @@
         "establishMonth": 0,
         "location": "广州市",
         "type": "composite",
+        "manager": "广东省",
         "c9": false,
         "985": true,
-        "211": true
+        "211": true,
+        "logo": "THU.svg"
     },
     {
         "name": "暨南大学",
@@ -1139,9 +1345,11 @@
         "establishMonth": 0,
         "location": "广州市",
         "type": "composite",
+        "manager": "中共中央统一战线工作部",
         "c9": false,
         "985": false,
-        "211": true
+        "211": true,
+        "logo": "THU.svg"
     },
     {
         "name": "华南理工大学",
@@ -1150,9 +1358,11 @@
         "establishMonth": 0,
         "location": "广州市",
         "type": "science",
+        "manager": "教育部",
         "c9": false,
         "985": true,
-        "211": true
+        "211": true,
+        "logo": "THU.svg"
     },
     {
         "name": "华南农业大学",
@@ -1161,9 +1371,11 @@
         "establishMonth": 0,
         "location": "广州市",
         "type": "agriculture",
+        "manager": "广东省",
         "c9": false,
         "985": false,
-        "211": true
+        "211": true,
+        "logo": "PKU.svg"
     },
     {
         "name": "广州医科大学",
@@ -1172,9 +1384,11 @@
         "establishMonth": 6,
         "location": "广州市",
         "type": "medicine",
+        "manager": "广东省",
         "c9": false,
         "985": false,
-        "211": false
+        "211": false,
+        "logo": "PKU.svg"
     },
     {
         "name": "广州中医药大学",
@@ -1183,9 +1397,11 @@
         "establishMonth": 0,
         "location": "广州市",
         "type": "medicine",
+        "manager": "广东省",
         "c9": false,
         "985": false,
-        "211": true
+        "211": true,
+        "logo": "PKU.svg"
     },
     {
         "name": "华南师范大学",
@@ -1194,9 +1410,11 @@
         "establishMonth": 0,
         "location": "广州市",
         "type": "normal",
+        "manager": "广东省",
         "c9": false,
         "985": false,
-        "211": true
+        "211": true,
+        "logo": "PKU.svg"
     },
     {
         "name": "海南大学",
@@ -1205,9 +1423,11 @@
         "establishMonth": 0,
         "location": "海口市",
         "type": "composite",
+        "manager": "海南省",
         "c9": false,
         "985": false,
-        "211": true
+        "211": true,
+        "logo": "PKU.svg"
     },
     {
         "name": "广西大学",
@@ -1216,9 +1436,11 @@
         "establishMonth": 6,
         "location": "南宁市",
         "type": "composite",
+        "manager": "广西壮族自治区",
         "c9": false,
         "985": false,
-        "211": true
+        "211": true,
+        "logo": "THU.svg"
     },
     {
         "name": "四川大学",
@@ -1227,9 +1449,11 @@
         "establishMonth": 6,
         "location": "成都市",
         "type": "composite",
+        "manager": "教育部",
         "c9": false,
         "985": true,
-        "211": true
+        "211": true,
+        "logo": "THU.svg"
     },
     {
         "name": "重庆大学",
@@ -1238,9 +1462,11 @@
         "establishMonth": 10,
         "location": "重庆市",
         "type": "composite",
+        "manager": "教育部",
         "c9": false,
         "985": true,
-        "211": true
+        "211": true,
+        "logo": "PKU.svg"
     },
     {
         "name": "西南交通大学",
@@ -1249,9 +1475,11 @@
         "establishMonth": 0,
         "location": "成都市",
         "type": "science",
+        "manager": "教育部",
         "c9": false,
         "985": false,
-        "211": true
+        "211": true,
+        "logo": "THU.svg"
     },
     {
         "name": "电子科技大学",
@@ -1260,9 +1488,11 @@
         "establishMonth": 0,
         "location": "成都市",
         "type": "science",
+        "manager": "教育部",
         "c9": false,
         "985": true,
-        "211": true
+        "211": true,
+        "logo": "PKU.svg"
     },
     {
         "name": "西南石油大学",
@@ -1271,9 +1501,11 @@
         "establishMonth": 0,
         "location": "成都市",
         "type": "science",
+        "manager": "四川省",
         "c9": false,
         "985": false,
-        "211": false
+        "211": false,
+        "logo": "THU.svg"
     },
     {
         "name": "成都理工大学",
@@ -1282,9 +1514,11 @@
         "establishMonth": 0,
         "location": "成都市",
         "type": "science",
+        "manager": "四川省",
         "c9": false,
         "985": false,
-        "211": false
+        "211": false,
+        "logo": "THU.svg"
     },
     {
         "name": "四川农业大学",
@@ -1293,9 +1527,11 @@
         "establishMonth": 0,
         "location": "雅安市",
         "type": "agriculture",
+        "manager": "四川省",
         "c9": false,
         "985": false,
-        "211": false
+        "211": false,
+        "logo": "PKU.svg"
     },
     {
         "name": "成都中医药大学",
@@ -1304,9 +1540,11 @@
         "establishMonth": 0,
         "location": "成都市",
         "type": "medicine",
+        "manager": "四川省",
         "c9": false,
         "985": false,
-        "211": false
+        "211": false,
+        "logo": "THU.svg"
     },
     {
         "name": "西南大学",
@@ -1315,9 +1553,11 @@
         "establishMonth": 0,
         "location": "重庆市",
         "type": "composite",
+        "manager": "教育部",
         "c9": false,
         "985": true,
-        "211": true
+        "211": true,
+        "logo": "THU.svg"
     },
     {
         "name": "西南财经大学",
@@ -1326,9 +1566,11 @@
         "establishMonth": 6,
         "location": "成都市",
         "type": "finance",
+        "manager": "教育部",
         "c9": false,
         "985": true,
-        "211": true
+        "211": true,
+        "logo": "PKU.svg"
     },
     {
         "name": "贵州大学",
@@ -1337,9 +1579,11 @@
         "establishMonth": 0,
         "location": "贵阳市",
         "type": "composite",
+        "manager": "贵州省",
         "c9": false,
         "985": false,
-        "211": true
+        "211": true,
+        "logo": "THU.svg"
     },
     {
         "name": "云南大学",
@@ -1348,9 +1592,11 @@
         "establishMonth": 0,
         "location": "昆明市",
         "type": "composite",
+        "manager": "云南省",
         "c9": false,
         "985": false,
-        "211": true
+        "211": true,
+        "logo": "THU.svg"
     },
     {
         "name": "西藏大学",
@@ -1359,9 +1605,11 @@
         "establishMonth": 0,
         "location": "拉萨市",
         "type": "composite",
+        "manager": "西藏自治区",
         "c9": false,
         "985": false,
-        "211": true
+        "211": true,
+        "logo": "THU.svg"
     },
     {
         "name": "西北大学",
@@ -1370,9 +1618,11 @@
         "establishMonth": 0,
         "location": "西安市",
         "type": "composite",
+        "manager": "陕西省",
         "c9": false,
         "985": false,
-        "211": true
+        "211": true,
+        "logo": "PKU.svg"
     },
     {
         "name": "西安交通大学",
@@ -1381,9 +1631,11 @@
         "establishMonth": 0,
         "location": "西安市",
         "type": "science",
+        "manager": "教育部",
         "c9": true,
         "985": true,
-        "211": true
+        "211": true,
+        "logo": "THU.svg"
     },
     {
         "name": "西北工业大学",
@@ -1392,9 +1644,11 @@
         "establishMonth": 10,
         "location": "西安市",
         "type": "science",
+        "manager": "工业和信息化部",
         "c9": false,
         "985": true,
-        "211": true
+        "211": true,
+        "logo": "THU.svg"
     },
     {
         "name": "西安电子科技大学",
@@ -1403,9 +1657,11 @@
         "establishMonth": 0,
         "location": "西安市",
         "type": "science",
+        "manager": "教育部",
         "c9": false,
         "985": false,
-        "211": true
+        "211": true,
+        "logo": "THU.svg"
     },
     {
         "name": "长安大学",
@@ -1414,9 +1670,11 @@
         "establishMonth": 0,
         "location": "西安市",
         "type": "composite",
+        "manager": "教育部",
         "c9": false,
         "985": false,
-        "211": true
+        "211": true,
+        "logo": "PKU.svg"
     },
     {
         "name": "西北农林科技大学",
@@ -1425,9 +1683,11 @@
         "establishMonth": 0,
         "location": "西安市",
         "type": "science",
+        "manager": "教育部",
         "c9": false,
         "985": true,
-        "211": true
+        "211": true,
+        "logo": "THU.svg"
     },
     {
         "name": "陕西师范大学",
@@ -1436,9 +1696,11 @@
         "establishMonth": 0,
         "location": "西安市",
         "type": "normal",
+        "manager": "教育部",
         "c9": false,
         "985": false,
-        "211": true
+        "211": true,
+        "logo": "THU.svg"
     },
     {
         "name": "兰州大学",
@@ -1447,9 +1709,11 @@
         "establishMonth": 0,
         "location": "兰州市",
         "type": "composite",
+        "manager": "教育部",
         "c9": false,
         "985": true,
-        "211": true
+        "211": true,
+        "logo": "PKU.svg"
     },
     {
         "name": "青海大学",
@@ -1458,9 +1722,11 @@
         "establishMonth": 0,
         "location": "西宁市",
         "type": "composite",
+        "manager": "青海省",
         "c9": false,
         "985": false,
-        "211": true
+        "211": true,
+        "logo": "THU.svg"
     },
     {
         "name": "宁夏大学",
@@ -1469,9 +1735,11 @@
         "establishMonth": 0,
         "location": "银川市",
         "type": "composite",
+        "manager": "宁夏回族自治区",
         "c9": false,
         "985": false,
-        "211": true
+        "211": true,
+        "logo": "PKU.svg"
     },
     {
         "name": "新疆大学",
@@ -1480,9 +1748,11 @@
         "establishMonth": 0,
         "location": "乌鲁木齐市",
         "type": "composite",
+        "manager": "新疆维吾尔自治区",
         "c9": false,
         "985": false,
-        "211": true
+        "211": true,
+        "logo": "PKU.svg"
     },
     {
         "name": "石河子大学",
@@ -1491,9 +1761,11 @@
         "establishMonth": 0,
         "location": "石河子市",
         "type": "composite",
+        "manager": "新疆生产建设兵团",
         "c9": false,
         "985": false,
-        "211": true
+        "211": true,
+        "logo": "PKU.svg"
     },
     {
         "name": "中国矿业大学（北京）",
@@ -1502,9 +1774,11 @@
         "establishMonth": 0,
         "location": "北京市",
         "type": "science",
+        "manager": "教育部",
         "c9": false,
         "985": false,
-        "211": true
+        "211": true,
+        "logo": "THU.svg"
     },
     {
         "name": "中国石油大学（北京）",
@@ -1513,9 +1787,11 @@
         "establishMonth": 0,
         "location": "北京市",
         "type": "science",
+        "manager": "教育部",
         "c9": false,
         "985": false,
-        "211": true
+        "211": true,
+        "logo": "THU.svg"
     },
     {
         "name": "中国地质大学（北京）",
@@ -1524,9 +1800,11 @@
         "establishMonth": 0,
         "location": "北京市",
         "type": "science",
+        "manager": "教育部",
         "c9": false,
         "985": false,
-        "211": true
+        "211": true,
+        "logo": "PKU.svg"
     },
     {
         "name": "宁波大学",
@@ -1535,9 +1813,11 @@
         "establishMonth": 0,
         "location": "宁波市",
         "type": "composite",
+        "manager": "浙江省",
         "c9": false,
         "985": false,
-        "211": false
+        "211": false,
+        "logo": "PKU.svg"
     },
     {
         "name": "南方科技大学",
@@ -1546,9 +1826,11 @@
         "establishMonth": 0,
         "location": "深圳市",
         "type": "science",
+        "manager": "广东省",
         "c9": false,
         "985": false,
-        "211": false
+        "211": false,
+        "logo": "PKU.svg"
     },
     {
         "name": "上海科技大学",
@@ -1557,9 +1839,11 @@
         "establishMonth": 0,
         "location": "上海市",
         "type": "science",
+        "manager": "上海市、中国科学院",
         "c9": false,
         "985": false,
-        "211": false
+        "211": false,
+        "logo": "THU.svg"
     },
     {
         "name": "中国科学院大学",
@@ -1568,9 +1852,11 @@
         "establishMonth": 0,
         "location": "北京市",
         "type": "science",
-        "c9": true,
+        "manager": "中国科学院",
+        "c9": false,
         "985": false,
-        "211": false
+        "211": false,
+        "logo": "PKU.svg"
     },
     {
         "name": "国防科技大学",
@@ -1579,9 +1865,11 @@
         "establishMonth": 0,
         "location": "长沙市",
         "type": "military",
+        "manager": "中国共产党中央军事委员会",
         "c9": false,
         "985": true,
-        "211": true
+        "211": true,
+        "logo": "THU.svg"
     },
     {
         "name": "海军军医大学",
@@ -1590,9 +1878,11 @@
         "establishMonth": 0,
         "location": "上海市",
         "type": "military",
+        "manager": "中国人民解放军海军",
         "c9": false,
         "985": false,
-        "211": true
+        "211": true,
+        "logo": "THU.svg"
     },
     {
         "name": "空军军医大学",
@@ -1601,8 +1891,10 @@
         "establishMonth": 0,
         "location": "西安市",
         "type": "military",
+        "manager": "中国人民解放军空军",
         "c9": false,
         "985": false,
-        "211": true
+        "211": true,
+        "logo": "THU.svg"
     }
 ]

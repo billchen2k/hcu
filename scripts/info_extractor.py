@@ -1,3 +1,4 @@
+import random
 from typing import List
 import pandas as pd
 import json
@@ -61,20 +62,21 @@ def main():
             'location':
                 uni_info['location'],
             'type': type_map[uni_info['type']],
+            'manager': uni_info['manager'],
             'c9':
-                False,
+                True if uni_info['C9'] == 1 else False,
             '985': uni_info['level'].find('985') != -1,
             '211': uni_info['level'].find('211') != -1,
+            'logo': random.choice(['THU.svg', 'PKU.svg'])
         }
         # Deal with 湖南大学
         info['establishYear'] = max(info['establishYear'], 1800)
-        if uni_info['university'] in c9_universities:
-            info['c9'] = True
+        # if uni_info['university'] in c9_universities:
+        #     info['c9'] = True
         output.append(info)
 
     with open(output_file, 'w') as f:
         f.write(json.dumps(output, indent=4, ensure_ascii=False))
-
 
 if __name__ == '__main__':
     main()
