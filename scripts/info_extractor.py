@@ -31,7 +31,7 @@ type_map = {
     '民族艺体': 'arts',
 }
 
-data_info = pd.read_csv('data/uniinfo-0716.csv')
+data_info = pd.read_csv('data/uniinfo-0717.csv')
 data_event = pd.read_csv('data/unidata-0715.csv')
 info_output_file = 'src/data/uni_info.json'
 event_output_file = 'src/data/uni_event.json'
@@ -42,7 +42,6 @@ event_output = []
 
 
 class Event:
-
     EVENT_RENAME = 'rename'
     EVENT_RELOCATION = 'relocation'
     EVENT_RESTRUCTURE = 'restructure'
@@ -78,7 +77,7 @@ class Event:
 
     def event_json(self) -> dict:
         return {
-             'university': self.university,
+            'university': self.university,
             'event': self.event_type,
             'detail': self.detail,
             'year': self.year,
@@ -99,8 +98,23 @@ def get_university_logo(university_en_name: str) -> str:
     return 'PKU.svg'
 
 
-def main():
+def get_manager_type(manager: str):
+    """
+    教育部：ministry_of_edu
+    中央部委直属：central
+    地方直属：local
+    :param manager:
+    :return:
+    """
+    if manager == '教育部':
+        return 'ministry_of_edu'
+    if re.match(r'.+(省|市|自治区|兵团)$', manager):
+        print(manager, 'is local')
+        return 'local'
+    return 'central'
 
+
+def gen_uni_info():
     for row in data_info.iloc():
 
         # Get info
@@ -126,6 +140,8 @@ def main():
                 type_map[uni_info['type']],
             'manager':
                 uni_info['manager'],
+            'managerType':
+                get_manager_type(uni_info['manager']),
             'c9':
                 True if uni_info['C9'] == 1 else False,
             '985':
@@ -141,8 +157,11 @@ def main():
         #     info['c9'] = True
         info_output.append(info)
 
-    ###############
+    with open(info_output_file, 'w') as f:
+        f.write(json.dumps(info_output, indent=4, ensure_ascii=False))
 
+
+def gen_uni_event():
     universities = data_event.columns[1:]
     for u in universities:
         print(f'Processing events for {u}...')
@@ -161,11 +180,13 @@ def main():
         print(f'{counter} events found for {u}')
     print(f'{len(event_output)} events found.')
 
-    with open(info_output_file, 'w') as f:
-        f.write(json.dumps(info_output, indent=4, ensure_ascii=False))
-
     with open(event_output_file, 'w') as f:
         f.write(json.dumps(event_output, indent=4, ensure_ascii=False))
+
+
+def main():
+    gen_uni_info()
+    gen_uni_event()
 
 
 if __name__ == '__main__':

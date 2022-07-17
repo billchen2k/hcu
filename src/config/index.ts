@@ -49,7 +49,7 @@ const universityEvents: Record<UniversityEventType, IUniversityEventConfig> = {
     name: '更名',
   },
   'relocation': {
-    color: '#fcf7ed',
+    color: '#ffffff',
     name: '迁址',
   },
   'restructure': {

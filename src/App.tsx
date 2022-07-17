@@ -1,7 +1,6 @@
 import React from 'react';
 import {Box, createTheme, CssBaseline, Grid, rgbToHex, ThemeProvider, Typography} from '@mui/material';
 import './styles/main.scss';
-import Sidebar from './components/Sidebar';
 import ContentLayout from './components/ContentLayout';
 import config from './config';
 
@@ -42,13 +41,8 @@ function App() {
     <ThemeProvider theme={theme}>
       <Box sx={{width: '100vw', height: '100vh', overflow: 'hidden'}}>
         <CssBaseline />
-        <Box sx={{p: 2, display: 'flex'}}>
-          <Box sx={{display: 'flex', width: 400}}>
-            <Sidebar />
-          </Box>
-          <Box sx={{display: 'flex', flex: 1, ml: 1}}>
-            <ContentLayout />
-          </Box>
+        <Box sx={{display: 'flex', flex: 1}}>
+          <ContentLayout />
         </Box>
       </Box>
     </ThemeProvider>

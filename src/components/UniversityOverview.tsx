@@ -4,7 +4,7 @@ import * as React from 'react';
 import * as d3 from 'd3';
 import {Box} from '@mui/material';
 import {svg} from 'd3';
-import {IUniversityEvent, IUniversityInfo} from '../types';
+import {IUniversityEvent, IUniversityInfo, UniversityManagerType} from '../types';
 import config from '../config';
 
 const UniInfo: IUniversityInfo[] = require('../data/uni_info.json');
@@ -13,7 +13,7 @@ const UniEvent: IUniversityEvent[] = require('../data/uni_event.json');
 export interface IOverviewProps {
 }
 
-export default function Overview(props: IOverviewProps) {
+export default function UniversityOverview(props: IOverviewProps) {
   const svgRef = React.useRef<SVGSVGElement>(null);
 
   const hcuLogoTimer = React.useRef<number>(0);
@@ -33,8 +33,8 @@ export default function Overview(props: IOverviewProps) {
     const height = svg.clientHeight;
     const size = Math.min(width, height) * 0.95;
     const paddingAngle = 0.015;
-    const innerRadius = size * 0.4 / 2;
-    const outerRadius = size * 1 / 2;
+    const innerRadius = size * 0.35 / 2;
+    const outerRadius = size * 0.8 / 2;
     const logoRadius = size * 0.12 / 2;
     // const marginX = (width - size) / 2;
     // const marginY = (height - size) / 2;
@@ -58,19 +58,19 @@ export default function Overview(props: IOverviewProps) {
 
     // Scales
     const x = d3.scaleBand()
-        .range([0, 1.8 * Math.PI])
+        .range([0, 1.85 * Math.PI])
         .align(0)
         .domain(data.map((d) => String(d.name)));
 
     const y = d3.scaleRadial()
-        .range([innerRadius, outerRadius])
-        .domain([0, 2022 - 1800]);
+        .range([outerRadius, innerRadius])
+        .domain([0, 2022 - 1900]);
 
 
     // Bars
     const arc = d3.arc() // imagine your doing a part of a donut plot
-        .innerRadius(innerRadius)
-        .outerRadius((d) => y(2022 - d['establishYear']))
+        .innerRadius((d) => y(2022 - d['establishYear']))
+        .outerRadius(outerRadius)
         .startAngle((d) => x(d['name']))
         .endAngle((d) => x(d['name']) + x.bandwidth())
         .padAngle(paddingAngle)
@@ -88,9 +88,9 @@ export default function Overview(props: IOverviewProps) {
         .ease(d3.easeQuadOut)
         .delay((d, i) => i * 5)
         .attrTween('d', (d, i) => {
-          const interpolate = d3.interpolate(innerRadius, y(2022 - d['establishYear']));
+          const interpolate = d3.interpolate(outerRadius, y(2022 - d['establishYear']));
           return (t) => {
-            arc.outerRadius(interpolate(t));
+            arc.innerRadius(interpolate(t));
             return arc(d);
           };
         })
@@ -111,13 +111,14 @@ export default function Overview(props: IOverviewProps) {
     // Event markers
     const eventMarker = g.append('g')
         .selectAll('path')
-        .data(UniEvent.filter((d) => d.event == 'rename'))
+        .data(UniEvent.filter((d) => d.event == 'relocation'))
         .enter()
         .append('path')
         .attr('fill', (d) => config.universityEvents[d.event].color)
+        .style('opacity', 0.5)
         .attr('d', d3.arc()
             .innerRadius((d: IUniversityEvent) => y(2022 - d.year))
-            .outerRadius((d: IUniversityEvent) => y(2022 - d.year) + 1)
+            .outerRadius((d: IUniversityEvent) => y(2022 - d.year) + 2.5)
             .startAngle((d: IUniversityEvent) => x(d.university))
             .endAngle((d) => x(d.university) + x.bandwidth())
             .padAngle(paddingAngle)
@@ -137,9 +138,9 @@ export default function Overview(props: IOverviewProps) {
         .append('g')
         .attr('text-anchor', (d) => isRightHalf(d) ? 'end' : 'start')
         .attr('transform', (d) =>
-          `rotate(${(x(d.name) + x.bandwidth() / 2) * 180 / Math.PI - 90}) translate(${y(2022 - d.establishYear) + 5}, ${isRightHalf(d) ? -2 : 2})`)
+          `rotate(${(x(d.name) + x.bandwidth() / 2) * 180 / Math.PI - 90}) translate(${outerRadius + 10}, ${isRightHalf(d) ? -2 : 2})`)
         .append('text')
-        .text((d) =>d['name'])
+        .text((d) => d['name'])
         .attr('transform', function(d) {
           return isRightHalf(d) ? 'rotate(180)' : 'rotate(0)';
         })
@@ -160,6 +161,32 @@ export default function Overview(props: IOverviewProps) {
           onUniversityUnhover(d);
         });
 
+    const getUniversityManageSymbol = (manager: UniversityManagerType) => {
+      switch (manager) {
+        case 'central':
+          return d3.symbol().type(d3.symbolCross).size(20);
+        case 'ministry_of_edu':
+          return d3.symbol().type(d3.symbolCircle).size(20);
+        case 'local':
+          return d3.symbol().type(d3.symbolAsterisk).size(20);
+      }
+    };
+
+    // Managers
+    ['ministry_of_edu', 'central', 'local'].forEach((manager: UniversityManagerType) => {
+      g.append('g')
+          .selectAll('path')
+          .data(UniInfo.filter((d) => d.managerType == manager))
+          .enter()
+          .append('path')
+          .attr('id', (d) => `manager-{d.name}`)
+          .attr('d', getUniversityManageSymbol(manager))
+          // .attr('fill', (d) => config.universityTypes[d.type].color)
+          .attr('fill', `#b2a409`)
+          .attr('transform', (d) =>
+            `rotate(${(x(d.name) + x.bandwidth() / 2) * 180 / Math.PI - 90}) translate(${outerRadius + 5}, 0)`);
+    });
+
     // Center detail
     const detail = g.append('g')
         .attr('id', 'center-detail');
@@ -170,9 +197,8 @@ export default function Overview(props: IOverviewProps) {
         .attr('y', -logoRadius)
         .attr('width', logoRadius * 2)
         .attr('height', logoRadius * 2)
-        .style('opacity', 0.8)
-        // .style('filter', 'saturate(0)')
-        .attr('href', '');
+        .style('opacity', 0);
+    // .style('filter', 'saturate(0)')
 
     const hcuLogo = detail.append('svg:image')
         .attr('id', 'center-detail-logo')
@@ -211,7 +237,7 @@ export default function Overview(props: IOverviewProps) {
 
 
     // Year Scales
-    const years = [1800, 1900, 1950, 1990, 2022];
+    const years = [1900, 1949, 1990, 2022];
     const yearScale = g.append('g')
         .selectAll('g')
         .data(years)
@@ -229,8 +255,8 @@ export default function Overview(props: IOverviewProps) {
         .attr('fill', '#aaa')
         .attr('text-anchor', 'middle')
         .attr('transform', (d) =>
-          `rotate(${-18})`)
-        .text((d) => d == 1800 ? '976' : d)
+          `rotate(${-15})`)
+        .text((d) => d)
         .style('font-size', '13px')
         .style('font-family', 'FZQKBYS');
 
@@ -267,8 +293,9 @@ export default function Overview(props: IOverviewProps) {
       }
 
       universityName.text(d.name);
-      console.log(`/assets/logo/${d.logo}`);
+      logo.style('opacity', 0.9);
       logo.attr('href', `/assets/logo/${d.logo}`);
+
       universityDetails.text((d2, i) => {
         const line = [];
         d.c9 && line.push('C9');
@@ -277,12 +304,13 @@ export default function Overview(props: IOverviewProps) {
         line.push(`${d.manager}主管`);
         switch (i) {
           case 0:
-            return `建校于 ${d.name == '湖南大学' ? 976 : d.establishYear} 年`;
+            return `建校于 ${d.establishYear} 年`;
           case 1:
             return line.join(' · ');
           case 2:
             return `${d.location}`;
-        };
+        }
+        ;
       });
     };
 
@@ -304,21 +332,20 @@ export default function Overview(props: IOverviewProps) {
 
       hoverSwitchTimer.current = setTimeout(() => {
         universityName.text('');
-        logo.attr('href', null);
+        logo.style('opacity', 0);
         universityDetails.text('');
       }, 200);
 
       hcuLogoTimer.current = setTimeout(() => {
-        hcuLogo.
-            transition()
-            .duration(400)
+        hcuLogo.transition()
+            .duration(100)
             .attr('opacity', 1);
-      }, 600);
+      }, 1000);
     };
   }, [svg]);
 
   return (
-    <Box sx={{display: 'flex'}} width={'100%'} height={'97vh'}>
+    <Box sx={{display: 'flex', position: 'absolute'}} width={'100%'} height={'97vh'}>
       <svg ref={svgRef} className={'container-overview-svg'}/>
     </Box>
   );

@@ -1,10 +1,19 @@
+export type UniversityType = 'composite' | 'normal' | 'science' | 'agriculture' | 'finance' | 'military' | 'medicine' | 'arts';
+
+export type UniversityEventType = 'rename' | 'relocation' | 'restructure'
+
+export type UniversityManagerType = 'central' | 'ministry_of_edu' | 'local'
+
+
 export interface IUniversityInfo {
     name: string;
     englishName: string;
     establishYear: number;
     establishMonth: number;
     manager: string;
+    managerType: UniversityManagerType;
     location: string;
+    type: UniversityType;
     logo?: string;
     985: boolean;
     211: boolean;
@@ -23,11 +32,6 @@ export interface IUniversityEventConfig {
     name: string;
     priority?: number;
 }
-
-
-export type UniversityType = 'composite' | 'normal' | 'science' | 'agriculture' | 'finance' | 'military' | 'medicine' | 'arts';
-
-export type UniversityEventType = 'rename' | 'relocation' | 'restructure'
 
 export interface IUniversityEvent {
     university: string;

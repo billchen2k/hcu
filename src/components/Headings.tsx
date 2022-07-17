@@ -1,15 +1,15 @@
-import {Box, Grid, Skeleton, Stack, Typography} from '@mui/material';
 import * as React from 'react';
+import {Box, Grid, Typography} from '@mui/material';
 
-export interface ISidebarProps {
+export interface IHeadingsProps {
 }
 
-export default function Sidebar(props: ISidebarProps) {
+const Headings = (props: IHeadingsProps) => {
   return (
-    <Stack width={'100%'} height={'100%'} spacing={3}>
-      <Grid container justifyContent={'center'}>
+    <Box sx={{position: 'absolute', width: '20%', top: 10, left: 10}}>
+      <Grid container justifyContent={'flex-start'}>
         <Typography variant={'h4'}>中国高校历史沿革</Typography>
-        <Typography variant={'h5'}>History of Chinese Universities</Typography>
+        <Typography variant={'h6'}>History of Chinese Universities</Typography>
       </Grid>
       <Typography variant={'body1'} textAlign={'justify'}>
         我国大学的历史始于清末的「洋务运动」和后来的「维新运动」，
@@ -18,7 +18,8 @@ export default function Sidebar(props: ISidebarProps) {
         以可视化的方式，我们在这里展示中国高校的建校、改名、迁址、合并等历史轨迹。
         数据范围为截至 2022 年的「双一流建设高校」与「双一流建设学科」名单。
       </Typography>
-      {/* <Skeleton variant={'rectangular'} width={'100%'} height={100} /> */}
-    </Stack>
+    </Box>
   );
-}
+};
+
+export default Headings;
