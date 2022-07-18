@@ -1,4 +1,10 @@
-import {IUniversityEventConfig, IUniversityTypeConfig, UniversityEventType, UniversityType} from '../types';
+import {
+  IUniversityEventConfig, IUniversityManagerConfig,
+  IUniversityTypeConfig,
+  UniversityEventType,
+  UniversityManagerType,
+  UniversityType,
+} from '../types';
 
 const universityTypes: Record<UniversityType, IUniversityTypeConfig> = {
   composite: {
@@ -58,15 +64,33 @@ const universityEvents: Record<UniversityEventType, IUniversityEventConfig> = {
   },
 };
 
+const universityManagers: Record<UniversityManagerType, IUniversityManagerConfig> = {
+  'central': {
+    name: '中央部委直属',
+    priority: 2,
+  },
+  'ministry_of_edu': {
+    name: '教育部直属',
+    priority: 1,
+  },
+  'local': {
+    name: '地方直属',
+    priority: 3,
+  },
+};
 
 const config = {
   universityTypes,
   universityEvents,
+  universityManagers,
   colors: {
     background: '#fcf7ed',
     universityHover: '#fc5908',
     primaryText: '#0F0A04',
+    secondaryText: '#c9b707',
+    primaryTint: '#816f03',
     importantText: '#ae2910',
+    managerMarkers: '#d7c300',
   },
 };
 

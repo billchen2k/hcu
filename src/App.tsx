@@ -12,12 +12,26 @@ const bodyFont = {
 };
 
 const theme = createTheme({
+  components: {
+    MuiButton: {
+      styleOverrides: {
+      // Name of the slot
+        root: {
+        // Some CSS
+          borderRadius: 0,
+        },
+      },
+    },
+  },
   palette: {
     background: {
       default: config.colors.background,
     },
     primary: {
-      main: config.colors.primaryText,
+      main: config.colors.primaryTint,
+    },
+    secondary: {
+      main: config.colors.secondaryText,
     },
   },
   typography: {

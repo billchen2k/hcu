@@ -6,7 +6,7 @@ export interface IHeadingsProps {
 
 const Headings = (props: IHeadingsProps) => {
   return (
-    <Box sx={{position: 'absolute', width: '20%', top: 10, left: 10}}>
+    <Box sx={{position: 'absolute', width: '23%', top: 20, left: 20}}>
       <Grid container justifyContent={'flex-start'}>
         <Typography variant={'h4'}>中国高校历史沿革</Typography>
         <Typography variant={'h6'}>History of Chinese Universities</Typography>

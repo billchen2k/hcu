@@ -1,9 +1,8 @@
 export type UniversityType = 'composite' | 'normal' | 'science' | 'agriculture' | 'finance' | 'military' | 'medicine' | 'arts';
+export type UniversityEventType = 'rename' | 'relocation' | 'restructure';
+export type UniversityManagerType = 'central' | 'ministry_of_edu' | 'local';
 
-export type UniversityEventType = 'rename' | 'relocation' | 'restructure'
-
-export type UniversityManagerType = 'central' | 'ministry_of_edu' | 'local'
-
+export type SortingCriteria = 'default' | 'establishDate' | 'manager';
 
 export interface IUniversityInfo {
     name: string;
@@ -29,6 +28,11 @@ export interface IUniversityTypeConfig {
 
 export interface IUniversityEventConfig {
     color: string;
+    name: string;
+    priority?: number;
+}
+
+export interface IUniversityManagerConfig {
     name: string;
     priority?: number;
 }

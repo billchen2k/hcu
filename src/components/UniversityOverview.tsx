@@ -41,7 +41,10 @@ export default function UniversityOverview(props: IOverviewProps) {
     const data = UniInfo
         .sort((a, b) => {
           return config.universityTypes[a.type].priority - config.universityTypes[b.type].priority;
-        });
+        })
+        .sort((a, b) => config.universityManagers[a.managerType].priority -
+          config.universityManagers[b.managerType].priority);
+    ;
     // .filter((d) => d.c9);
 
     const graph = d3.select(svg)
@@ -144,7 +147,7 @@ export default function UniversityOverview(props: IOverviewProps) {
         .attr('transform', function(d) {
           return isRightHalf(d) ? 'rotate(180)' : 'rotate(0)';
         })
-        .style('font-size', '9px')
+        .style('font-size', '10px')
         .style('font-family', (d) => d.c9 ? 'FZCS, sans-serif' : 'FZQKBYS, sans-serif')
         .attr('fill', (d) => d.c9 ? config.colors.importantText : config.colors.primaryText)
         .attr('alignment-baseline', 'middle');
@@ -182,7 +185,7 @@ export default function UniversityOverview(props: IOverviewProps) {
           .attr('id', (d) => `manager-{d.name}`)
           .attr('d', getUniversityManageSymbol(manager))
           // .attr('fill', (d) => config.universityTypes[d.type].color)
-          .attr('fill', `#b2a409`)
+          .attr('fill', config.colors.managerMarkers)
           .attr('transform', (d) =>
             `rotate(${(x(d.name) + x.bandwidth() / 2) * 180 / Math.PI - 90}) translate(${outerRadius + 5}, 0)`);
     });
