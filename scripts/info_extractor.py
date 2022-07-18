@@ -35,16 +35,20 @@ data_info = pd.read_csv('data/uniinfo-0717.csv')
 data_event = pd.read_csv('data/unidata-0715.csv')
 info_output_file = 'src/data/uni_info.json'
 event_output_file = 'src/data/uni_event.json'
+trend_output_file = 'src/data/uni_trend.json'
 logo_dir = 'public/assets/logo'
 
 info_output = []
 event_output = []
+trend_output = {}
 
+universities = data_event.columns[1:]
 
 class Event:
     EVENT_RENAME = 'rename'
     EVENT_RELOCATION = 'relocation'
     EVENT_RESTRUCTURE = 'restructure'
+    EVENT_ESTABLISH = 'establish'
 
     def __init__(self, event: str, university, year: int) -> None:
         self.event = event
@@ -73,6 +77,11 @@ class Event:
             self.event_type = self.EVENT_RESTRUCTURE
             self.detail = {'target': match.group(2)}
             return True
+        if match := re.match(
+            r'建校：(.+)$', self.event):
+            self.event_type = self.EVENT_ESTABLISH
+            self.detail = {'name': match.group(1)}
+            return True
         return False
 
     def event_json(self) -> dict:
@@ -84,13 +93,13 @@ class Event:
         }
 
 
-def get_events(university: str) -> List:
+def _get_events(university: str) -> List:
     events = list(zip(data_event["DATE"].round(2), data_event[university]))
     events = list(filter(lambda x: not pd.isna(x[1]), events))
     return events
 
 
-def get_university_logo(university_en_name: str) -> str:
+def _get_university_logo(university_en_name: str) -> str:
     logos = os.listdir(logo_dir)
     for logo in logos:
         if logo.startswith(university_en_name):
@@ -98,7 +107,7 @@ def get_university_logo(university_en_name: str) -> str:
     return 'PKU.svg'
 
 
-def get_manager_type(manager: str):
+def _get_manager_type(manager: str):
     """
     教育部：ministry_of_edu
     中央部委直属：central
@@ -141,7 +150,7 @@ def gen_uni_info():
             'manager':
                 uni_info['manager'],
             'managerType':
-                get_manager_type(uni_info['manager']),
+                _get_manager_type(uni_info['manager']),
             'c9':
                 True if uni_info['C9'] == 1 else False,
             '985':
@@ -149,7 +158,7 @@ def gen_uni_info():
             '211':
                 uni_info['level'].find('211') != -1,
             'logo':
-                get_university_logo(uni_info['english_name']),
+                _get_university_logo(uni_info['english_name']),
         }
         # Deal with 湖南大学
         info['establishYear'] = max(info['establishYear'], 1800)
@@ -158,7 +167,7 @@ def gen_uni_info():
         info_output.append(info)
 
     with open(info_output_file, 'w') as f:
-        f.write(json.dumps(info_output, indent=4, ensure_ascii=False))
+        f.write(json.dumps(info_output, indent=2, ensure_ascii=False))
 
 
 def gen_uni_event():
@@ -166,7 +175,7 @@ def gen_uni_event():
     for u in universities:
         print(f'Processing events for {u}...')
         counter = 0
-        events = get_events(u)
+        events = _get_events(u)
         for date, event_str in events:
             if pd.isna(date):
                 continue
@@ -181,12 +190,45 @@ def gen_uni_event():
     print(f'{len(event_output)} events found.')
 
     with open(event_output_file, 'w') as f:
-        f.write(json.dumps(event_output, indent=4, ensure_ascii=False))
+        f.write(json.dumps(event_output, indent=2, ensure_ascii=False))
 
+def get_uni_trend():
+    trend_all = []
+    START_YEAR = 1893
+    END_YEAR = 2023
+    for i in range(START_YEAR, END_YEAR):
+        print(f'Processing trend for all universities, year {i}...')
+        trend_all.append({
+            'year': i,
+            Event.EVENT_RENAME: len(list(filter(lambda x: x['year'] == i and x['event'] == Event.EVENT_RENAME, event_output))),
+            Event.EVENT_RESTRUCTURE: len(list(filter(lambda x: x['year'] == i and x['event'] == Event.EVENT_RESTRUCTURE, event_output))),
+            Event.EVENT_RELOCATION: len(list(filter(lambda x: x['year'] == i and x['event'] == Event.EVENT_RELOCATION, event_output))),
+            Event.EVENT_ESTABLISH: len(list(filter(lambda x: x['year'] == i and x['event'] == Event.EVENT_ESTABLISH, event_output))),
+        })
+
+    trend_output['all'] = trend_all
+    for university in data_info.iloc():
+        trend_uni = []
+        print('Processing trend for', university['university'])
+        for i in range(START_YEAR, END_YEAR):
+            trend_uni_item = {
+                'year': i,
+                Event.EVENT_RENAME: len(list(filter(lambda x: x['year'] == i and x['event'] == Event.EVENT_RENAME and x['university'] == university['university'], event_output))),
+                Event.EVENT_RESTRUCTURE: len(list(filter(lambda x: x['year'] == i and x['event'] == Event.EVENT_RESTRUCTURE and x['university'] == university['university'], event_output))),
+                Event.EVENT_RELOCATION: len(list(filter(lambda x: x['year'] == i and x['event'] == Event.EVENT_RELOCATION and x['university'] == university['university'], event_output))),
+            }
+            if trend_uni_item[Event.EVENT_RENAME] + trend_uni_item[Event.EVENT_RESTRUCTURE] + trend_uni_item[Event.EVENT_RELOCATION] > 0 and \
+                i >= int(str('%.2f' % university['established']).split('.')[0]):
+                trend_uni.append(trend_uni_item)
+            trend_output[university['english_name']] = trend_uni
+
+    with open(trend_output_file, 'w') as f:
+        f.write(json.dumps(trend_output, indent=2, ensure_ascii=False))
 
 def main():
     gen_uni_info()
     gen_uni_event()
+    get_uni_trend()
 
 
 if __name__ == '__main__':

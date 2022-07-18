@@ -3,6 +3,7 @@ import * as React from 'react';
 import UniversityOverview from './UniversityOverview';
 import Headings from './Headings';
 import Legend from './Legend';
+import EventSelector from './EventSelector';
 
 export interface IContentLayoutProps {
 }
@@ -17,6 +18,7 @@ export default function ContentLayout(props: IContentLayoutProps) {
       <UniversityOverview />
       <Legend />
       <Headings />
+      <EventSelector />
     </Box>
   );
 }

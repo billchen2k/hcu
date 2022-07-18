@@ -3,6 +3,8 @@ import {Box, createTheme, CssBaseline, Grid, rgbToHex, ThemeProvider, Typography
 import './styles/main.scss';
 import ContentLayout from './components/ContentLayout';
 import config from './config';
+import {Provider} from 'react-redux';
+import {store} from './store';
 
 const headingFont = {
   fontFamily: 'New York, FZQKBYS, serif, --apple-family',
@@ -13,12 +15,19 @@ const bodyFont = {
 
 const theme = createTheme({
   components: {
+    MuiButtonBase: {
+      defaultProps: {
+        disableRipple: true,
+        disableTouchRipple: true,
+      },
+    },
     MuiButton: {
       styleOverrides: {
       // Name of the slot
         root: {
         // Some CSS
           borderRadius: 0,
+          boxShadow: '0px 0px 2px rgba(0, 0, 0, 0.2)',
         },
       },
     },
@@ -53,12 +62,14 @@ const theme = createTheme({
 function App() {
   return (
     <ThemeProvider theme={theme}>
-      <Box sx={{width: '100vw', height: '100vh', overflow: 'hidden'}}>
-        <CssBaseline />
-        <Box sx={{display: 'flex', flex: 1}}>
-          <ContentLayout />
+      <Provider store={store}>
+        <Box sx={{width: '100vw', height: '100vh', overflow: 'hidden'}}>
+          <CssBaseline />
+          <Box sx={{display: 'flex', flex: 1}}>
+            <ContentLayout />
+          </Box>
         </Box>
-      </Box>
+      </Provider>
     </ThemeProvider>
   );
 }

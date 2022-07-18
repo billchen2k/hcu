@@ -13,3 +13,22 @@
   border: 1px solid #000;
   color: #333;
 }
+
+.grid line {
+  stroke: lightgray;
+  stroke-opacity: 0.7;
+  shape-rendering: crispEdges;
+}
+
+.grid path {
+  stroke-width: 0;
+}
+
+.tooltip {
+  position: absolute;
+  padding: 6px;
+  font: 13px FZQKBYS;
+  border: 0px;
+  border-radius: 3px;
+  pointer-events: none;
+}

@@ -3,37 +3,22 @@ import * as React from 'react';
 import config from '../config';
 import {SortingCriteria, UniversityType} from '../types';
 import legend from '../assets/legend.svg';
+import {useAppDispatch} from '../store/hooks';
+import siteSlice from '../store/slices/siteSlice';
+import HeadingWithSplit from '../elements/HeadingWithSplit';
 
 
 export interface ILegendProps {
 }
 
 export default function Legend(props: ILegendProps) {
+  const dispatch = useAppDispatch();
   const [sorting, setSorting] = React.useState<SortingCriteria>('default');
 
-  const HeadingWithSplit = (props: {
-    title: string
-  }) => (
-    <Stack direction={'row'} alignItems={'center'}>
-      <Typography variant={'body1'}
-        // className={'circle-before'}
-      >{props.title}</Typography>
-      <Box sx={{
-        flex: 1,
-        height: '1px',
-        backgroundColor: config.colors.primaryTint,
-        ml: 2,
-      }} />
-    </Stack>
-  );
 
   const setSortingCriteria = (criteria: SortingCriteria) => {
     setSorting(criteria);
-    window.dispatchEvent(new CustomEvent('sorting-criteria-changed', {
-      detail: {
-        criteria,
-      },
-    }));
+    dispatch(siteSlice.actions.setSortingCriteria(criteria));
   };
 
   return (
@@ -51,7 +36,7 @@ export default function Legend(props: ILegendProps) {
           >
             {['default', 'manager', 'establishDate'].map((criteria) => (
               <Button key={criteria}
-                onClick={() => setSorting(criteria as SortingCriteria)}
+                onClick={() => setSortingCriteria(criteria as SortingCriteria)}
                 variant={sorting === criteria ? 'contained' : 'text'}
               >
                 {{'default': '院校类型', 'manager': '直属部门', 'establishDate': '建校时间'}[criteria]}

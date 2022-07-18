@@ -1,0 +1,5916 @@
+{
+  "all": [
+    {
+      "year": 1893,
+      "rename": 0,
+      "restructure": 0,
+      "relocation": 0,
+      "establish": 1
+    },
+    {
+      "year": 1894,
+      "rename": 0,
+      "restructure": 0,
+      "relocation": 0,
+      "establish": 0
+    },
+    {
+      "year": 1895,
+      "rename": 0,
+      "restructure": 0,
+      "relocation": 0,
+      "establish": 1
+    },
+    {
+      "year": 1896,
+      "rename": 0,
+      "restructure": 0,
+      "relocation": 0,
+      "establish": 3
+    },
+    {
+      "year": 1897,
+      "rename": 0,
+      "restructure": 0,
+      "relocation": 0,
+      "establish": 2
+    },
+    {
+      "year": 1898,
+      "rename": 0,
+      "restructure": 0,
+      "relocation": 0,
+      "establish": 3
+    },
+    {
+      "year": 1899,
+      "rename": 0,
+      "restructure": 0,
+      "relocation": 0,
+      "establish": 0
+    },
+    {
+      "year": 1900,
+      "rename": 0,
+      "restructure": 0,
+      "relocation": 0,
+      "establish": 1
+    },
+    {
+      "year": 1901,
+      "rename": 0,
+      "restructure": 0,
+      "relocation": 0,
+      "establish": 1
+    },
+    {
+      "year": 1902,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0,
+      "establish": 10
+    },
+    {
+      "year": 1903,
+      "rename": 0,
+      "restructure": 0,
+      "relocation": 0,
+      "establish": 2
+    },
+    {
+      "year": 1904,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0,
+      "establish": 0
+    },
+    {
+      "year": 1905,
+      "rename": 8,
+      "restructure": 0,
+      "relocation": 0,
+      "establish": 1
+    },
+    {
+      "year": 1906,
+      "rename": 3,
+      "restructure": 0,
+      "relocation": 0,
+      "establish": 4
+    },
+    {
+      "year": 1907,
+      "rename": 0,
+      "restructure": 0,
+      "relocation": 0,
+      "establish": 2
+    },
+    {
+      "year": 1908,
+      "rename": 3,
+      "restructure": 0,
+      "relocation": 0,
+      "establish": 2
+    },
+    {
+      "year": 1909,
+      "rename": 2,
+      "restructure": 0,
+      "relocation": 0,
+      "establish": 4
+    },
+    {
+      "year": 1910,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0,
+      "establish": 0
+    },
+    {
+      "year": 1911,
+      "rename": 3,
+      "restructure": 0,
+      "relocation": 0,
+      "establish": 1
+    },
+    {
+      "year": 1912,
+      "rename": 12,
+      "restructure": 0,
+      "relocation": 0,
+      "establish": 3
+    },
+    {
+      "year": 1913,
+      "rename": 4,
+      "restructure": 0,
+      "relocation": 0,
+      "establish": 0
+    },
+    {
+      "year": 1914,
+      "rename": 5,
+      "restructure": 1,
+      "relocation": 0,
+      "establish": 0
+    },
+    {
+      "year": 1915,
+      "rename": 3,
+      "restructure": 0,
+      "relocation": 1,
+      "establish": 1
+    },
+    {
+      "year": 1916,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0,
+      "establish": 0
+    },
+    {
+      "year": 1917,
+      "rename": 2,
+      "restructure": 0,
+      "relocation": 0,
+      "establish": 1
+    },
+    {
+      "year": 1918,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0,
+      "establish": 1
+    },
+    {
+      "year": 1919,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0,
+      "establish": 1
+    },
+    {
+      "year": 1920,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 2,
+      "establish": 1
+    },
+    {
+      "year": 1921,
+      "rename": 10,
+      "restructure": 2,
+      "relocation": 0,
+      "establish": 2
+    },
+    {
+      "year": 1922,
+      "rename": 3,
+      "restructure": 0,
+      "relocation": 0,
+      "establish": 2
+    },
+    {
+      "year": 1923,
+      "rename": 5,
+      "restructure": 0,
+      "relocation": 0,
+      "establish": 1
+    },
+    {
+      "year": 1924,
+      "rename": 2,
+      "restructure": 1,
+      "relocation": 0,
+      "establish": 4
+    },
+    {
+      "year": 1925,
+      "rename": 2,
+      "restructure": 0,
+      "relocation": 0,
+      "establish": 1
+    },
+    {
+      "year": 1926,
+      "rename": 2,
+      "restructure": 1,
+      "relocation": 0,
+      "establish": 0
+    },
+    {
+      "year": 1927,
+      "rename": 14,
+      "restructure": 9,
+      "relocation": 0,
+      "establish": 1
+    },
+    {
+      "year": 1928,
+      "rename": 33,
+      "restructure": 3,
+      "relocation": 0,
+      "establish": 3
+    },
+    {
+      "year": 1929,
+      "rename": 9,
+      "restructure": 1,
+      "relocation": 0,
+      "establish": 0
+    },
+    {
+      "year": 1930,
+      "rename": 3,
+      "restructure": 2,
+      "relocation": 0,
+      "establish": 0
+    },
+    {
+      "year": 1931,
+      "rename": 6,
+      "restructure": 1,
+      "relocation": 1,
+      "establish": 1
+    },
+    {
+      "year": 1932,
+      "rename": 4,
+      "restructure": 1,
+      "relocation": 0,
+      "establish": 0
+    },
+    {
+      "year": 1933,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0,
+      "establish": 2
+    },
+    {
+      "year": 1934,
+      "rename": 1,
+      "restructure": 2,
+      "relocation": 0,
+      "establish": 2
+    },
+    {
+      "year": 1935,
+      "rename": 3,
+      "restructure": 0,
+      "relocation": 0,
+      "establish": 1
+    },
+    {
+      "year": 1936,
+      "rename": 2,
+      "restructure": 0,
+      "relocation": 0,
+      "establish": 2
+    },
+    {
+      "year": 1937,
+      "rename": 11,
+      "restructure": 6,
+      "relocation": 19,
+      "establish": 1
+    },
+    {
+      "year": 1938,
+      "rename": 9,
+      "restructure": 10,
+      "relocation": 12,
+      "establish": 4
+    },
+    {
+      "year": 1939,
+      "rename": 3,
+      "restructure": 3,
+      "relocation": 3,
+      "establish": 2
+    },
+    {
+      "year": 1940,
+      "rename": 1,
+      "restructure": 1,
+      "relocation": 3,
+      "establish": 0
+    },
+    {
+      "year": 1941,
+      "rename": 2,
+      "restructure": 1,
+      "relocation": 0,
+      "establish": 1
+    },
+    {
+      "year": 1942,
+      "rename": 6,
+      "restructure": 0,
+      "relocation": 1,
+      "establish": 2
+    },
+    {
+      "year": 1943,
+      "rename": 1,
+      "restructure": 3,
+      "relocation": 0,
+      "establish": 0
+    },
+    {
+      "year": 1944,
+      "rename": 2,
+      "restructure": 1,
+      "relocation": 1,
+      "establish": 1
+    },
+    {
+      "year": 1945,
+      "rename": 2,
+      "restructure": 1,
+      "relocation": 2,
+      "establish": 2
+    },
+    {
+      "year": 1946,
+      "rename": 11,
+      "restructure": 3,
+      "relocation": 18,
+      "establish": 5
+    },
+    {
+      "year": 1947,
+      "rename": 2,
+      "restructure": 1,
+      "relocation": 3,
+      "establish": 0
+    },
+    {
+      "year": 1948,
+      "rename": 4,
+      "restructure": 9,
+      "relocation": 3,
+      "establish": 4
+    },
+    {
+      "year": 1949,
+      "rename": 16,
+      "restructure": 18,
+      "relocation": 5,
+      "establish": 7
+    },
+    {
+      "year": 1950,
+      "rename": 33,
+      "restructure": 12,
+      "relocation": 2,
+      "establish": 2
+    },
+    {
+      "year": 1951,
+      "rename": 9,
+      "restructure": 17,
+      "relocation": 1,
+      "establish": 6
+    },
+    {
+      "year": 1952,
+      "rename": 15,
+      "restructure": 55,
+      "relocation": 1,
+      "establish": 14
+    },
+    {
+      "year": 1953,
+      "rename": 6,
+      "restructure": 21,
+      "relocation": 2,
+      "establish": 6
+    },
+    {
+      "year": 1954,
+      "rename": 6,
+      "restructure": 9,
+      "relocation": 0,
+      "establish": 1
+    },
+    {
+      "year": 1955,
+      "rename": 3,
+      "restructure": 6,
+      "relocation": 0,
+      "establish": 1
+    },
+    {
+      "year": 1956,
+      "rename": 5,
+      "restructure": 8,
+      "relocation": 3,
+      "establish": 5
+    },
+    {
+      "year": 1957,
+      "rename": 1,
+      "restructure": 4,
+      "relocation": 1,
+      "establish": 1
+    },
+    {
+      "year": 1958,
+      "rename": 8,
+      "restructure": 16,
+      "relocation": 2,
+      "establish": 9
+    },
+    {
+      "year": 1959,
+      "rename": 4,
+      "restructure": 6,
+      "relocation": 0,
+      "establish": 3
+    },
+    {
+      "year": 1960,
+      "rename": 5,
+      "restructure": 7,
+      "relocation": 0,
+      "establish": 4
+    },
+    {
+      "year": 1961,
+      "rename": 2,
+      "restructure": 5,
+      "relocation": 0,
+      "establish": 0
+    },
+    {
+      "year": 1962,
+      "rename": 0,
+      "restructure": 8,
+      "relocation": 1,
+      "establish": 0
+    },
+    {
+      "year": 1963,
+      "rename": 1,
+      "restructure": 1,
+      "relocation": 0,
+      "establish": 0
+    },
+    {
+      "year": 1964,
+      "rename": 0,
+      "restructure": 4,
+      "relocation": 1,
+      "establish": 0
+    },
+    {
+      "year": 1965,
+      "rename": 1,
+      "restructure": 1,
+      "relocation": 0,
+      "establish": 0
+    },
+    {
+      "year": 1966,
+      "rename": 3,
+      "restructure": 0,
+      "relocation": 0,
+      "establish": 0
+    },
+    {
+      "year": 1967,
+      "rename": 0,
+      "restructure": 0,
+      "relocation": 0,
+      "establish": 0
+    },
+    {
+      "year": 1968,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0,
+      "establish": 0
+    },
+    {
+      "year": 1969,
+      "rename": 1,
+      "restructure": 3,
+      "relocation": 2,
+      "establish": 0
+    },
+    {
+      "year": 1970,
+      "rename": 8,
+      "restructure": 9,
+      "relocation": 4,
+      "establish": 0
+    },
+    {
+      "year": 1971,
+      "rename": 0,
+      "restructure": 2,
+      "relocation": 0,
+      "establish": 1
+    },
+    {
+      "year": 1972,
+      "rename": 9,
+      "restructure": 5,
+      "relocation": 1,
+      "establish": 0
+    },
+    {
+      "year": 1973,
+      "rename": 2,
+      "restructure": 6,
+      "relocation": 0,
+      "establish": 0
+    },
+    {
+      "year": 1974,
+      "rename": 0,
+      "restructure": 0,
+      "relocation": 1,
+      "establish": 0
+    },
+    {
+      "year": 1975,
+      "rename": 2,
+      "restructure": 0,
+      "relocation": 2,
+      "establish": 0
+    },
+    {
+      "year": 1976,
+      "rename": 2,
+      "restructure": 1,
+      "relocation": 0,
+      "establish": 0
+    },
+    {
+      "year": 1977,
+      "rename": 0,
+      "restructure": 0,
+      "relocation": 0,
+      "establish": 1
+    },
+    {
+      "year": 1978,
+      "rename": 6,
+      "restructure": 3,
+      "relocation": 0,
+      "establish": 3
+    },
+    {
+      "year": 1979,
+      "rename": 7,
+      "restructure": 3,
+      "relocation": 1,
+      "establish": 0
+    },
+    {
+      "year": 1980,
+      "rename": 3,
+      "restructure": 2,
+      "relocation": 0,
+      "establish": 0
+    },
+    {
+      "year": 1981,
+      "rename": 0,
+      "restructure": 0,
+      "relocation": 0,
+      "establish": 0
+    },
+    {
+      "year": 1982,
+      "rename": 1,
+      "restructure": 1,
+      "relocation": 1,
+      "establish": 0
+    },
+    {
+      "year": 1983,
+      "rename": 1,
+      "restructure": 2,
+      "relocation": 0,
+      "establish": 0
+    },
+    {
+      "year": 1984,
+      "rename": 5,
+      "restructure": 0,
+      "relocation": 0,
+      "establish": 0
+    },
+    {
+      "year": 1985,
+      "rename": 16,
+      "restructure": 2,
+      "relocation": 0,
+      "establish": 1
+    },
+    {
+      "year": 1986,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0,
+      "establish": 1
+    },
+    {
+      "year": 1987,
+      "rename": 2,
+      "restructure": 0,
+      "relocation": 0,
+      "establish": 0
+    },
+    {
+      "year": 1988,
+      "rename": 13,
+      "restructure": 0,
+      "relocation": 0,
+      "establish": 0
+    },
+    {
+      "year": 1989,
+      "rename": 0,
+      "restructure": 0,
+      "relocation": 1,
+      "establish": 0
+    },
+    {
+      "year": 1990,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0,
+      "establish": 0
+    },
+    {
+      "year": 1991,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0,
+      "establish": 0
+    },
+    {
+      "year": 1992,
+      "rename": 1,
+      "restructure": 2,
+      "relocation": 0,
+      "establish": 0
+    },
+    {
+      "year": 1993,
+      "rename": 12,
+      "restructure": 2,
+      "relocation": 0,
+      "establish": 0
+    },
+    {
+      "year": 1994,
+      "rename": 4,
+      "restructure": 7,
+      "relocation": 0,
+      "establish": 0
+    },
+    {
+      "year": 1995,
+      "rename": 5,
+      "restructure": 3,
+      "relocation": 0,
+      "establish": 0
+    },
+    {
+      "year": 1996,
+      "rename": 0,
+      "restructure": 4,
+      "relocation": 0,
+      "establish": 0
+    },
+    {
+      "year": 1997,
+      "rename": 2,
+      "restructure": 5,
+      "relocation": 0,
+      "establish": 0
+    },
+    {
+      "year": 1998,
+      "rename": 1,
+      "restructure": 3,
+      "relocation": 0,
+      "establish": 0
+    },
+    {
+      "year": 1999,
+      "rename": 1,
+      "restructure": 8,
+      "relocation": 0,
+      "establish": 0
+    },
+    {
+      "year": 2000,
+      "rename": 1,
+      "restructure": 28,
+      "relocation": 0,
+      "establish": 0
+    },
+    {
+      "year": 2001,
+      "rename": 1,
+      "restructure": 6,
+      "relocation": 0,
+      "establish": 0
+    },
+    {
+      "year": 2002,
+      "rename": 1,
+      "restructure": 3,
+      "relocation": 0,
+      "establish": 0
+    },
+    {
+      "year": 2003,
+      "rename": 1,
+      "restructure": 2,
+      "relocation": 0,
+      "establish": 0
+    },
+    {
+      "year": 2004,
+      "rename": 2,
+      "restructure": 3,
+      "relocation": 0,
+      "establish": 0
+    },
+    {
+      "year": 2005,
+      "rename": 4,
+      "restructure": 5,
+      "relocation": 0,
+      "establish": 0
+    },
+    {
+      "year": 2006,
+      "rename": 3,
+      "restructure": 0,
+      "relocation": 0,
+      "establish": 0
+    },
+    {
+      "year": 2007,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0,
+      "establish": 0
+    },
+    {
+      "year": 2008,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0,
+      "establish": 0
+    },
+    {
+      "year": 2009,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0,
+      "establish": 0
+    },
+    {
+      "year": 2010,
+      "rename": 0,
+      "restructure": 0,
+      "relocation": 0,
+      "establish": 1
+    },
+    {
+      "year": 2011,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0,
+      "establish": 0
+    },
+    {
+      "year": 2012,
+      "rename": 1,
+      "restructure": 1,
+      "relocation": 0,
+      "establish": 0
+    },
+    {
+      "year": 2013,
+      "rename": 1,
+      "restructure": 1,
+      "relocation": 0,
+      "establish": 0
+    },
+    {
+      "year": 2014,
+      "rename": 0,
+      "restructure": 0,
+      "relocation": 0,
+      "establish": 0
+    },
+    {
+      "year": 2015,
+      "rename": 0,
+      "restructure": 0,
+      "relocation": 0,
+      "establish": 0
+    },
+    {
+      "year": 2016,
+      "rename": 0,
+      "restructure": 0,
+      "relocation": 0,
+      "establish": 0
+    },
+    {
+      "year": 2017,
+      "rename": 1,
+      "restructure": 2,
+      "relocation": 0,
+      "establish": 0
+    },
+    {
+      "year": 2018,
+      "rename": 0,
+      "restructure": 0,
+      "relocation": 0,
+      "establish": 0
+    },
+    {
+      "year": 2019,
+      "rename": 0,
+      "restructure": 0,
+      "relocation": 0,
+      "establish": 0
+    },
+    {
+      "year": 2020,
+      "rename": 0,
+      "restructure": 0,
+      "relocation": 0,
+      "establish": 0
+    },
+    {
+      "year": 2021,
+      "rename": 0,
+      "restructure": 0,
+      "relocation": 0,
+      "establish": 0
+    },
+    {
+      "year": 2022,
+      "rename": 0,
+      "restructure": 0,
+      "relocation": 0,
+      "establish": 0
+    }
+  ],
+  "PKU": [
+    {
+      "year": 1912,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1927,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1928,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1929,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1938,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 1
+    },
+    {
+      "year": 1946,
+      "rename": 0,
+      "restructure": 0,
+      "relocation": 1
+    },
+    {
+      "year": 1952,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 2000,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    }
+  ],
+  "RUC": [
+    {
+      "year": 1939,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1948,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1949,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 1
+    },
+    {
+      "year": 1954,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1955,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    }
+  ],
+  "THU": [
+    {
+      "year": 1912,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1928,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1937,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1938,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1949,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1951,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1952,
+      "rename": 0,
+      "restructure": 9,
+      "relocation": 0
+    },
+    {
+      "year": 1953,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1999,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 2006,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 2012,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    }
+  ],
+  "BJTU": [
+    {
+      "year": 1910,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1912,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1921,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1923,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1928,
+      "rename": 1,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1929,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1938,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1942,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1949,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1950,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1952,
+      "rename": 0,
+      "restructure": 3,
+      "relocation": 0
+    },
+    {
+      "year": 1953,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1958,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1970,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 2000,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 2003,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    }
+  ],
+  "BJUT": [
+    {
+      "year": 1972,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1990,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1993,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 2000,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 2005,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    }
+  ],
+  "BUAA": [
+    {
+      "year": 1988,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    }
+  ],
+  "BIT": [
+    {
+      "year": 1943,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1946,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1947,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1948,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1950,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1951,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1952,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1961,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1988,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    }
+  ],
+  "USTB": [
+    {
+      "year": 1960,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1988,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    }
+  ],
+  "BUPT": [
+    {
+      "year": 1959,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1960,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1993,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    }
+  ],
+  "CAU": [
+    {
+      "year": 1912,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1927,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1937,
+      "rename": 0,
+      "restructure": 2,
+      "relocation": 0
+    },
+    {
+      "year": 1939,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1943,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1946,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1947,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1948,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1949,
+      "rename": 0,
+      "restructure": 2,
+      "relocation": 0
+    },
+    {
+      "year": 1953,
+      "rename": 1,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1959,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1970,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1979,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1985,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1995,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    }
+  ],
+  "BFU": [
+    {
+      "year": 1952,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1956,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1970,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1979,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1985,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    }
+  ],
+  "PUMC": [
+    {
+      "year": 1929,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1951,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1957,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1959,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1985,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 2006,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    }
+  ],
+  "BUCM": [
+    {
+      "year": 1987,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1993,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1997,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 2000,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    }
+  ],
+  "BNU": [
+    {
+      "year": 1908,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1927,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1928,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1931,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1937,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1938,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1939,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1949,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1952,
+      "rename": 0,
+      "restructure": 2,
+      "relocation": 0
+    }
+  ],
+  "CNUEF": [
+    {
+      "year": 1956,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1961,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1962,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1964,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1979,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1980,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1985,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1992,
+      "rename": 1,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1993,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1999,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 2011,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    }
+  ],
+  "BFSU": [
+    {
+      "year": 1944,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1946,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1948,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1949,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1954,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1955,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1956,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1959,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1994,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    }
+  ],
+  "CUC": [],
+  "UIBE": [
+    {
+      "year": 1953,
+      "rename": 1,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1954,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1983,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1984,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    }
+  ],
+  "CFAU": [
+    {
+      "year": 1958,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1961,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    }
+  ],
+  "PPSUC": [
+    {
+      "year": 1949,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1950,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1959,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1979,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1984,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1998,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 2000,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 2005,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    }
+  ],
+  "BSU": [
+    {
+      "year": 1993,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    }
+  ],
+  "CCOM": [
+    {
+      "year": 1949,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1952,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    }
+  ],
+  "CCMUSIC": [
+    {
+      "year": 1964,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1973,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1978,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    }
+  ],
+  "CAFA": [
+    {
+      "year": 1923,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1925,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1927,
+      "rename": 1,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1928,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1938,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1948,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1949,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1950,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1964,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1973,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    }
+  ],
+  "CHNTHEATRE": [
+    {
+      "year": 1940,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1943,
+      "rename": 1,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1948,
+      "rename": 0,
+      "restructure": 2,
+      "relocation": 0
+    },
+    {
+      "year": 1949,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1950,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1973,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    }
+  ],
+  "CUN": [
+    {
+      "year": 1952,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1993,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    }
+  ],
+  "CUPL": [
+    {
+      "year": 1983,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    }
+  ],
+  "NKU": [
+    {
+      "year": 1952,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1994,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    }
+  ],
+  "TJU": [
+    {
+      "year": 1912,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1913,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1937,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1938,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1946,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1951,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1952,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    }
+  ],
+  "TJPU": [
+    {
+      "year": 1929,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1938,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1946,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1951,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1958,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1968,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 2000,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 2004,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    }
+  ],
+  "TMU": [
+    {
+      "year": 1994,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    }
+  ],
+  "TJUTCM": [
+    {
+      "year": 2006,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    }
+  ],
+  "NCEPU": [
+    {
+      "year": 1995,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    }
+  ],
+  "HEBUT": [
+    {
+      "year": 1904,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1912,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1913,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1928,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1929,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1946,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1950,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1951,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1995,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    }
+  ],
+  "SXU": [
+    {
+      "year": 1912,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1914,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1918,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1931,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1934,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1940,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1949,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1952,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1953,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    }
+  ],
+  "TYUT": [
+    {
+      "year": 1931,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1953,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1997,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 2000,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    }
+  ],
+  "IMU": [],
+  "LNU": [
+    {
+      "year": 1953,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1958,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    }
+  ],
+  "DUT": [
+    {
+      "year": 1950,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1988,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    }
+  ],
+  "NEU": [
+    {
+      "year": 1931,
+      "rename": 0,
+      "restructure": 0,
+      "relocation": 1
+    },
+    {
+      "year": 1933,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1937,
+      "rename": 0,
+      "restructure": 0,
+      "relocation": 2
+    },
+    {
+      "year": 1938,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 1
+    },
+    {
+      "year": 1946,
+      "rename": 0,
+      "restructure": 0,
+      "relocation": 1
+    },
+    {
+      "year": 1949,
+      "rename": 1,
+      "restructure": 2,
+      "relocation": 0
+    },
+    {
+      "year": 1993,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    }
+  ],
+  "DMU": [
+    {
+      "year": 1912,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1953,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1994,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 2000,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    }
+  ],
+  "JLU": [
+    {
+      "year": 1948,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 1
+    },
+    {
+      "year": 1950,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 1
+    },
+    {
+      "year": 1958,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    }
+  ],
+  "YBU": [
+    {
+      "year": 1949,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1958,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1959,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1996,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    }
+  ],
+  "NENU": [
+    {
+      "year": 1946,
+      "rename": 0,
+      "restructure": 0,
+      "relocation": 1
+    },
+    {
+      "year": 1949,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 1
+    },
+    {
+      "year": 1950,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1958,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1980,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    }
+  ],
+  "HIT": [
+    {
+      "year": 1922,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1928,
+      "rename": 1,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1936,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1938,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1970,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1973,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 2000,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    }
+  ],
+  "HEU": [
+    {
+      "year": 1960,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1966,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1970,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1994,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    }
+  ],
+  "NEAU": [
+    {
+      "year": 1948,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1949,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1950,
+      "rename": 1,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1953,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1994,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    }
+  ],
+  "NEFU": [
+    {
+      "year": 1964,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1985,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    }
+  ],
+  "FDU": [
+    {
+      "year": 1917,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1937,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 1
+    },
+    {
+      "year": 1941,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1946,
+      "rename": 0,
+      "restructure": 0,
+      "relocation": 1
+    },
+    {
+      "year": 1950,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1951,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1952,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 2000,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    }
+  ],
+  "TONGJI": [
+    {
+      "year": 1908,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1912,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1917,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1924,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1927,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1937,
+      "rename": 0,
+      "restructure": 0,
+      "relocation": 2
+    },
+    {
+      "year": 1938,
+      "rename": 0,
+      "restructure": 0,
+      "relocation": 2
+    },
+    {
+      "year": 1940,
+      "rename": 0,
+      "restructure": 0,
+      "relocation": 1
+    },
+    {
+      "year": 1946,
+      "rename": 0,
+      "restructure": 0,
+      "relocation": 1
+    },
+    {
+      "year": 1949,
+      "rename": 1,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1951,
+      "rename": 0,
+      "restructure": 3,
+      "relocation": 0
+    },
+    {
+      "year": 1952,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1996,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 2000,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 2003,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    }
+  ],
+  "SJTU": [
+    {
+      "year": 1905,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1906,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1911,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1912,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1921,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1922,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1927,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1928,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1942,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 1
+    },
+    {
+      "year": 1946,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 1
+    },
+    {
+      "year": 1957,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1959,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1999,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 2005,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    }
+  ],
+  "ECUST": [
+    {
+      "year": 1953,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1954,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1972,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1973,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1980,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1993,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 2007,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    }
+  ],
+  "DHU": [
+    {
+      "year": 1951,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1952,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1953,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1972,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1980,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1985,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1994,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1999,
+      "rename": 1,
+      "restructure": 1,
+      "relocation": 0
+    }
+  ],
+  "SHOU": [
+    {
+      "year": 1927,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1928,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1929,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1937,
+      "rename": 0,
+      "restructure": 0,
+      "relocation": 1
+    },
+    {
+      "year": 1947,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 1
+    },
+    {
+      "year": 1952,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1972,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 1
+    },
+    {
+      "year": 1979,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 1
+    },
+    {
+      "year": 1985,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 2008,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    }
+  ],
+  "SHUTCM": [
+    {
+      "year": 1985,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1993,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    }
+  ],
+  "ECNU": [
+    {
+      "year": 1951,
+      "rename": 0,
+      "restructure": 2,
+      "relocation": 0
+    },
+    {
+      "year": 1972,
+      "rename": 1,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1978,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1997,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1998,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    }
+  ],
+  "SISU": [
+    {
+      "year": 1952,
+      "rename": 2,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1956,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1958,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1978,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1994,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    }
+  ],
+  "SUFE": [
+    {
+      "year": 1921,
+      "rename": 1,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1927,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1928,
+      "rename": 2,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1932,
+      "rename": 1,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1950,
+      "rename": 1,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1951,
+      "rename": 0,
+      "restructure": 2,
+      "relocation": 0
+    },
+    {
+      "year": 1952,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1953,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1958,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1960,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1985,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    }
+  ],
+  "SUS": [
+    {
+      "year": 2002,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    }
+  ],
+  "SHCM": [
+    {
+      "year": 1929,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1937,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1942,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1945,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1946,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1950,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1952,
+      "rename": 1,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1956,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    }
+  ],
+  "SHU": [
+    {
+      "year": 1994,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    }
+  ],
+  "NJU": [
+    {
+      "year": 1905,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1914,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1921,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1927,
+      "rename": 1,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1928,
+      "rename": 2,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1937,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 1
+    },
+    {
+      "year": 1946,
+      "rename": 0,
+      "restructure": 0,
+      "relocation": 1
+    },
+    {
+      "year": 1949,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1950,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1952,
+      "rename": 0,
+      "restructure": 4,
+      "relocation": 0
+    }
+  ],
+  "SUDA": [
+    {
+      "year": 1951,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1952,
+      "rename": 1,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1982,
+      "rename": 1,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1995,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1997,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 2000,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    }
+  ],
+  "SEU": [
+    {
+      "year": 1905,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1914,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1921,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1927,
+      "rename": 1,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1928,
+      "rename": 2,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1937,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 1
+    },
+    {
+      "year": 1946,
+      "rename": 0,
+      "restructure": 0,
+      "relocation": 1
+    },
+    {
+      "year": 1949,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1950,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1952,
+      "rename": 1,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1953,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1958,
+      "rename": 0,
+      "restructure": 2,
+      "relocation": 0
+    },
+    {
+      "year": 1960,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1988,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    }
+  ],
+  "NUAA": [
+    {
+      "year": 1956,
+      "rename": 1,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1958,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1970,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1993,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    }
+  ],
+  "NJUST": [
+    {
+      "year": 1960,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1962,
+      "rename": 0,
+      "restructure": 0,
+      "relocation": 1
+    },
+    {
+      "year": 1965,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1966,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1971,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1978,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1984,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1993,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    }
+  ],
+  "CUMT": [
+    {
+      "year": 1915,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 1
+    },
+    {
+      "year": 1919,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1920,
+      "rename": 0,
+      "restructure": 0,
+      "relocation": 1
+    },
+    {
+      "year": 1921,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1931,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1937,
+      "rename": 0,
+      "restructure": 0,
+      "relocation": 1
+    },
+    {
+      "year": 1938,
+      "rename": 1,
+      "restructure": 1,
+      "relocation": 2
+    },
+    {
+      "year": 1945,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 1
+    },
+    {
+      "year": 1946,
+      "rename": 0,
+      "restructure": 0,
+      "relocation": 1
+    },
+    {
+      "year": 1947,
+      "rename": 0,
+      "restructure": 0,
+      "relocation": 1
+    },
+    {
+      "year": 1948,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 1
+    },
+    {
+      "year": 1949,
+      "rename": 0,
+      "restructure": 0,
+      "relocation": 1
+    },
+    {
+      "year": 1950,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1951,
+      "rename": 0,
+      "restructure": 0,
+      "relocation": 1
+    },
+    {
+      "year": 1953,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 1
+    },
+    {
+      "year": 1970,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 1
+    },
+    {
+      "year": 1978,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1982,
+      "rename": 0,
+      "restructure": 0,
+      "relocation": 1
+    },
+    {
+      "year": 1988,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    }
+  ],
+  "NJUPT": [
+    {
+      "year": 1945,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1948,
+      "rename": 2,
+      "restructure": 0,
+      "relocation": 1
+    },
+    {
+      "year": 1949,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 1
+    },
+    {
+      "year": 1950,
+      "rename": 1,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1951,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1954,
+      "rename": 2,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1955,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1958,
+      "rename": 1,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1972,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1973,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 2001,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 2005,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 2013,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    }
+  ],
+  "HHU": [
+    {
+      "year": 1924,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1927,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1928,
+      "rename": 2,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1937,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1952,
+      "rename": 1,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1953,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1985,
+      "rename": 1,
+      "restructure": 1,
+      "relocation": 0
+    }
+  ],
+  "JNU": [
+    {
+      "year": 1927,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    }
+  ],
+  "NJFU": [
+    {
+      "year": 1905,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1914,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1921,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1927,
+      "rename": 1,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1928,
+      "rename": 2,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1937,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 1
+    },
+    {
+      "year": 1946,
+      "rename": 0,
+      "restructure": 0,
+      "relocation": 1
+    },
+    {
+      "year": 1949,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1950,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1952,
+      "rename": 1,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1955,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1972,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1983,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1985,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    }
+  ],
+  "NUIST": [
+    {
+      "year": 1963,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1999,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 2004,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    }
+  ],
+  "NJAU": [
+    {
+      "year": 1905,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1914,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1921,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1927,
+      "rename": 1,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1928,
+      "rename": 2,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1937,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 1
+    },
+    {
+      "year": 1946,
+      "rename": 0,
+      "restructure": 0,
+      "relocation": 1
+    },
+    {
+      "year": 1949,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1950,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1952,
+      "rename": 1,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1958,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1979,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1984,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    }
+  ],
+  "NMU": [
+    {
+      "year": 1937,
+      "rename": 0,
+      "restructure": 0,
+      "relocation": 1
+    },
+    {
+      "year": 1938,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 1
+    },
+    {
+      "year": 1939,
+      "rename": 0,
+      "restructure": 0,
+      "relocation": 1
+    },
+    {
+      "year": 1946,
+      "rename": 0,
+      "restructure": 0,
+      "relocation": 1
+    },
+    {
+      "year": 1955,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1957,
+      "rename": 0,
+      "restructure": 0,
+      "relocation": 1
+    },
+    {
+      "year": 1970,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1993,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    }
+  ],
+  "NUCM": [
+    {
+      "year": 1970,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1995,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    }
+  ],
+  "CPU": [
+    {
+      "year": 1946,
+      "rename": 0,
+      "restructure": 0,
+      "relocation": 1
+    },
+    {
+      "year": 1950,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1952,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1953,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1956,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1986,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 2001,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    }
+  ],
+  "NNU": [
+    {
+      "year": 1927,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1928,
+      "rename": 2,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1937,
+      "rename": 0,
+      "restructure": 0,
+      "relocation": 1
+    },
+    {
+      "year": 1949,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1950,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1984,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    }
+  ],
+  "ZJU": [
+    {
+      "year": 1928,
+      "rename": 2,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1940,
+      "rename": 0,
+      "restructure": 0,
+      "relocation": 1
+    },
+    {
+      "year": 1949,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1950,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1952,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    }
+  ],
+  "CAA": [
+    {
+      "year": 1929,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1937,
+      "rename": 0,
+      "restructure": 0,
+      "relocation": 1
+    },
+    {
+      "year": 1938,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1940,
+      "rename": 0,
+      "restructure": 0,
+      "relocation": 1
+    },
+    {
+      "year": 1946,
+      "rename": 0,
+      "restructure": 0,
+      "relocation": 1
+    },
+    {
+      "year": 1950,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1952,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1958,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1993,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    }
+  ],
+  "AHU": [
+    {
+      "year": 1929,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1946,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1949,
+      "rename": 0,
+      "restructure": 0,
+      "relocation": 1
+    },
+    {
+      "year": 1950,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1952,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1954,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1969,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1980,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 2000,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    }
+  ],
+  "USTC": [
+    {
+      "year": 1959,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    }
+  ],
+  "HFUT": [
+    {
+      "year": 1946,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1947,
+      "rename": 0,
+      "restructure": 0,
+      "relocation": 1
+    },
+    {
+      "year": 1950,
+      "rename": 2,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1951,
+      "rename": 2,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1960,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1962,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1969,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1970,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    }
+  ],
+  "XMU": [
+    {
+      "year": 1937,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1938,
+      "rename": 0,
+      "restructure": 0,
+      "relocation": 1
+    },
+    {
+      "year": 1951,
+      "rename": 0,
+      "restructure": 2,
+      "relocation": 0
+    },
+    {
+      "year": 1952,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1953,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1954,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1972,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    }
+  ],
+  "FZU": [
+    {
+      "year": 1970,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1973,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    }
+  ],
+  "FNU": [
+    {
+      "year": 1972,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 2003,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    }
+  ],
+  "NCU": [
+    {
+      "year": 1931,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1952,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1958,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1969,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1972,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 2005,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    }
+  ],
+  "SDU": [
+    {
+      "year": 1911,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1930,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1932,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1937,
+      "rename": 0,
+      "restructure": 0,
+      "relocation": 1
+    },
+    {
+      "year": 1951,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1952,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1956,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1957,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 2000,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    }
+  ],
+  "OUC": [
+    {
+      "year": 1930,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1932,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1937,
+      "rename": 0,
+      "restructure": 0,
+      "relocation": 1
+    },
+    {
+      "year": 1951,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1952,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1956,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1957,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1988,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 2002,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    }
+  ],
+  "UPC": [
+    {
+      "year": 1988,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    }
+  ],
+  "ZZU": [
+    {
+      "year": 1961,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1962,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1963,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1991,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1992,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 2000,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    }
+  ],
+  "HENU": [
+    {
+      "year": 1923,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1927,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1930,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1934,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1938,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1942,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1952,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1953,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1962,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1979,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 2000,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    }
+  ],
+  "WHU": [
+    {
+      "year": 1902,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1923,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1925,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1926,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1944,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1946,
+      "rename": 0,
+      "restructure": 0,
+      "relocation": 1
+    },
+    {
+      "year": 1949,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1950,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1952,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1953,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1954,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    }
+  ],
+  "HUST": [
+    {
+      "year": 1988,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 2000,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    }
+  ],
+  "CUG": [
+    {
+      "year": 1970,
+      "rename": 0,
+      "restructure": 0,
+      "relocation": 1
+    },
+    {
+      "year": 1974,
+      "rename": 0,
+      "restructure": 0,
+      "relocation": 1
+    },
+    {
+      "year": 1987,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    }
+  ],
+  "WUT": [
+    {
+      "year": 1950,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1952,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1954,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1971,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1978,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1985,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 2000,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    }
+  ],
+  "HZAU": [
+    {
+      "year": 1938,
+      "rename": 0,
+      "restructure": 0,
+      "relocation": 1
+    },
+    {
+      "year": 1945,
+      "rename": 0,
+      "restructure": 0,
+      "relocation": 1
+    },
+    {
+      "year": 1950,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1952,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1955,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1985,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    }
+  ],
+  "CCNU": [
+    {
+      "year": 1924,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1929,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1939,
+      "rename": 0,
+      "restructure": 0,
+      "relocation": 1
+    },
+    {
+      "year": 1946,
+      "rename": 0,
+      "restructure": 0,
+      "relocation": 1
+    },
+    {
+      "year": 1951,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1952,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1953,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1970,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1985,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    }
+  ],
+  "ZUEL": [
+    {
+      "year": 1952,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1958,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1978,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 2000,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    }
+  ],
+  "XYU": [],
+  "HNU": [],
+  "CSU": [],
+  "Hunan Normal University": [
+    {
+      "year": 1949,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    }
+  ],
+  "SYSU": [
+    {
+      "year": 1926,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    }
+  ],
+  "SCUT": [
+    {
+      "year": 1988,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    }
+  ],
+  "SCAU": [],
+  "GMU": [
+    {
+      "year": 1970,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1973,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 2013,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    }
+  ],
+  "GUCM": [
+    {
+      "year": 1995,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    }
+  ],
+  "SCNU": [
+    {
+      "year": 1935,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    }
+  ],
+  "GXU": [
+    {
+      "year": 1939,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1950,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    }
+  ],
+  "SCU": [
+    {
+      "year": 1994,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1998,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 2000,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    }
+  ],
+  "CQU": [
+    {
+      "year": 1953,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1954,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1955,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 2000,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    }
+  ],
+  "SWJTU": [
+    {
+      "year": 1906,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1908,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1913,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1921,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1928,
+      "rename": 3,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1937,
+      "rename": 0,
+      "restructure": 0,
+      "relocation": 1
+    },
+    {
+      "year": 1938,
+      "rename": 0,
+      "restructure": 0,
+      "relocation": 1
+    },
+    {
+      "year": 1939,
+      "rename": 0,
+      "restructure": 0,
+      "relocation": 1
+    },
+    {
+      "year": 1941,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1944,
+      "rename": 0,
+      "restructure": 0,
+      "relocation": 1
+    },
+    {
+      "year": 1946,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1949,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1950,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1952,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1964,
+      "rename": 0,
+      "restructure": 0,
+      "relocation": 1
+    },
+    {
+      "year": 1972,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1989,
+      "rename": 0,
+      "restructure": 0,
+      "relocation": 1
+    }
+  ],
+  "UESTC": [
+    {
+      "year": 1956,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    }
+  ],
+  "SWPU": [
+    {
+      "year": 2005,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    }
+  ],
+  "CDUT": [
+    {
+      "year": 1993,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    }
+  ],
+  "SICAU": [
+    {
+      "year": 1956,
+      "rename": 0,
+      "restructure": 0,
+      "relocation": 1
+    },
+    {
+      "year": 1985,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    }
+  ],
+  "CDUTCM": [
+    {
+      "year": 1995,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    }
+  ],
+  "SWU": [
+    {
+      "year": 1936,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1950,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 2000,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 2005,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    }
+  ],
+  "SWUFE": [
+    {
+      "year": 1938,
+      "rename": 0,
+      "restructure": 0,
+      "relocation": 1
+    },
+    {
+      "year": 1946,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1952,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1961,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1978,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1985,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    }
+  ],
+  "GZU": [
+    {
+      "year": 1905,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1906,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1909,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1916,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1928,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1950,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    }
+  ],
+  "YNU": [
+    {
+      "year": 1930,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1934,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1938,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1950,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    }
+  ],
+  "TU": [
+    {
+      "year": 1999,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 2001,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    }
+  ],
+  "NWU": [
+    {
+      "year": 1912,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1923,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1937,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1939,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1949,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1950,
+      "rename": 0,
+      "restructure": 2,
+      "relocation": 0
+    },
+    {
+      "year": 1952,
+      "rename": 0,
+      "restructure": 2,
+      "relocation": 0
+    },
+    {
+      "year": 1953,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1958,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1960,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1972,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    }
+  ],
+  "XJTU": [
+    {
+      "year": 1905,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1911,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1912,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1920,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1921,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1922,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1928,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1937,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1956,
+      "rename": 0,
+      "restructure": 0,
+      "relocation": 1
+    },
+    {
+      "year": 1959,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 2000,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    }
+  ],
+  "NPU": [
+    {
+      "year": 1946,
+      "rename": 0,
+      "restructure": 0,
+      "relocation": 1
+    },
+    {
+      "year": 1950,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1956,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 1
+    },
+    {
+      "year": 1957,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1970,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    }
+  ],
+  "XDU": [
+    {
+      "year": 1932,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1935,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1937,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1942,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1952,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1955,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1958,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 1
+    },
+    {
+      "year": 1960,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1966,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1988,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    }
+  ],
+  "CHD": [
+    {
+      "year": 1952,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 1
+    },
+    {
+      "year": 1955,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1958,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 2000,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    }
+  ],
+  "NWAFU": [
+    {
+      "year": 1938,
+      "rename": 1,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1985,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1999,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    }
+  ],
+  "SNNW": [
+    {
+      "year": 1954,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1960,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    }
+  ],
+  "LZU": [
+    {
+      "year": 1909,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1913,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1928,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1931,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1944,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1946,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1949,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1953,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1954,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1958,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1961,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1965,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 2002,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 2004,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    }
+  ],
+  "QHU": [
+    {
+      "year": 1960,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1988,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1997,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 2001,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 2004,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    }
+  ],
+  "NHU": [
+    {
+      "year": 1962,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1972,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1978,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1997,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 2001,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    }
+  ],
+  "XJU": [
+    {
+      "year": 1928,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1930,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1935,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1941,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1950,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1953,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1954,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1960,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1962,
+      "rename": 0,
+      "restructure": 2,
+      "relocation": 0
+    },
+    {
+      "year": 1979,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 2000,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    }
+  ],
+  "SHZU": [
+    {
+      "year": 1959,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1970,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1975,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1976,
+      "rename": 2,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1979,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1996,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    }
+  ],
+  "CUMTB": [
+    {
+      "year": 1915,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1920,
+      "rename": 0,
+      "restructure": 0,
+      "relocation": 1
+    },
+    {
+      "year": 1931,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1938,
+      "rename": 0,
+      "restructure": 2,
+      "relocation": 0
+    },
+    {
+      "year": 1950,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 1
+    },
+    {
+      "year": 1952,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 1953,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 1
+    },
+    {
+      "year": 1970,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 1
+    },
+    {
+      "year": 1997,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1998,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 2009,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    }
+  ],
+  "CUP": [
+    {
+      "year": 1969,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 1
+    },
+    {
+      "year": 1988,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    }
+  ],
+  "CUGB": [
+    {
+      "year": 1975,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 1
+    },
+    {
+      "year": 2005,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    }
+  ],
+  "NBU": [
+    {
+      "year": 1996,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 2000,
+      "rename": 0,
+      "restructure": 2,
+      "relocation": 0
+    }
+  ],
+  "SUSTech": [],
+  "STech": [],
+  "UCAS": [
+    {
+      "year": 2000,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 2005,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 2012,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    }
+  ],
+  "NUDT": [
+    {
+      "year": 1970,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 1
+    },
+    {
+      "year": 2017,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    }
+  ],
+  "SMMU": [
+    {
+      "year": 1950,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1951,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1969,
+      "rename": 0,
+      "restructure": 0,
+      "relocation": 1
+    },
+    {
+      "year": 1975,
+      "rename": 0,
+      "restructure": 0,
+      "relocation": 1
+    },
+    {
+      "year": 1999,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 2017,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    }
+  ],
+  "FMMU": [
+    {
+      "year": 1942,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1946,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1948,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1949,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1951,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1952,
+      "rename": 1,
+      "restructure": 0,
+      "relocation": 0
+    },
+    {
+      "year": 1954,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    },
+    {
+      "year": 2017,
+      "rename": 0,
+      "restructure": 1,
+      "relocation": 0
+    }
+  ]
+}

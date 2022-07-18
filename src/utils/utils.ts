@@ -11,3 +11,19 @@ export const getUniversityManageSymbol = (manager: UniversityManagerType) => {
       return d3.symbol().type(d3.symbolX).size(10);
   }
 };
+
+// Function to compute density
+export const kernelDensityEstimator = (kernel: (arg0: number) => number | null | undefined, X: any[]) => {
+  return function(V: Iterable<number>) {
+    return X.map(function(x) {
+      return [x, d3.mean(V, function(v: number) {
+        return kernel(x - v);
+      })];
+    });
+  };
+};
+export const kernelEpanechnikov = (k: number) => {
+  return function(v: number) {
+    return Math.abs(v /= k) <= 1 ? 0.75 * (1 - v * v) / k : 0;
+  };
+};
