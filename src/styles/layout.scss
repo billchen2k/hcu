@@ -1,5 +1,14 @@
 
 .container-overview-svg {
+    position: absolute;
     width: 100%;
     height: 100%;
+}
+
+.container-detail-svg {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    right: 0;
+
 }

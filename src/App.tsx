@@ -5,6 +5,7 @@ import ContentLayout from './components/ContentLayout';
 import config from './config';
 import {Provider} from 'react-redux';
 import {store} from './store';
+import {BrowserRouter} from 'react-router-dom';
 
 const headingFont = {
   fontFamily: 'New York, FZQKBYS, serif, --apple-family',

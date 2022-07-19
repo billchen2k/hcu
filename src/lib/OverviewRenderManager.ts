@@ -10,11 +10,12 @@ import {
 } from '../types';
 import config from '../config';
 import {ScaleBand, ScaleRadial} from 'd3';
+import {NavigateFunction, useNavigate} from 'react-router-dom';
 
 export class OverviewRenderManager {
   private svg: SVGSVGElement;
+  private navigate: ReturnType<typeof useNavigate>;
   private firstLoad: boolean;
-  private loadFinished: boolean;
   private data?: { trend: Record<string, IUniversityTrendItem[]>; event: IUniversityEvent[]; info: IUniversityInfo[]; };
 
   private hcuLogoTimer?: NodeJS.Timeout;
@@ -30,11 +31,15 @@ export class OverviewRenderManager {
   private universityDetails: any;
   private circleX?: ScaleBand<string>;
   private circleY?: ScaleRadial<number, number, never>;
+  private outerRadius?: number;
+  private innerRadius?: number;
+  private logoRadius?: number;
+  private trendSvg: d3.Selection;
 
-  public constructor(svg: SVGSVGElement) {
+  public constructor(svg: SVGSVGElement, navigate: NavigateFunction) {
     this.svg = svg;
+    this.navigate = navigate;
     this.firstLoad = true;
-    this.loadFinished = false;
     this.hcuLogoTimer = undefined;
     this.hoverSwitchTimer = undefined;
     this.initConfig();
@@ -61,9 +66,6 @@ export class OverviewRenderManager {
   }
 
   private onUniversityHover(d: IUniversityInfo) {
-    if (!this.loadFinished) {
-      return;
-    }
     this.labels
         .transition()
         .duration(200)
@@ -106,10 +108,6 @@ export class OverviewRenderManager {
   }
 
   private onUniversityUnhover(d: IUniversityInfo) {
-    if (!this.loadFinished) {
-      return;
-    }
-
     this.labels
         .transition()
         .duration(200)
@@ -135,6 +133,12 @@ export class OverviewRenderManager {
     }, 1000);
   };
 
+  private onUniversityClick(d: IUniversityInfo) {
+    if (d.c9 && this.navigate) {
+      this.navigate(`/${d.englishName.toLowerCase()}`);
+    }
+  };
+
   public drawCircle(sortingCriteria: SortingCriteria) {
     let data = [...this.data.info]
         .sort((a, b) => {
@@ -155,8 +159,6 @@ export class OverviewRenderManager {
           return a.establishYear - b.establishYear;
         });
     };
-
-    this.loadFinished = false;
 
     /**
      * Center anchor
@@ -210,19 +212,6 @@ export class OverviewRenderManager {
             arc.innerRadius(interpolate(t));
             return arc(d);
           };
-        })
-        .on('end', (d) => {
-          setInterval(() => {
-            this.loadFinished = true;
-          }, 3 * data.length + 100);
-        });
-
-    this.arcSvg
-        .on('mouseover', (event, d) => {
-          this.onUniversityHover(d);
-        })
-        .on('mouseout', (event, d) => {
-          this.onUniversityUnhover(d);
         });
 
 
@@ -253,13 +242,30 @@ export class OverviewRenderManager {
         .delay((d, i) => i * 5)
         .duration(1000)
         .attr('opacity', 1);
-    this.labels
-        .on('mouseover', (event, d) => {
-          this.onUniversityHover(d);
-        })
-        .on('mouseout', (event, d) => {
-          this.onUniversityUnhover(d);
-        });
+
+    setInterval(() => {
+      this.labels
+          .on('mouseover', (event, d) => {
+            this.onUniversityHover(d);
+          })
+          .on('mouseout', (event, d) => {
+            this.onUniversityUnhover(d);
+          })
+          .on('click', (event, d) => {
+            this.onUniversityClick(d);
+          });
+      this.arcSvg
+          .on('mouseover', (event, d) => {
+            this.onUniversityHover(d);
+          })
+          .on('mouseout', (event, d) => {
+            this.onUniversityUnhover(d);
+          }).on('click', (event, d) => {
+            this.onUniversityClick(d);
+          });
+    }
+    , 1000);
+
 
     const getUniversityManageSymbol = (manager: UniversityManagerType) => {
       switch (manager) {
@@ -378,6 +384,20 @@ export class OverviewRenderManager {
         this.firstLoad = false;
       }, 1000);
     }
+
+    // This mask is used to block the hover events while loading.
+    const mask = g.append('rect')
+        .attr('fill', '#fff')
+        .attr('opacity', 0)
+        .attr('x', -this.outerRadius * 1.3)
+        .attr('y', -this.outerRadius * 1.3)
+        .attr('width', this.outerRadius * 3)
+        .attr('height', this.outerRadius * 3);
+
+    setInterval(() => {
+      mask.remove();
+    }
+    , 1000);
   }
 
   public drawEventMarks(highlightingEvent: UniversityEventType) {
@@ -516,21 +536,20 @@ export class OverviewRenderManager {
         .attr('class', 'tooltip')
         .attr('id', 'trend-tooltip')
         .style('background-color', config.universityEvents[highlightingEvent].trendColor)
-        .style('opacity', 0.5)
+        .style('opacity', 0)
         .style('color', 'white');
 
-
-    const circleMouseOver = function(event, d) {
+    const circleMouseOver = (event, d) => {
       tooltip
           .style('opacity', 1);
     };
-    const circleMouseMove = function(event, d: IUniversityTrendItem) {
+    const circleMouseMove = (event, d: IUniversityTrendItem) => {
       tooltip
           .html(`${d.year}年，共 ${d[highlightingEvent]} 次`)
           .style('left', `${event.layerX-110}px`)
           .style('top', `${event.layerY}px`);
     };
-    const circleMouseLeave = function(event, d) {
+    const circleMouseLeave = (event, d) => {
       tooltip
           .style('opacity', 0);
     };
@@ -550,8 +569,6 @@ export class OverviewRenderManager {
         .on('mouseover', circleMouseOver)
         .on('mousemove', circleMouseMove)
         .on('mouseleave', circleMouseLeave);
-
-    // const mou
   }
 }
 

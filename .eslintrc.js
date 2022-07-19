@@ -25,5 +25,6 @@ module.exports = {
     'no-unused-vars': 'warn',
     'spaced-comment': 'warn',
     'valid-jsdoc': 'warn',
+    'camelcase': 'warn',
   },
 };

@@ -6,49 +6,6 @@ import {
   UniversityType,
 } from '../types';
 
-// const universityTypes: Record<UniversityType, IUniversityTypeConfig> = {
-//   composite: {
-//     color: '#3182BE', // '#4972B8',
-//     name: '综合类',
-//     priority: 1,
-//   },
-//   science: {
-//     color: '#BED7C4', // '#E2CA66',
-//     name: '理工类',
-//     priority: 3,
-//   },
-//   normal: {
-//     color: '#CE8D62', // '#EDA7A2',
-//     name: '师范 / 语言类',
-//     priority: 3.5,
-//   },
-//   agriculture: {
-//     color: '#94BA77', // '#A6D271',
-//     name: '农林类',
-//     priority: 4,
-//   },
-//   finance: {
-//     color: '#CCBE8A', // '#06318E',
-//     name: '财经 / 政法类',
-//     priority: 5,
-//   },
-//   military: {
-//     color: '#C6615A', // '#C42A30',
-//     name: '军事类',
-//     priority: 6,
-//   },
-//   medicine: {
-//     color: '#68A09B', //'#B5B5B5',
-//     name: '医药类',
-//     priority: 7,
-//   },
-//   arts: {
-//     color: '#AD8FC1', // '#E69233',
-//     name: '民族 / 艺体类',
-//     priority: 8,
-//   },
-// };
-
 const universityTypes: Record<UniversityType, IUniversityTypeConfig> = {
   composite: {
     color: '#7A8DA1', // '#4972B8',
@@ -137,6 +94,9 @@ const config = {
     importantText: '#ae2910',
     managerMarkers: '#d7c300',
     inactiveTrend: '#dcdcdc',
+    detailTheme: '#0071BC',
+    detailTickPrimary: '#555555',
+    detailTickSecondary: '#aaaaaa',
   },
 };
 

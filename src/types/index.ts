@@ -55,7 +55,7 @@ export interface IUniversityTrendItem {
     rename: number;
     relocation: number;
     restructure: number;
-    iestablish: number;
+    establish: number;
 }
 
 export interface IUniversityDetailEventItem {
@@ -70,7 +70,7 @@ export interface IUniversityDetailEventItem {
     // 事件细节（展示在右下角）标题。如果是更名，这里写更名的名称；迁址写迁移的地址；院校合并、专业系所合并就写院校合并 / 专业系所合并
     detail_heading?: string;
     // 事件细节（展示在右下角）内容。主要针对院校合并、专业系所，写合并的详细情况。对于 other 事件，也可以把整个事件放下来
-    detail_content?: string;
+    detail_content?: string | string[];
 }
 
 export interface IUniversityDetail {

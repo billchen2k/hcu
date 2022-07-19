@@ -27,3 +27,12 @@ export const kernelEpanechnikov = (k: number) => {
     return Math.abs(v /= k) <= 1 ? 0.75 * (1 - v * v) / k : 0;
   };
 };
+
+// 等差数组
+export const arithmeticArray = (start: number, end: number, step: number) => {
+  const arr = [];
+  for (let i = start; i <= end; i += step) {
+    arr.push(i);
+  }
+  return arr;
+};
