@@ -36,3 +36,11 @@ export const arithmeticArray = (start: number, end: number, step: number) => {
   }
   return arr;
 };
+
+export const chunkSubstring = (str: string, size: number): string[] => {
+  const arr = [];
+  for (let i = 0; i < str.length; i += size) {
+    arr.push(str.substring(i, i + size));
+  }
+  return arr;
+};

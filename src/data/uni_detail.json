@@ -8,76 +8,70 @@
       {
         "year": 1898,
         "event": "establish",
-        "detail_heading": "京师⼤学堂"
+        "detail_heading": "北京大学于1898年创办，初名京师大学堂"
       },
       {
         "year": 1912,
         "event": "rename",
-        "detail_heading": "国立北京大学"
+        "detail_heading": "辛亥革命后，京师大学堂改名为国立北京大学"
       },
       {
         "year": 1927,
         "event": "school_restructure",
         "in_count": 8,
-        "detail_content": "与北京其他八所国立大学合并成立京师大学校"
+        "detail_content": "奉系军阀攫取北京政权后，于1927年宣布取消北大，与北京其他八所国立大学合并成立京师大学校"
       },
         {
           "year": 1928,
           "event": "rename",
-          "detail_heading": ["中华大学","北平大学","国立北平大学北大学院"]
+          "detail_heading": "南京国民政府先将北大改为中华大学，随后复改为北平大学、国立北平大学北大学院"
         },
       {
         "year": 1929,
         "event": "rename",
-        "detail_heading": "国立北京大学"
+        "detail_heading": "国民政府于8月6日恢复国立北京大学"
       },
       {
         "year": 1937.09,
         "event": "relocation",
-        "detail_heading": "由北京市迁往湖南省长沙市"
+        "detail_heading": "抗日战争全面爆发后，北京大学奉国民政府令由北京市迁往湖南省长沙市"
       },
       {
         "year": 1937.09,
         "event": "school_restructure",
         "out_count": 1,
-        "detail_content": "与清华大学、私立南开大学合并成立国立长沙临时大学"
+        "detail_content": "国立北京大学与清华大学、天津的私立南开大学合并成立国立长沙临时大学"
       },
       {
         "year": 1938,
         "event": "relocation",
-        "detail_heading": "由湖南省长沙市迁往云南省昆明市"
+        "detail_heading": "国立长沙临时大学由湖南省长沙市迁往云南省昆明市"
       },
       {
         "year": 1938.04,
         "event": "rename",
-        "detail_heading": "国立西南联合大学"
+        "detail_heading": "国立长沙临时大学更名为国立西南联合大学"
       }, {
         "year": 1946.07,
         "event": "relocation",
-        "detail_heading": "由云南省昆明市迁往北京市"
+        "detail_heading": "抗日战争胜利后，国立西南联合大学宣告结束，北京大学由云南省昆明市迁往北京市"
       }, {
         "year": 1946.07,
         "event": "resume",
-        "detail_heading": "复校"
+        "detail_heading": "北京大学在北平复校"
       },
       {
         "year": 1952,
         "event": "major_restructure",
         "in_count": 6,
-        "detail_content": "清华大学-文学院、清华大学-理学院、清华大学-法学院、燕京大学-文学院、燕京大学-理学院、燕京大学-法学院并入北京大学"
-      }
-    ,
-      {
-        "year": 1952,
-        "event": "major_restructure",
         "out_count": 5,
-        "detail_content": ["北京大学-农学院并入北京农业大学","北京大学-工学院并入清华大学","北京大学-医学院并入北京医学院","北京大学-地质学系并入北京地质学院","北京大学-法律学系并入北京政法学院"]
+        "detail_content": ["清华大学文学院、理学院、法学院，以及燕京大学文学院、理学院、法学院并入北京大学","北京大学的农学院并入北京农业大学","北京大学工学院并入清华大学","北京大学医学院并入北京医学院","北京大学地质学系并入北京地质学院","北京大学法律学系并入北京政法学院"]
       },
       {
         "year": 2000.04,
         "event": "school_restructure",
         "in_count": 1,
-        "detail_content": "与北京医科大学合并成立北京大学"
+        "detail_content": "北京大学与原北京医科大学合并，组建了新的北京大学"
       }
     ]
   },
@@ -90,83 +84,83 @@
       {
         "year": 1911.04,
         "event": "establish",
-        "detail_heading": "清华学堂"
+        "detail_heading": "清华大学的前身清华学堂于1911年建立"
       },
       {
         "year": 1912.01,
         "event": "rename",
-        "detail_heading": "清华学校"
+        "detail_heading": "清华学堂更名为清华学校"
       },
       {
         "year": 1928,
         "event": "rename",
-        "detail_heading": "国立清华大学"
+        "detail_heading": "清华学校更名为国立清华大学"
       },
       {
         "year": 1937,
         "event": "school_restructure",
         "out_count": 1,
-        "detail_content": "与国立北京大学、私立南开大学合并成立国立长沙临时大学"
+        "detail_content": "抗日战争全面爆发后，国立清华大学南迁长沙，与国立北京大学、私立南开大学合并成立国立长沙临时大学"
       },
       {
         "year": 1938.04,
         "event": "rename",
-        "detail_heading": "国立西南联合大学"
+        "detail_heading": "国立长沙临时大学迁至云南省昆明市，更名为国立西南联合大学"
       },
       {
         "year": 1946.01,
         "event": "resume",
-        "detail_heading": "复校"
+        "detail_heading": "抗日战争胜利后，国立西南联合大学宣告结束，清华大学迁回清华园，正式复校"
       },
       {
         "year": 1919.09,
         "event": "major_restructure",
         "out_count": 1,
-        "detail_content": "清华大学-农学院并入北京农业大学"
+        "detail_content": "清华大学农学院并入北京农业大学"
       },
       {
         "year": 1951.05,
         "event": "major_restructure",
         "in_count": 3,
-        "detail_content": "厦门大学-航空系、西北工学院-航空系、北洋大学-航空系并入清华大学"
+        "detail_content": "厦门大学航空系、西北工学院航空系与北洋大学航空系并入清华大学"
       },
       {
         "year": 1952.07,
         "event": "major_restructure",
         "out_count": 12,
-        "detail_content": ["清华大学-文学院、清华大学-理学院、清华大学-法学院并入北京大学","清华大学-文学院并入中国人民大学","清华大学-理学院地质系并入北京地质学院"
-        ,"清华大学-法学院法律系、清华大学-政治系、清华大学-社会系并入北京政法学院","清华大学-经济系并入中央财经学院","清华大学-社会系并入中央民族大学",
-        "清华大学-航空学院并入北京航空学院","清华大学-工学院采矿系并入北京矿业学院、北京钢铁学院"]
+        "detail_content": ["清华大学的文学院、理学院、法学院并入北京大学","清华大学文学院并入中国人民大学","清华大学理学院地质系并入北京地质学院"
+        ,"清华大学的法律系、政治系、社会系并入北京政法学院","清华大学经济系并入中央财经学院","清华大学社会系并入中央民族大学",
+        "清华大学航空学院并入北京航空学院","清华大学工学院采矿系并入北京矿业学院与北京钢铁学院"]
       },
       {
         "year": 1952.07,
         "event": "major_restructure",
         "in_count": 2,
-        "detail_content": "北京大学-工学院、燕京大学-机械系并入清华大学"
+        "detail_content": "北京大学工学院与燕京大学机械系并入清华大学"
       },
       {
         "year": 1953.09,
         "event": "major_restructure",
         "out_count": 1,
-        "detail_content": "清华大学-石油工程系并入北京石油学院"
+        "detail_content": "清华大学石油工程系并入北京石油学院"
       },
       {
         "year": 1999,
         "event": "school_restructure",
         "in_count": 1,
-        "detail_content": "与中央工艺美术学院合并成立清华大学"
+        "detail_content": "中央工艺美术学院并入清华大学，成立清华大学美术学院"
       },
       {
         "year": 2006,
         "event": "school_restructure",
         "in_count": 1,
-        "detail_content": "与北京协和医学院合并成立清华大学"
+        "detail_content": "北京协和医学院并入清华大学"
       },
       {
         "year": 2012,
         "event": "major_restructure",
         "in_count": 1,
-        "detail_content": "中国人民银行-研究生部并入清华大学"
+        "detail_content": "中国人民银行的研究生部并入清华大学，成立清华大学五道口金融学院"
       }
     ]
   },
@@ -179,83 +173,83 @@
       {
         "year": 1905.09,
         "event":"establish",
-        "detail_heading": "复旦公学"
+        "detail_heading": "国人自办的第一所高等学校——复旦公学，在上海吴淞提督行辕正式开学"
       },{
         "year": 1911,
         "event":"cancle",
-        "detail_heading": "撤销"
+        "detail_heading": "1911年，辛亥革命爆发，复旦学生多数参加革命军；加上经费停发，校舍又为光复军司令部占用，学校一度停办"
       },{
         "year": 1913.03,
         "event":"resume",
-        "detail_heading": "复校"
+        "detail_heading": "1913年3月1日，复旦重新开学"
       },
       {
         "year": 1917,
         "event": "rename",
-        "detail_heading": "私立复旦大学"
+        "detail_heading": "复旦开始办理大学生本科业务，改名为私立复旦大学"
       },
       {
         "year": 1937,
         "event": "school_restructure",
         "out_count": 1,
-        "detail_content": "与大夏大学合并成立复旦大夏联合大学"
+        "detail_content": "八一三事变爆发，复旦与大夏大学合并成立复旦大夏联合大学"
       },
       {
         "year": 1937,
         "event": "relocation",
-        "detail_heading": "由上海市迁往贵州省贵阳市"
+        "detail_heading": "复旦大夏联合大学由上海市迁往贵州省贵阳市"
       },
       {
         "year": 1937.11,
         "event": "relocation",
-        "detail_heading": "由贵州省贵阳市迁往重庆市"
+        "detail_heading": "复旦大夏联合大学由贵州省贵阳市迁往重庆市"
       },
       {
         "year": 1938.02,
         "event":"resume",
-        "detail_heading": "复校"
+        "detail_heading": "1938年2月，复旦在重庆复课"
       },
       {
         "year": 1941.11,
         "event": "rename",
-        "detail_heading": "国立复旦大学"
+        "detail_heading": "国民政府行政院第五届一次会议通过决议，复旦改称国立复旦大学"
       },
       {
         "year": 1946.08,
         "event": "relocation",
-        "detail_heading": "由重庆市迁往上海市"
+        "detail_heading": "抗日战争胜利后，复旦大学由重庆市回迁上海市"
       },
       {
         "year": 1950,
         "event": "major_restructure",
         "out_count": 1,
-        "detail_content": "复旦大学-海洋学院并入山东大学"
+        "detail_content": "复旦大学海洋学院并入山东大学"
       },
       {
         "year": 1950,
         "event": "major_restructure",
         "in_count": 7,
-        "detail_content": "暨南大学-文学院、暨南大学-法学院、暨南大学-商学院、同济大学-文学院、同济大学-法学院、浙江大学-部分系科、国立英士大学-部分系科并入复旦大学"
+        "detail_content": "暨南大学的文学院、法学院、商学院，同济大学的文学院、法学院，浙江大学的部分系科以及国立英士大学的部分系科并入复旦大学"
       }
     ,
       {
         "year": 1951,
         "event": "major_restructure",
         "out_count": 1,
-        "detail_content": "复旦大学-土木工程系并入交通大学"
+        "detail_content": "复旦大学土木工程系并入交通大学"
       },
       {
         "year": 1952,
         "event": "major_restructure",
         "out_count": 5,
-        "detail_content": ["复旦大学-法学院并入华东政法学院","复旦大学-商学院并入上海财政经济学院","复旦大学-农学院并入沈阳农学院"
-        ,"复旦大学-农产品制造组并入南京工学院","复旦大学-茶叶专修科并入安徽大学"]
+        "detail_content": ["复旦大学法学院并入华东政法学院","复旦大学商学院并入上海财政经济学院","复旦大学农学院并入沈阳农学院"
+        ,"复旦大学的农产品制造组并入南京工学院","复旦大学的茶叶专修科并入安徽大学"]
       },
       {
         "year": 2000.04,
         "event": "school_restructure",
         "in_count": 1,
-        "detail_content": "与上海医科大学合并成立复旦大学"
+        "detail_content": "上海医科大学并入复旦大学"
       }
     ]
 
@@ -269,89 +263,89 @@
       {
         "year": 1896,
         "event":"establish",
-        "detail_heading": "南洋公学"
+        "detail_heading": "上海交通大学前身——南洋公学在上海创办"
       },
       {
         "year": 1905,
         "event": "rename",
-        "detail_heading": "商部上海高等实业学堂"
+        "detail_heading": "学校改隶商部，改校名为商部上海高等实业学堂"
       },
       {
         "year": 1906,
         "event": "rename",
-        "detail_heading": "邮传部上海高等实业学堂"
+        "detail_heading": "改隶邮传部，易校名为邮传部上海高等实业学堂"
       },
       {
         "year": 1911,
         "event": "rename",
-        "detail_heading": "南洋大学堂"
+        "detail_heading": "在辛亥革命的高潮声中，唐文治宣布学校改名为南洋大学堂"
       },
       {
         "year": 1912,
         "event": "rename",
-        "detail_heading": "交通部上海工业专门学校"
+        "detail_heading": "学校改隶北京国民政府交通部，更名为交通部上海工业专门学校"
       },
       {
         "year": 1921,
         "event": "rename",
-        "detail_heading": "交通大学上海学校"
+        "detail_heading": "学校改名为交通大学上海学校"
       },
       {
         "year": 1922,
         "event": "rename",
-        "detail_heading": "交通部南洋大学"
+        "detail_heading": "由于政局变动，学校改名为交通部南洋大学"
       },
       {
         "year": 1927,
         "event": "rename",
-        "detail_heading": "国立交通大学（上海本部）"
+        "detail_heading": "南京国民政府交通部接管南洋大学。学校改组为第一交通大学"
       },
       {
         "year": 1928,
         "event": "rename",
-        "detail_heading": "交通部南洋大学"
+        "detail_heading": "南京国民政府改组，增设铁道部。学校移归铁道部管辖，将设在上海、唐山、北平三处的交通大学各学院合并，统称铁道部交通大学"
       },
       {
         "year": 1942,
         "event": "rename",
-        "detail_heading": "国立交通大学（重庆总校）"
+        "detail_heading": "学校更名为国立交通大学"
       },
       {
         "year": 1942,
         "event": "relocation",
-        "detail_heading": "由上海市迁往重庆市"
+        "detail_heading": "日军侵占上海租界后，国立交通大学总部从上海转移到重庆九龙坡"
       },
       {
         "year": 1946,
         "event": "rename",
-        "detail_heading": "交通大学"
+        "detail_heading": "学校更名为交通大学"
       },
       {
         "year": 1946,
         "event": "relocation",
-        "detail_heading": "由重庆市迁往上海市"
+        "detail_heading": "抗战胜利后，学校由重庆市回迁上海市"
       },
       {
         "year": 1946,
         "event": "rename",
-        "detail_heading": "交通大学上海部分"
+        "detail_heading": "交通大学上海部分复校"
       },
       {
         "year": 1959,
         "event": "rename",
-        "detail_heading": "上海交通大学"
+        "detail_heading": "经国务院批准，交通大学上海部分正式定名为上海交通大学"
       },
       {
         "year": 1999,
         "event": "school_restructure",
         "in_count": 1,
-        "detail_content": "与上海农学院合并成立上海交通大学"
+        "detail_content": "上海农学院并入上海交通大学"
       },
       {
         "year": 2005,
         "event": "school_restructure",
         "in_count": 1,
-        "detail_content": "与上海第二医科大学合并成立上海交通大学"
+        "detail_content": "上海第二医科大学并入上海交通大学"
       }
     ]
   },
@@ -364,72 +358,72 @@
       {
         "year": 1902,
         "event":"establish",
-        "detail_heading": "三江师范学堂"
+        "detail_heading": "张之洞与其好友、时任两江总督的刘坤一一起向清廷上奏，呈请在两江总督署江宁（即南京）办一所师范学堂，即三江师范学堂"
       },{
         "year": 1905,
         "event": "rename",
-        "detail_heading": "两江优级师范学堂"
+        "detail_heading": "三江师范学堂易名为两江优级师范学堂"
       },{
         "year": 1914.08,
         "event": "rename",
-        "detail_heading": "南京高等师范学校"
+        "detail_heading": "两江师范学堂得以改设，成为南京高等师范学校"
       },{
         "year": 1921.09,
         "event": "rename",
-        "detail_heading": "国立东南大学"
+        "detail_heading": "学校更名为国立东南大学"
       },{
         "year": 1927,
         "event": "rename",
-        "detail_heading": "国立第四中山大学"
+        "detail_heading": "在首都南京改组易名国立第四中山大学"
       },
       {
         "year": 1927,
         "event": "school_restructure",
         "in_count": 4,
-        "detail_content": "与河海工科大学、上海商科大学、江苏法政大学、江苏医科大学合并成立国立第四中山大学"
+        "detail_content": "1927年，国民政府成立，教育行政委员会经过通盘考虑，实行大学区制，国立东南大学、河海工科大学、上海商科大学、江苏法政大学、江苏医科大学以及江苏境内四所公立专门学校的9所公学合并，在首都南京改组易名国立第四中山大学"
       },{
         "year": 1928.02,
         "event": "rename",
-        "detail_heading": "江苏大学"
+        "detail_heading": "学校更名为江苏大学"
       },{
         "year": 1928.05,
         "event": "rename",
-        "detail_heading": "国立中山大学"
+        "detail_heading": "学校改称国立中山大学"
       },{
         "year": 1937.07,
         "event": "rename",
-        "detail_heading": "重庆中央大学"
+        "detail_heading": "抗日战争爆发，学校西迁入川，校址设在重庆沙磁区沙坪坝松林坡，史称重庆中央大学"
       },
       {
         "year": 1937.07,
         "event": "relocation",
-        "detail_heading": "由江苏省南京市迁往重庆市"
+        "detail_heading": "学校由江苏省南京市迁往重庆市"
       },
       {
         "year": 1946.11,
         "event": "relocation",
-        "detail_heading": "由重庆市迁往江苏省南京市"
+        "detail_heading": "抗日战争胜利后，学校由重庆市回迁江苏省南京市"
       },{
         "year": 1945.05,
         "event": "rename",
-        "detail_heading": "国立中央大学"
+        "detail_heading": "学校改称国立中央大学"
       },{
         "year": 1950.01,
         "event": "rename",
-        "detail_heading": "中央大学"
+        "detail_heading": "学校改称中央大学"
       },
       {
         "year": 1952.07,
         "event": "major_restructure",
         "out_count": 3,
-        "detail_content": ["南京大学-工学系并入南京工学院",
-          "南京大学-农学系并入南京农学院","南京大学-师范系并入南京师范学院"]
+        "detail_content": ["南京大学工学系并入南京工学院",
+          "南京大学农学系并入南京农学院","南京大学师范系并入南京师范学院"]
       },
       {
         "year": 1952.07,
         "event": "major_restructure",
         "in_count": 2,
-        "detail_content": "金陵大学-文学院、金陵大学-理学院并入南京大学"
+        "detail_content": "金陵大学的文学院、理学院并入南京大学"
       }
     ]
   },
@@ -442,17 +436,17 @@
       {
         "year": 1897.05,
         "event":"establish",
-        "detail_heading": "求是书院"
+        "detail_heading": "浙江大学的渊源——求是书院创立"
       },
       {
         "year": 1927,
         "event": "rename",
-        "detail_heading": "国立第三中山大学"
+        "detail_heading": "国民政府通过北伐战争攻克杭州，在浙江高等学校校址成立国立第三中山大学"
       },
       {
         "year": 1928.04,
         "event": "rename",
-        "detail_heading": "浙江大学"
+        "detail_heading": "学校更名为浙江大学"
       },
       {
         "year": 1928.07,
@@ -467,34 +461,34 @@
       {
         "year": 1946.09,
         "event": "relocation",
-        "detail_heading": "由贵州省遵义市迁往浙江省杭州市"
+        "detail_heading": "抗日战争全面爆发后，浙江大学由贵州省遵义市迁往浙江省杭州市"
       },{
         "year": 1946.09,
         "event":"resume",
-        "detail_heading": "复校"
+        "detail_heading": "抗日战争胜利后，返杭复校"
       },
       {
         "year": 1919.09,
         "event": "major_restructure",
         "in_count": 1,
-        "detail_content": "私立南通大学-农业经济学系并入浙江大学"
+        "detail_content": "私立南通大学的农业经济学系并入浙江大学"
       },
       {
         "year": 1950.01,
         "event": "rename",
-        "detail_heading": "浙江大学"
+        "detail_heading": "校名前所冠的“国立”二字被新中国政府去掉，更名为浙江大学"
       },
       {
         "year": 1952,
         "event": "major_restructure",
         "out_count": 19,
-        "detail_content": ["浙江大学-数学系、浙江大学-物理系、浙江大学-化学系、浙江大学-生物系并入复旦大学",
-          "浙江大学-药学系并入上海第一医学院","浙江大学-地理系并入华东师范大学、南京大学"
-        ,"浙江大学-气象组并入南京大学","浙江大学-人类学系并入复旦大学","浙江大学-文学院、浙江大学-师范学院并入华东师范大学"
-        ,"浙江大学-医学院并入浙江医学院","浙江大学-畜牧兽医学系并入南京农业大学",
-        "浙江大学-森林系并入东北林业大学","浙江大学-农化系并入南京工学院","浙江大学-航空系并入华东航空学院",
-        "浙江大学-土木系水利组并入华东水利学院","浙江大学-电机系电信组并入南京工学院"
-        ,"浙江大学-农学院并入浙江农学院","浙江大学-医学院并入浙江医学院"]
+        "detail_content": ["浙江大学的数学系、物理系、化学系、生物系并入复旦大学",
+          "浙江大学药学系并入上海第一医学院","浙江大学地理系并入华东师范大学和南京大学"
+        ,"浙江大学的气象组并入南京大学","浙江大学人类学系并入复旦大学","浙江大学的文学院、师范学院并入华东师范大学"
+        ,"浙江大学医学院并入浙江医学院","浙江大学畜牧兽医学系并入南京农业大学",
+        "浙江大学森林系并入东北林业大学","浙江大学农化系并入南京工学院","浙江大学航空系并入华东航空学院",
+        "浙江大学的土木系水利组并入华东水利学院","浙江大学的电机系电信组并入南京工学院"
+        ,"浙江大学农学院并入浙江农学院","浙江大学医学院并入浙江医学院"]
       }
     ]
   },
@@ -507,13 +501,13 @@
       {
         "year": 1958.09,
         "event":"establish",
-        "detail_heading": "中国科学技术大学"
+        "detail_heading": "中国科学技术大学创立"
       },
       {
         "year": 1959,
         "event": "school_restructure",
         "in_count": 1,
-        "detail_content": "与中国科学情报大学合并成立中国科学技术大学"
+        "detail_content": "中国科学情报大学并入中国科学技术大学"
       }
     ]
   },
@@ -526,58 +520,58 @@
       {
         "year": 1920.01,
         "event":"establish",
-        "detail_heading": "哈尔滨中俄工业学校"
+        "detail_heading": "哈尔滨工业大学的前身——哈尔滨中俄工业学校创立"
       },
       {
         "year": 1922.04,
         "event": "rename",
-        "detail_heading": "中俄工业大学校"
+        "detail_heading": "学校更名为中俄工业大学校"
       }
     ,
       {
         "year": 1928.02,
         "event": "rename",
-        "detail_heading": "东省特区工业大学校"
+        "detail_heading": "学校隶属关系发生变化，改由中华民国东省特区领导，校名改为东省特区工业大学校"
       },
       {
         "year": 1928.01,
         "event": "school_restructure",
         "out_count": 1,
-        "detail_content": "与法政学院与商学院合并成立哈尔滨工业大学"
+        "detail_content": "将法政学院和商学院并入，学校正式定名为哈尔滨工业大学，由中苏共管"
       },
       {
         "year": 1936.01,
         "event": "rename",
-        "detail_heading": "哈尔滨高等工业学校"
+        "detail_heading": "学校改名为哈尔滨高等工业学校"
       },
       {
         "year": 1938.01,
         "event": "rename",
-        "detail_heading": "哈尔滨工业大学"
+        "detail_heading": "学校改名为哈尔滨工业大学"
       },
       {
         "year": 1970,
         "event": "major_restructure",
         "out_count": 1,
-        "detail_content": "哈尔滨工业大学-少数人员并入重庆工业大学"
+        "detail_content": "哈尔滨工业大学的少数人员并入重庆工业大学"
       },
       {
         "year": 1970,
         "event": "school_restructure",
         "in_count": 2,
-        "detail_content": "与黑龙江工学院、哈尔滨电工学院合并成立哈尔滨工业大学"
+        "detail_content": "黑龙江工学院与哈尔滨电工学院并入哈尔滨工业大学"
       },
       {
         "year": 1973.08,
         "event": "school_restructure",
         "in_count": 1,
-        "detail_content": "与重庆工业大学合并成立哈尔滨工业大学"
+        "detail_content": "重庆工业大学并入哈尔滨工业大学"
       },
       {
         "year": 2000.06,
         "event": "school_restructure",
         "in_count": 1,
-        "detail_content": "与哈尔滨建筑大学合并成立哈尔滨工业大学"
+        "detail_content": "哈尔滨建筑大学并入哈尔滨工业大学"
       }
     ]
   },
@@ -590,69 +584,69 @@
       {
         "year": 1897.01,
         "event":"establish",
-        "detail_heading": "南洋公学"
+        "detail_heading": "上海交通大学前身——南洋公学在上海创办"
       },
       {
         "year": 1905,
         "event": "rename",
-        "detail_heading": "中商部高等实业学堂"
+        "detail_heading": "学校改隶商部，改校名为商部上海高等实业学堂"
       },
       {
         "year": 1911,
         "event": "rename",
-        "detail_heading": "南洋大学堂"
+        "detail_heading": "在辛亥革命的高潮声中，唐文治宣布学校改名为南洋大学堂"
       },
       {
         "year": 1912,
         "event": "rename",
-        "detail_heading": "交通部上海工业专门学校"
+        "detail_heading": "学校改隶北京国民政府交通部，更名为交通部上海工业专门学校交通部上海工业专门学校"
       },
       {
         "year": 1920,
         "event": "school_restructure",
         "out_count": 1,
-        "detail_content": "与上海工业专门学校、唐山工业专门学校、北京铁路管理学校、北京邮电学校合并成立交通大学"
+        "detail_content": "学校与上海工业专门学校、唐山工业专门学校、北京铁路管理学校、北京邮电学校合并成立交通大学"
       },
       {
         "year": 1921.08,
         "event": "rename",
-        "detail_heading": "交通大学上海学校"
+        "detail_heading": "学校改名为交通大学上海学校"
       },
       {
         "year": 1922,
         "event": "rename",
-        "detail_heading": "交通部南洋大学"
+        "detail_heading": "由于政局变动，学校改名为交通部南洋大学"
       },
       {
         "year": 1928.11,
         "event": "rename",
-        "detail_heading": "铁道部交通大学"
+        "detail_heading": "南京国民政府改组，增设铁道部。学校移归铁道部管辖，将设在上海、唐山、北平三处的交通大学各学院合并，统称铁道部交通大学"
       },
       {
         "year": 1937.08,
         "event": "rename",
-        "detail_heading": "国立交通大学"
+        "detail_heading": "学校更名为国立交通大学"
       },
       {
         "year": 1945,
         "event":"resume",
-        "detail_heading": "复校"
+        "detail_heading": "学校复校"
       },
       {
         "year": 1956,
         "event": "relocation",
-        "detail_heading": "由上海市迁往西安市"
+        "detail_heading": "学校由上海市迁往西安市"
       },
       {
         "year": 1959.07,
         "event": "rename",
-        "detail_heading": "西安交通大学"
+        "detail_heading": "学校更名为西安交通大学"
       },
       {
         "year": 2000.04,
         "event": "school_restructure",
         "in_count": 1,
-        "detail_content": "与西安医科大学、陕西财经学院合并成立西安交通大学"
+        "detail_content": "西安医科大学、陕西财经学院并入西安交通大学"
       }
     ]
   }

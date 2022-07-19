@@ -104,6 +104,7 @@ def _get_university_logo(university_en_name: str) -> str:
     for logo in logos:
         if logo.startswith(university_en_name):
             return logo
+    print('!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! No logo found for', university_en_name)
     return 'PKU.svg'
 
 
@@ -118,7 +119,7 @@ def _get_manager_type(manager: str):
     if manager == '教育部':
         return 'ministry_of_edu'
     if re.match(r'.+(省|市|自治区|兵团)$', manager):
-        print(manager, 'is local')
+        # print(manager, 'is local')
         return 'local'
     return 'central'
 

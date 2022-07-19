@@ -1,16 +1,16 @@
-import {Box, Button, ButtonGroup, Grid, Stack, Typography} from '@mui/material';
+import {Box, Button, ButtonGroup, Grid, Stack} from '@mui/material';
 import * as React from 'react';
-import config from '../config';
-import {IUniversityInfo, SortingCriteria, UniversityType} from '../types';
-import legendMain from '../assets/legends/legend.svg';
+import {useRef} from 'react';
+import {SortingCriteria} from '../types';
+import legendRename from '../assets/legends/legend-rename.svg';
+import legendRelocation from '../assets/legends/legend-relocation.svg';
+import legendRestructure from '../assets/legends/legend-restructure.svg';
 import legendDetail from '../assets/legends/legend-detail.svg';
 import {useAppDispatch, useAppSelector} from '../store/hooks';
 import siteSlice from '../store/slices/siteSlice';
 import HeadingWithSplit from '../elements/HeadingWithSplit';
 import {useMatch} from 'react-router-dom';
-import {useRef} from 'react';
 import LegendInfoRendererManager from '../lib/LegendInfoRendererManager';
-import {stat} from 'fs';
 
 
 export interface ILegendProps {
@@ -18,7 +18,7 @@ export interface ILegendProps {
 
 export default function Legend(props: ILegendProps) {
   const dispatch = useAppDispatch();
-  const {sortingCriteria} = useAppSelector((state) => state.site);
+  const {sortingCriteria, highlightingEvent} = useAppSelector((state) => state.site);
   const svgRef = useRef<SVGSVGElement>(null);
   const manager = useRef<LegendInfoRendererManager | null>(null);
   const {university} = useMatch('/:university')?.params || {};
@@ -45,7 +45,14 @@ export default function Legend(props: ILegendProps) {
     if (university) {
       return legendDetail;
     }
-    return legendMain;
+    switch (highlightingEvent) {
+      case 'rename':
+        return legendRename;
+      case 'relocation':
+        return legendRelocation;
+      case 'restructure':
+        return legendRestructure;
+    }
   };
 
   return (
@@ -83,7 +90,7 @@ export default function Legend(props: ILegendProps) {
         )}
         <svg ref={svgRef} width={'100%'} height={university ? 150 : 0} />
         <HeadingWithSplit title={'图例'} />
-        <img src={getImageSrc()} width={'100%'} height={300} />
+        <img src={getImageSrc()} width={'100%'} height={280} />
 
         {/* <Grid container width={350}>*/}
         {/*  <Stack width={150} direction={'row'} alignItems={'center'}*/}

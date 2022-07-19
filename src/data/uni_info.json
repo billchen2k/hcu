@@ -935,7 +935,7 @@
     "c9": false,
     "985": false,
     "211": true,
-    "logo": "CUMT.png"
+    "logo": "CUMTB.svg"
   },
   {
     "name": "南京邮电大学",
@@ -1383,7 +1383,7 @@
     "c9": false,
     "985": false,
     "211": false,
-    "logo": "PKU.svg"
+    "logo": "XYU.svg"
   },
   {
     "name": "湖南大学",
@@ -1397,7 +1397,7 @@
     "c9": false,
     "985": true,
     "211": true,
-    "logo": "PKU.svg"
+    "logo": "HNU.png"
   },
   {
     "name": "中南大学",
@@ -1411,7 +1411,7 @@
     "c9": false,
     "985": true,
     "211": true,
-    "logo": "PKU.svg"
+    "logo": "CSU.svg"
   },
   {
     "name": "湖南师范大学",
@@ -1439,7 +1439,7 @@
     "c9": false,
     "985": true,
     "211": true,
-    "logo": "PKU.svg"
+    "logo": "SYSU.png"
   },
   {
     "name": "暨南大学",
@@ -1467,7 +1467,7 @@
     "c9": false,
     "985": true,
     "211": true,
-    "logo": "PKU.svg"
+    "logo": "SCUT.png"
   },
   {
     "name": "华南农业大学",
@@ -1481,7 +1481,7 @@
     "c9": false,
     "985": false,
     "211": true,
-    "logo": "PKU.svg"
+    "logo": "SCAU.png"
   },
   {
     "name": "广州医科大学",
@@ -1495,7 +1495,7 @@
     "c9": false,
     "985": false,
     "211": false,
-    "logo": "PKU.svg"
+    "logo": "GMU.png"
   },
   {
     "name": "广州中医药大学",
@@ -1509,7 +1509,7 @@
     "c9": false,
     "985": false,
     "211": true,
-    "logo": "PKU.svg"
+    "logo": "GUCM.png"
   },
   {
     "name": "华南师范大学",
@@ -1523,7 +1523,7 @@
     "c9": false,
     "985": false,
     "211": true,
-    "logo": "PKU.svg"
+    "logo": "SCNU.png"
   },
   {
     "name": "海南大学",
@@ -1537,7 +1537,7 @@
     "c9": false,
     "985": false,
     "211": true,
-    "logo": "PKU.svg"
+    "logo": "HNU.png"
   },
   {
     "name": "广西大学",
@@ -1551,7 +1551,7 @@
     "c9": false,
     "985": false,
     "211": true,
-    "logo": "PKU.svg"
+    "logo": "GXU.png"
   },
   {
     "name": "四川大学",
@@ -1565,7 +1565,7 @@
     "c9": false,
     "985": true,
     "211": true,
-    "logo": "PKU.svg"
+    "logo": "SCUT.png"
   },
   {
     "name": "重庆大学",
@@ -1579,7 +1579,7 @@
     "c9": false,
     "985": true,
     "211": true,
-    "logo": "PKU.svg"
+    "logo": "CQU.svg"
   },
   {
     "name": "西南交通大学",
@@ -1593,7 +1593,7 @@
     "c9": false,
     "985": false,
     "211": true,
-    "logo": "PKU.svg"
+    "logo": "SWJTU.svg"
   },
   {
     "name": "电子科技大学",
@@ -1607,7 +1607,7 @@
     "c9": false,
     "985": true,
     "211": true,
-    "logo": "PKU.svg"
+    "logo": "UESTC.png"
   },
   {
     "name": "西南石油大学",
@@ -1621,7 +1621,7 @@
     "c9": false,
     "985": false,
     "211": false,
-    "logo": "PKU.svg"
+    "logo": "SWPU.png"
   },
   {
     "name": "成都理工大学",
@@ -1635,7 +1635,7 @@
     "c9": false,
     "985": false,
     "211": false,
-    "logo": "PKU.svg"
+    "logo": "CDUT.svg"
   },
   {
     "name": "四川农业大学",
@@ -1649,7 +1649,7 @@
     "c9": false,
     "985": false,
     "211": false,
-    "logo": "PKU.svg"
+    "logo": "SICAU.svg"
   },
   {
     "name": "成都中医药大学",
@@ -1663,7 +1663,7 @@
     "c9": false,
     "985": false,
     "211": false,
-    "logo": "PKU.svg"
+    "logo": "CDUTCM.png"
   },
   {
     "name": "西南大学",
@@ -1677,7 +1677,7 @@
     "c9": false,
     "985": true,
     "211": true,
-    "logo": "PKU.svg"
+    "logo": "SWU.png"
   },
   {
     "name": "西南财经大学",
@@ -1691,7 +1691,7 @@
     "c9": false,
     "985": true,
     "211": true,
-    "logo": "PKU.svg"
+    "logo": "SWUFE.png"
   },
   {
     "name": "贵州大学",
@@ -1705,7 +1705,7 @@
     "c9": false,
     "985": false,
     "211": true,
-    "logo": "PKU.svg"
+    "logo": "GZU.png"
   },
   {
     "name": "云南大学",
@@ -1719,7 +1719,7 @@
     "c9": false,
     "985": false,
     "211": true,
-    "logo": "PKU.svg"
+    "logo": "YNU.png"
   },
   {
     "name": "西藏大学",
@@ -1733,7 +1733,7 @@
     "c9": false,
     "985": false,
     "211": true,
-    "logo": "PKU.svg"
+    "logo": "TU.png"
   },
   {
     "name": "西北大学",
@@ -1747,7 +1747,7 @@
     "c9": false,
     "985": false,
     "211": true,
-    "logo": "PKU.svg"
+    "logo": "NWU.svg"
   },
   {
     "name": "西安交通大学",
@@ -1761,7 +1761,7 @@
     "c9": true,
     "985": true,
     "211": true,
-    "logo": "PKU.svg"
+    "logo": "XJTU.svg"
   },
   {
     "name": "西北工业大学",
@@ -1789,7 +1789,7 @@
     "c9": false,
     "985": false,
     "211": true,
-    "logo": "PKU.svg"
+    "logo": "XDU.png"
   },
   {
     "name": "长安大学",
@@ -1817,11 +1817,11 @@
     "c9": false,
     "985": true,
     "211": true,
-    "logo": "PKU.svg"
+    "logo": "NWAFU.svg"
   },
   {
     "name": "陕西师范大学",
-    "englishName": "SNNW",
+    "englishName": "SNNU",
     "establishYear": 1944,
     "establishMonth": 0,
     "location": "西安市",
@@ -1831,7 +1831,7 @@
     "c9": false,
     "985": false,
     "211": true,
-    "logo": "PKU.svg"
+    "logo": "SNNU.svg"
   },
   {
     "name": "兰州大学",
@@ -1845,7 +1845,7 @@
     "c9": false,
     "985": true,
     "211": true,
-    "logo": "PKU.svg"
+    "logo": "LZU.svg"
   },
   {
     "name": "青海大学",
@@ -1859,11 +1859,11 @@
     "c9": false,
     "985": false,
     "211": true,
-    "logo": "PKU.svg"
+    "logo": "QHU.png"
   },
   {
     "name": "宁夏大学",
-    "englishName": "NHU",
+    "englishName": "NXU",
     "establishYear": 1958,
     "establishMonth": 0,
     "location": "银川市",
@@ -1873,7 +1873,7 @@
     "c9": false,
     "985": false,
     "211": true,
-    "logo": "PKU.svg"
+    "logo": "NXU.svg"
   },
   {
     "name": "新疆大学",
@@ -1887,7 +1887,7 @@
     "c9": false,
     "985": false,
     "211": true,
-    "logo": "PKU.svg"
+    "logo": "XJU.png"
   },
   {
     "name": "石河子大学",
@@ -1901,7 +1901,7 @@
     "c9": false,
     "985": false,
     "211": true,
-    "logo": "PKU.svg"
+    "logo": "SHZU.png"
   },
   {
     "name": "中国矿业大学（北京）",
@@ -1915,7 +1915,7 @@
     "c9": false,
     "985": false,
     "211": true,
-    "logo": "PKU.svg"
+    "logo": "CUMTB.svg"
   },
   {
     "name": "中国石油大学（北京）",
@@ -1929,7 +1929,7 @@
     "c9": false,
     "985": false,
     "211": true,
-    "logo": "CUPL.svg"
+    "logo": "CUP.png"
   },
   {
     "name": "中国地质大学（北京）",
@@ -1943,7 +1943,7 @@
     "c9": false,
     "985": false,
     "211": true,
-    "logo": "PKU.svg"
+    "logo": "CUGB.svg"
   },
   {
     "name": "宁波大学",
@@ -1957,7 +1957,7 @@
     "c9": false,
     "985": false,
     "211": false,
-    "logo": "PKU.svg"
+    "logo": "NBU.jpg"
   },
   {
     "name": "南方科技大学",
@@ -1971,7 +1971,7 @@
     "c9": false,
     "985": false,
     "211": false,
-    "logo": "PKU.svg"
+    "logo": "SUSTech.svg"
   },
   {
     "name": "上海科技大学",
@@ -1985,7 +1985,7 @@
     "c9": false,
     "985": false,
     "211": false,
-    "logo": "PKU.svg"
+    "logo": "STech.svg"
   },
   {
     "name": "中国科学院大学",
@@ -1999,7 +1999,7 @@
     "c9": false,
     "985": false,
     "211": false,
-    "logo": "PKU.svg"
+    "logo": "UCAS.svg"
   },
   {
     "name": "国防科技大学",
@@ -2013,7 +2013,7 @@
     "c9": false,
     "985": true,
     "211": true,
-    "logo": "PKU.svg"
+    "logo": "NUDT.svg"
   },
   {
     "name": "海军军医大学",
@@ -2027,7 +2027,7 @@
     "c9": false,
     "985": false,
     "211": true,
-    "logo": "PKU.svg"
+    "logo": "SMMU.png"
   },
   {
     "name": "空军军医大学",
@@ -2041,6 +2041,6 @@
     "c9": false,
     "985": false,
     "211": true,
-    "logo": "PKU.svg"
+    "logo": "FMMU.jpg"
   }
 ]

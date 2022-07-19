@@ -1,7 +1,6 @@
 export type UniversityType = 'composite' | 'normal' | 'science' | 'agriculture' | 'finance' | 'military' | 'medicine' | 'arts';
 export type UniversityEventType = 'rename' | 'relocation' | 'restructure';
 export type UniversityManagerType = 'central' | 'ministry_of_edu' | 'local';
-export type UniversityDetailedEventType = 'rename' | 'relocation' | 'school_restructure' | 'major_restructure' | 'establish' | 'other';
 
 export type SortingCriteria = 'default' | 'establishDate' | 'manager';
 
@@ -58,11 +57,13 @@ export interface IUniversityTrendItem {
     establish: number;
 }
 
+export type UniversityDetailEventTypes = 'rename' | 'relocation' | 'school_restructure' | 'major_restructure' | 'establish' | 'other';
+
 export interface IUniversityDetailEventItem {
     // 时间年份
     year: number;
     // 事件类型。分别为更名，迁址，院校合并，专业系所合并（包括迁入、迁出），院校成立
-    event: 'rename' | 'relocation' | 'school_restructure' | 'major_restructure' | 'establish' | 'other';
+    event: UniversityDetailEventTypes;
     // 仅存在于 school_restructure 和 major_restructure 中，表达了迁入的单位数量
     in_count?: number;
     // 仅存在于 school_restructure 和 major_restructure 中，表达了迁出的单位数量

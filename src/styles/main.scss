@@ -60,15 +60,32 @@
   background-image: url("/assets/bg-detail.png");
   opacity: 1;
   background-repeat: no-repeat;
-  background-size: 100% auto;
+  background-size: 100% 100%;
   background-position: center;
   background-attachment: fixed;
+  border: 1px solid #000;
 }
 
-.year-scale line{
+.year-scale line {
   stroke: #777;
 }
 
-.year-scale path{
+.year-scale path {
   stroke: #777;
+}
+
+.detail-ui-year {
+  font-weight: bold;
+  font-family: FZCS, sans-serif;
+  font-size: 2rem;
+  color: #fff;
+  background-color: #0071BC;
+  padding: 2px;
+}
+
+.detail-ui-event-heading {
+  font-weight: bold;
+  font-family: FZCS, sans-serif;
+  font-size: 2rem;
+  color: #fff;
 }

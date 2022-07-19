@@ -8,42 +8,42 @@ import {
 
 const universityTypes: Record<UniversityType, IUniversityTypeConfig> = {
   composite: {
-    color: '#7A8DA1', // '#4972B8',
+    color: '#8397b6', // '#4972B8',
     name: '综合类',
     priority: 1,
   },
   science: {
-    color: '#C2AC74', // '#E2CA66',
+    color: '#d4c99a',
     name: '理工类',
     priority: 3,
   },
   normal: {
-    color: '#DEC8D0', // '#EDA7A2',
+    color: '#cdb8b7', // '#EDA7A2',
     name: '师范 / 语言类',
     priority: 3.5,
   },
   agriculture: {
-    color: '#C7CFCD', // '#A6D271',
+    color: '#85a686', // '#A6D271',
     name: '农林类',
     priority: 4,
   },
   finance: {
-    color: '#877990', // '#06318E',
+    color: '#a87fb1', // '#06318E',
     name: '财经 / 政法类',
     priority: 5,
   },
   military: {
-    color: '#915052', // '#C42A30',
+    color: '#9f5e54', // '#C42A30',
     name: '军事类',
     priority: 6,
   },
   medicine: {
-    color: '#7E8B7A', //'#B5B5B5',
+    color: '#b7c1ca', //'#B5B5B5',
     name: '医药类',
     priority: 7,
   },
   arts: {
-    color: '#C79664', // '#E69233',
+    color: '#c4a282', // '#E69233',
     name: '民族 / 艺体类',
     priority: 8,
   },
@@ -92,7 +92,7 @@ const config = {
     secondaryText: '#c9b707',
     primaryTint: '#66987f',
     importantText: '#ae2910',
-    managerMarkers: '#d7c300',
+    managerMarkers: '#888888',
     inactiveTrend: '#dcdcdc',
     detailTheme: '#0071BC',
     detailTickPrimary: '#555555',

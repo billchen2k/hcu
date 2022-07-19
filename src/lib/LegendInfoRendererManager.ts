@@ -57,6 +57,18 @@ export default class LegendInfoRendererManager {
         .attr('text-anchor', 'left')
         .text(d.name);
 
+
+    // Split line
+
+    g.append('svg:image')
+        .attr('id', 'center-detail-logo')
+        .attr('x', margin.left + logoRadius * 2 + margin.center - 8)
+        .attr('y', 10)
+        .attr('width', 16)
+        .attr('height', height - 20)
+        .attr('href', `/assets/split-line-vertical.png`)
+        .style('opacity', 1);
+
     const lines = [`${config.universityTypes[d.type].name} · 建校于 ${d.establishYear} 年`];
     const line = [];
     d.c9 && line.push('C9');
