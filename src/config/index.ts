@@ -38,7 +38,7 @@ const universityTypes: Record<UniversityType, IUniversityTypeConfig> = {
     priority: 6,
   },
   medicine: {
-    color: '#b7c1ca', //'#B5B5B5',
+    color: '#b7c1ca', // '#B5B5B5',
     name: '医药类',
     priority: 7,
   },
@@ -52,17 +52,17 @@ const universityEvents: Record<UniversityEventType, IUniversityEventConfig> = {
   'rename': {
     color: '#ffffff',
     name: '更名',
-    trendColor: '#87bb65',
+    trendColor: '#769E74',
   },
   'relocation': {
     color: '#ffffff',
     name: '迁址',
-    trendColor: '#57A4B1',
+    trendColor: '#867990',
   },
   'restructure': {
     color: '#ffffff',
     name: '院校 / 系所合并',
-    trendColor: '#f66e70',
+    trendColor: '#57A4B1',
   },
 };
 
@@ -90,7 +90,7 @@ const config = {
     universityHover: '#fc5908',
     primaryText: '#0F0A04',
     secondaryText: '#c9b707',
-    primaryTint: '#66987f',
+    primaryTint: '#7A8DA0', // '#66987f',
     importantText: '#ae2910',
     managerMarkers: '#888888',
     inactiveTrend: '#dcdcdc',

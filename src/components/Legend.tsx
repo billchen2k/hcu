@@ -5,7 +5,7 @@ import {SortingCriteria} from '../types';
 import legendRename from '../assets/legends/legend-rename.svg';
 import legendRelocation from '../assets/legends/legend-relocation.svg';
 import legendRestructure from '../assets/legends/legend-restructure.svg';
-import legendDetail from '../assets/legends/legend-detail.svg';
+import legendDetail from '../assets/legends/legend-detail.png';
 import {useAppDispatch, useAppSelector} from '../store/hooks';
 import siteSlice from '../store/slices/siteSlice';
 import HeadingWithSplit from '../elements/HeadingWithSplit';
@@ -90,7 +90,7 @@ export default function Legend(props: ILegendProps) {
         )}
         <svg ref={svgRef} width={'100%'} height={university ? 150 : 0} />
         <HeadingWithSplit title={'图例'} />
-        <img src={getImageSrc()} width={'100%'} height={280} />
+        <img src={getImageSrc()} width={'100%'} />
 
         {/* <Grid container width={350}>*/}
         {/*  <Stack width={150} direction={'row'} alignItems={'center'}*/}

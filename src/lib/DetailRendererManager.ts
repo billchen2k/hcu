@@ -282,11 +282,11 @@ export class DetailRendererManager {
         .attr('y1', (d) => 0)
         .attr('x2', (d) => 0)
         .attr('y2', (d) => -this.eventLineLength)
-        .attr('stroke', config.colors.detailTheme)
+        .attr('stroke', '#769E74')
         .attr('stroke-width', 2)
         .attr('opacity', 0.6);
     relocationMarkers.append('svg:image')
-        .attr('xlink:href', '/assets/markers/relocation-v2.png')
+        .attr('xlink:href', '/assets/markers/relocation.png')
         .attr('x', (d) => -(relocationMarkerSize / 2))
         .attr('y', (d) => -(relocationMarkerSize / 2) - this.eventLineLength)
         .attr('width', relocationMarkerSize)
@@ -299,7 +299,7 @@ export class DetailRendererManager {
         .attr('opacity', 1);
 
     // 更名事件
-    const renameMarkerSize = 35;
+    const renameMarkerSize = 25;
     const renameMarkers = g.append('g')
         .selectAll('g')
         .data(data?.events?.filter((d) => d.event == 'rename'))
@@ -319,11 +319,11 @@ export class DetailRendererManager {
         .attr('y1', (d) => 0)
         .attr('x2', (d) => 0)
         .attr('y2', (d) => this.eventLineLength)
-        .attr('stroke', config.colors.detailTheme)
+        .attr('stroke', '#775C8E')
         .attr('stroke-width', 2)
         .attr('opacity', 0.6);
     renameMarkers.append('svg:image')
-        .attr('xlink:href', '/assets/markers/rename.svg')
+        .attr('xlink:href', '/assets/markers/rename.png')
         .attr('x', (d) => -(renameMarkerSize / 2))
         .attr('y', (d) => -(renameMarkerSize / 2) + this.eventLineLength)
         .attr('width', renameMarkerSize)

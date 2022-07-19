@@ -2,7 +2,7 @@ import * as React from 'react';
 import {Box, Grid, IconButton, Typography} from '@mui/material';
 import {matchPath, useLocation, useMatch, useNavigate, useParams} from 'react-router-dom';
 import {ChevronLeft} from '@mui/icons-material';
-import hcuHeading from '../assets/hcu-heading-v1.png';
+import hcuHeading from '../assets/hcu-heading-v6.png';
 
 export interface IHeadingsProps {
 }
