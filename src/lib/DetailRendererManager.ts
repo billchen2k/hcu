@@ -44,14 +44,14 @@ export class DetailRendererManager {
       },
       {
         domain: [2000, 1950],
-        left: [0.265, 0.875],
+        left: [0.233, 0.875],
         top: [0.545, 0.545],
         values: arithmeticArray(1960, 2000, 10),
         secondaryValues: arithmeticArray(1950, 2000, 2),
       },
       {
         domain: [2000, 2020],
-        left: [0.265, 0.513],
+        left: [0.233, 0.513],
         top: [0.806, 0.806],
         values: arithmeticArray(2010, 2020, 10),
         secondaryValues: arithmeticArray(2000, 2020, 2),
@@ -138,7 +138,7 @@ export class DetailRendererManager {
         .append('tspan')
         .attr('text-anchor', 'end')
         .attr('x', 240)
-        .attr('dy', fullContentLine.length > 100 ? '2em' : '2.4em')
+        .attr('dy', fullContentLine.length > 100 ? '1.6em' : '2.4em')
         .attr('font-size', fullContentLine.length > 100 ? '13px' : '17px')
         .text((d, i) => d);
     this.detailUI.attr('opacity', 1);
@@ -175,7 +175,7 @@ export class DetailRendererManager {
               .tickSizeOuter(0)
               .offset(25)
               .tickValues(this.yearScaleConfigs[i].values)
-              .tickPadding(45),
+              .tickPadding(35),
           )
           .style('font-size', '14px')
           .style('font-family', 'New York, FZQKBYS, sans-serif, --apple-system, BlinkMacSystemFont');
@@ -192,6 +192,20 @@ export class DetailRendererManager {
           )
           .style('font-size', '14px')
           .style('font-family', 'New York, FZQKBYS, sans-serif, --apple-system, BlinkMacSystemFont');
+
+      g.append('g')
+          .selectAll('.long-tick')
+          .data([2001, 1951])
+          .enter()
+          .append('line')
+          .attr('class', 'long-tick')
+          .attr('x1', (d) => this.scaleX(d - 1))
+          .attr('y1', (d) => this.scaleY(d) - 130)
+          .attr('x2', (d) => this.scaleX(d - 1))
+          .attr('y2', (d) => this.scaleY(d) + 100)
+          .attr('stroke', config.colors.detailTickPrimary)
+          .attr('opacity', '0.8')
+          .attr('stroke-width', 1);
     }
 
     // Add semi-circles
@@ -220,7 +234,7 @@ export class DetailRendererManager {
     // Debug only
     g.append('g')
         .selectAll('dot')
-        .data(arithmeticArray(1900, 2020, 1))
+        .data(arithmeticArray(1890, 2020, 1))
         .join('circle')
         .attr('r', 3)
         .attr('opacity', 0.5)
@@ -299,7 +313,7 @@ export class DetailRendererManager {
         .attr('opacity', 1);
 
     // 更名事件
-    const renameMarkerSize = 25;
+    const renameMarkerSize = 20;
     const renameMarkers = g.append('g')
         .selectAll('g')
         .data(data?.events?.filter((d) => d.event == 'rename'))
@@ -409,7 +423,7 @@ export class DetailRendererManager {
       const outerBoundRadius = innerCircleRadius + this.entityCircleRadius * 4;
 
       const inNodes = Array.from({length: inCount}, (_, i) => ({}));
-      const outNodes = Array.from({length: outCount + 10}, (_, i) => ({}));
+      const outNodes = Array.from({length: outCount}, (_, i) => ({}));
       inCount > 0 && d3.forceSimulation(inNodes)
           .force('charge', d3.forceRadial(innerBoundRadius).strength(0.003))
           .force('collide', d3.forceCollide().radius(this.entityCircleRadius * 2).strength(0.1))
