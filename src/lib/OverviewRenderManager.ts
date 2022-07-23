@@ -340,8 +340,8 @@ export class OverviewRenderManager {
         .attr('x', -this.logoRadius * 2)
         .attr('y', -this.logoRadius * 2)
         .attr('width', this.logoRadius * 2 * 2)
-        .attr('height', this.logoRadius * 2 * 2);
-    // .attr('href', '/assets/hcu-v3.png');
+        .attr('height', this.logoRadius * 2 * 2)
+        .attr('href', '/assets/hcu-v4.png');
 
     const universityName = detail.append('text')
         .attr('id', 'center-detail-university-name')

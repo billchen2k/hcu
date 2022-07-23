@@ -27,6 +27,7 @@ export class DetailRendererManager {
   private detailEventYear?: d3.Selection<ElementTagNameMap[string], unknown, null, undefined>;
   private detailEventHeading?: d3.Selection<ElementTagNameMap[string], unknown, null, undefined>;
   private detailEventContent?: d3.Selection<ElementTagNameMap[string], unknown, null, undefined>;
+  private detailEventIcon?: d3.Selection<ElementTagNameMap[string], unknown, null, undefined>;
 
   constructor(svg: SVGSVGElement) {
     this.svg = svg;
@@ -113,6 +114,13 @@ export class DetailRendererManager {
       'major_restructure': '院系' + [...(event.in_count ? ['迁入'] : []), ...(event.out_count ? ['迁出'] : [])].join('、'),
       'school_restructure': '院校' + [...(event.in_count ? ['迁入'] : []), ...(event.out_count ? ['迁出'] : [])].join('、'),
     };
+    const eventIconMap: Partial<Record<UniversityDetailEventTypes, string>> = {
+      'rename': '/assets/icons/icon-rename.png',
+      'establish': '/assets/icons/icon-establish.png',
+      'relocation': '/assets/icons/icon-relocation.png',
+      'major_restructure': '/assets/icons/icon-major.png',
+      'school_restructure': '/assets/icons/icon-school.png',
+    };
     let fullContentLine = '';
     let contentLines = [];
     if (event.detail_heading) {
@@ -141,6 +149,7 @@ export class DetailRendererManager {
         .attr('dy', fullContentLine.length > 100 ? '1.6em' : '2.4em')
         .attr('font-size', fullContentLine.length > 100 ? '13px' : '17px')
         .text((d, i) => d);
+    this.detailEventIcon.attr('href', eventIconMap[event.event]);
     this.detailUI.attr('opacity', 1);
   }
 
@@ -256,7 +265,7 @@ export class DetailRendererManager {
         .data(data?.events?.filter((d) => d.event == 'establish'))
         .enter()
         .append('svg:image')
-        .attr('xlink:href', '/assets/markers/establish.svg')
+        .attr('xlink:href', '/assets/markers/establish.png')
         .attr('x', (d) => this.scaleX(d.year) - 30)
         .attr('y', (d) => this.scaleY(d.year) - 30)
         .attr('width', 60)
@@ -378,13 +387,13 @@ export class DetailRendererManager {
         .attr('stop-color', config.colors.detailTheme)
         .attr('stop-opacity', 0);
     detailHollowEntityGradient.append('stop')
-        .attr('offset', '80%')
+        .attr('offset', '70%')
         .attr('stop-color', config.colors.detailTheme)
         .attr('stop-opacity', 0);
     detailHollowEntityGradient.append('stop')
         .attr('offset', '100%')
         .attr('stop-color', config.colors.detailTheme)
-        .attr('stop-opacity', 0.6);
+        .attr('stop-opacity', 0.7);
 
     // 院校重组 & 专业重组 school-restructure base circle
     const restructureMarkers = g.append('g')
@@ -400,6 +409,12 @@ export class DetailRendererManager {
         .on('mouseout', () => {
           this.hideEventDetail();
         });
+
+    restructureMarkers.append('circle')
+        .attr('r', this.entityCircleRadius)
+        .attr('opacity', 0.5)
+        .attr('fill', `url(#detail-entity-gradient)`);
+
 
     restructureMarkers.append('circle')
         .attr('r', (d) => this.innerCircleRadius(d.in_count || 0))
@@ -441,6 +456,7 @@ export class DetailRendererManager {
 
       outCount > 0 && d3.forceSimulation(outNodes)
           .force('charge', d3.forceRadial(outerBoundRadius).strength(0.1))
+          // .force('y', d3.forceY(-12).strength(0.1))
           .force('collide', d3.forceCollide().radius(this.entityCircleRadius * 2).strength(0.1))
           .on('tick', () => {
             marker.selectAll('.out-entity-circle')
@@ -448,7 +464,9 @@ export class DetailRendererManager {
                 .join('circle')
                 .attr('class', 'out-entity-circle')
                 .attr('r', this.entityCircleRadius)
-                .attr('fill', `url(#${d.event == 'school_restructure' ? 'detail-entity-gradient' : 'detail-hollow-entity-gradient'})`)
+                .attr('fill', d.event == 'school_restructure' ? '#C8B582' : 'none')
+                .attr('stroke', d.event == 'school_restructure' ? '#C8B582' : '#905052')
+                .attr('stroke-width', '2px')
                 .attr('cx', (d) => d.x)
                 .attr('cy', (d) => d.y)
                 .on('mouseover', (event, d) => {
@@ -483,7 +501,7 @@ export class DetailRendererManager {
 
     this.detailEventHeading = detailUI.append('text')
         .attr('class', 'detail-ui-event-heading')
-        .attr('x', 300)
+        .attr('x', 290)
         .attr('y', 130)
         .attr('fill', config.colors.detailTheme);
 
@@ -493,6 +511,14 @@ export class DetailRendererManager {
         .attr('y', 40)
         .attr('font-family', 'FZQKBYS, serif')
         .attr('font-size', '16px');
+
+    this.detailEventIcon = detailUI.append('svg:image')
+        .attr('id', 'detail-ui-event-icon')
+        .attr('x', 290)
+        .attr('y', 160)
+        .attr('width', 36)
+        .attr('height', 36)
+        .attr('href', '/assets/icons/icon-major.png');
 
     detailUI.append('line')
         .attr('x1', 270)

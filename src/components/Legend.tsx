@@ -11,7 +11,7 @@ import siteSlice from '../store/slices/siteSlice';
 import HeadingWithSplit from '../elements/HeadingWithSplit';
 import {useMatch} from 'react-router-dom';
 import LegendInfoRendererManager from '../lib/LegendInfoRendererManager';
-import {Close, Translate} from '@mui/icons-material';
+import {Close, GitHub, Translate} from '@mui/icons-material';
 import {useTranslation} from 'react-i18next';
 
 
@@ -69,7 +69,7 @@ export default function Legend(props: ILegendProps) {
   };
 
   return (
-    <Box sx={{display: 'flex', position: 'absolute', bottom: 20, left: 20, width: '23%'}}>
+    <Box sx={{display: 'flex', position: 'absolute', bottom: 20, left: 20, width: '22%'}}>
       <Stack spacing={2} width={'100%'}>
         {!university &&
           <React.Fragment>
@@ -103,13 +103,21 @@ export default function Legend(props: ILegendProps) {
         )}
         <svg ref={svgRef} width={'100%'} height={university ? 150 : 0} />
         <HeadingWithSplit title={t('heading-legend')} />
-        <img src={getImageSrc()} width={'100%'} />
+        <img src={getImageSrc()} style={{maxHeight: 325}} />
         <Box sx={{position: 'absolute', bottom: 10, right: -80}}>
-          <IconButton size={'large'} sx={{border: '1px solid #888'}}
-            onClick={() => toggleLanguage()}
-          >
-            <Translate />
-          </IconButton>
+          <Stack spacing={2}>
+            <IconButton size={'medium'} sx={{border: '1px solid #888'}}
+              onClick={() => window.open('https://github.com/billchen2k/hcu', '__blank')}
+            >
+              <GitHub width={10} />
+            </IconButton>
+            <IconButton size={'medium'} sx={{border: '1px solid #888'}}
+              onClick={() => toggleLanguage()}
+            >
+              <Translate width={10} />
+            </IconButton>
+          </Stack>
+
         </Box>
 
         {/* <Grid container width={350}>*/}

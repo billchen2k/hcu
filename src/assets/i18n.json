@@ -6,12 +6,13 @@
       "heading-legend": "Legend",
       "heading-event": "Event Selection",
       "heading-university": "University",
-      "sorting-school-type": "School Type",
+      "sorting-school-type": "University Type",
       "sorting-manager": "Governing Department",
       "sorting-establish-date": "Establish Date",
       "event-rename": "Rename",
       "event-relocation": "Relocation",
-      "event-restructure": "Restructure"
+      "event-restructure": "Restructure",
+      "year-count": "{{year}}, {{count}} times"
     }
   },
   "zh": {
@@ -26,7 +27,8 @@
       "sorting-establish-date": "建校日期",
       "event-rename": "更名",
       "event-relocation": "迁址",
-      "event-restructure": "院校 / 系所合并"
+      "event-restructure": "院校 / 系所合并",
+      "year-count": "{{year}} 年, 供 {{count}} 次"
     }
   }
 }

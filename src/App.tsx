@@ -8,10 +8,10 @@ import {store} from './store';
 import {BrowserRouter} from 'react-router-dom';
 
 const headingFont = {
-  fontFamily: 'New York, FZQKBYS, serif, --apple-family',
+  fontFamily: 'New York, FZQKBYS, sans-serif, --apple-family',
 };
 const bodyFont = {
-  fontFamily: 'New York, FZQKBYS, FZCS, serif, --apple-family',
+  fontFamily: 'New York, FZQKBYS, FZCS, sans-serif, --apple-family',
 };
 
 const theme = createTheme({
@@ -60,7 +60,27 @@ const theme = createTheme({
   },
 });
 
-function App() {
+const App = () => {
+  React.useEffect(() => {
+    const curs = document.querySelector('.cursor');
+    document.addEventListener('mousemove', (e) => {
+      const x = e.pageX;
+      const y = e.pageY;
+      // @ts-ignore
+      curs.style.left = (x - 10) + 'px';
+      // @ts-ignore
+      curs.style.top = (y - 10) + 'px';
+    });
+
+    document.addEventListener('mouseleave', (e) => {
+      const x = e.pageX;
+      const y = e.pageY;
+      // @ts-ignore
+      curs.style.left = (x - 10) + 'px';
+      // @ts-ignore
+      curs.style.top = (y - 10) + 'px';
+    });
+  }, []);
   return (
     <ThemeProvider theme={theme}>
       <Provider store={store}>
@@ -68,11 +88,12 @@ function App() {
           <CssBaseline />
           <Box sx={{display: 'flex', flex: 1}}>
             <ContentLayout />
+            <div className={'cursor'} />
           </Box>
         </Box>
       </Provider>
     </ThemeProvider>
   );
-}
+};
 
 export default App;

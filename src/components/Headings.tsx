@@ -18,7 +18,7 @@ const Headings = (props: IHeadingsProps) => {
   };
 
   return (
-    <Box sx={{position: 'absolute', width: '23%', top: 20, left: 20}}>
+    <Box sx={{position: 'absolute', width: '22%', top: 20, left: 20}}>
       {university &&
         <Box sx={{position: 'absolute', top: 10, right: -80}}>
           <IconButton size={'large'} sx={{border: '1px solid #888'}}
