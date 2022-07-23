@@ -5,12 +5,14 @@ export interface ISiteState {
     sortingCriteria: SortingCriteria;
     firstLoaded: boolean;
     highlightingEvent: UniversityEventType;
+    language: 'en' | 'zh';
 }
 
 const initState: ISiteState = {
   sortingCriteria: 'default',
   firstLoaded: false,
   highlightingEvent: 'rename',
+  language: 'zh',
 };
 
 export const siteSlice = createSlice({
@@ -25,6 +27,9 @@ export const siteSlice = createSlice({
     },
     setHighlightingEvent: (state, action: PayloadAction<UniversityEventType>) => {
       state.highlightingEvent = action.payload;
+    },
+    setLanguage(state, action: PayloadAction<'en' | 'zh'>) {
+      state.language = action.payload;
     },
   },
 });

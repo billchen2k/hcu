@@ -1,4 +1,4 @@
-import {Box, Button, ButtonGroup, Grid, Stack} from '@mui/material';
+import {Box, Button, ButtonGroup, Grid, IconButton, Stack} from '@mui/material';
 import * as React from 'react';
 import {useRef} from 'react';
 import {SortingCriteria} from '../types';
@@ -11,6 +11,8 @@ import siteSlice from '../store/slices/siteSlice';
 import HeadingWithSplit from '../elements/HeadingWithSplit';
 import {useMatch} from 'react-router-dom';
 import LegendInfoRendererManager from '../lib/LegendInfoRendererManager';
+import {Close, Translate} from '@mui/icons-material';
+import {useTranslation} from 'react-i18next';
 
 
 export interface ILegendProps {
@@ -18,9 +20,10 @@ export interface ILegendProps {
 
 export default function Legend(props: ILegendProps) {
   const dispatch = useAppDispatch();
-  const {sortingCriteria, highlightingEvent} = useAppSelector((state) => state.site);
+  const {sortingCriteria, highlightingEvent, language} = useAppSelector((state) => state.site);
   const svgRef = useRef<SVGSVGElement>(null);
   const manager = useRef<LegendInfoRendererManager | null>(null);
+  const {t, i18n} = useTranslation();
   const {university} = useMatch('/:university')?.params || {};
 
   React.useEffect(() => {
@@ -35,6 +38,16 @@ export default function Legend(props: ILegendProps) {
     }
     manager.current?.drawInfo(university);
   }, [university]);
+
+  const toggleLanguage = () => {
+    if (language == 'en') {
+      i18n.changeLanguage('zh');
+      dispatch(siteSlice.actions.setLanguage('zh'));
+    } else {
+      i18n.changeLanguage('en');
+      dispatch(siteSlice.actions.setLanguage('en'));
+    }
+  };
 
 
   const setSortingCriteria = (criteria: SortingCriteria) => {
@@ -60,7 +73,7 @@ export default function Legend(props: ILegendProps) {
       <Stack spacing={2} width={'100%'}>
         {!university &&
           <React.Fragment>
-            <HeadingWithSplit title={'排序'} />
+            <HeadingWithSplit title={t('heading-sorting')} />
             <Grid container>
               <ButtonGroup fullWidth={true}
                 variant={'text'}
@@ -75,7 +88,7 @@ export default function Legend(props: ILegendProps) {
                     onClick={() => setSortingCriteria(criteria as SortingCriteria)}
                     variant={sortingCriteria === criteria ? 'contained' : 'text'}
                   >
-                    {{'default': '院校类型', 'manager': '主管部门', 'establishDate': '建校时间'}[criteria]}
+                    {{'default': t('sorting-school-type'), 'manager': t('sorting-manager'), 'establishDate': t('sorting-establish-date')}[criteria]}
                   </Button>
                 ))
                 }
@@ -85,12 +98,19 @@ export default function Legend(props: ILegendProps) {
         }
         {university && (
           <React.Fragment>
-            <HeadingWithSplit title={'高校'} />
+            <HeadingWithSplit title={t('heading-university')} />
           </React.Fragment>
         )}
         <svg ref={svgRef} width={'100%'} height={university ? 150 : 0} />
-        <HeadingWithSplit title={'图例'} />
+        <HeadingWithSplit title={t('heading-legend')} />
         <img src={getImageSrc()} width={'100%'} />
+        <Box sx={{position: 'absolute', bottom: 10, right: -80}}>
+          <IconButton size={'large'} sx={{border: '1px solid #888'}}
+            onClick={() => toggleLanguage()}
+          >
+            <Translate />
+          </IconButton>
+        </Box>
 
         {/* <Grid container width={350}>*/}
         {/*  <Stack width={150} direction={'row'} alignItems={'center'}*/}

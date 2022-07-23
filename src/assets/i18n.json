@@ -1,0 +1,32 @@
+{
+  "en": {
+    "translation": {
+      "intro-text": "The history of China's universities began with the \"Foreign Affairs Movement\" in the late Qing Dynasty and the \"Restoration Movement\" later, and a large number of universities were established in the late 19th and early 20th centuries. Here we visualize the historical trajectory of Chinese universities in terms of establishment, name change, relocation and merger. The scope of data is the list of \"double first-class universities\" and \"double first-class disciplines\" up to 2022.",
+      "heading-sorting": "Sorting Criteria",
+      "heading-legend": "Legend",
+      "heading-event": "Event Selection",
+      "heading-university": "University",
+      "sorting-school-type": "School Type",
+      "sorting-manager": "Governing Department",
+      "sorting-establish-date": "Establish Date",
+      "event-rename": "Rename",
+      "event-relocation": "Relocation",
+      "event-restructure": "Restructure"
+    }
+  },
+  "zh": {
+    "translation": {
+      "intro-text": "我国大学的历史始于清末的「洋务运动」和后来的「维新运动」，在19世纪末、20世纪初成立了大批高校。1950 年代初期，大批原有综合性大学内的院系拆分，重组成为新的高校。1990年代开始，大量高校合并，而近年来又有大量院校在各地设立分校。以可视化的方式，我们在这里展示中国高校的建校、改名、迁址、合并等历史轨迹。数据范围为截至 2022 年的「双一流建设高校」与「双一流建设学科」名单。",
+      "heading-sorting": "排序",
+      "heading-legend": "图例",
+      "heading-event": "事件选择",
+      "heading-university": "高校",
+      "sorting-school-type": "院校类型",
+      "sorting-manager": "主管部门",
+      "sorting-establish-date": "建校日期",
+      "event-rename": "更名",
+      "event-relocation": "迁址",
+      "event-restructure": "院校 / 系所合并"
+    }
+  }
+}

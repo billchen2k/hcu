@@ -11,6 +11,7 @@ import {
 import config from '../config';
 import {ScaleBand, ScaleRadial} from 'd3';
 import {NavigateFunction, useNavigate} from 'react-router-dom';
+import {arithmeticArray} from '../utils/utils';
 
 export class OverviewRenderManager {
   private svg: SVGSVGElement;
@@ -54,9 +55,9 @@ export class OverviewRenderManager {
     this.height = this.svg.clientHeight;
     this.size = Math.min(this.width, this.height) * 0.95;
     this.paddingAngle = 0.015;
-    this.innerRadius = this.size * 0.35 / 2;
+    this.innerRadius = this.size * 0.4 / 2;
     this.outerRadius = this.size * 0.8 / 2;
-    this.logoRadius = this.size * 0.12 / 2;
+    this.logoRadius = this.size * 0.15 / 2;
     this.highlightHoverOpacity = 0.8;
 
     d3.select(this.svg)
@@ -155,6 +156,8 @@ export class OverviewRenderManager {
 
   private hideCircleHighlightScale() {
     this.highlightScale
+        .transition()
+        .duration(500)
         .attr('opacity', 0);
   }
 
@@ -331,8 +334,8 @@ export class OverviewRenderManager {
         .attr('x', -this.logoRadius * 2)
         .attr('y', -this.logoRadius * 2)
         .attr('width', this.logoRadius * 2 * 2)
-        .attr('height', this.logoRadius * 2 * 2)
-        .attr('href', '/assets/hcu-v3.png');
+        .attr('height', this.logoRadius * 2 * 2);
+    // .attr('href', '/assets/hcu-v3.png');
 
     const universityName = detail.append('text')
         .attr('id', 'center-detail-university-name')
@@ -507,8 +510,8 @@ export class OverviewRenderManager {
 
     this.trendSvg = trendSvg;
 
-    const x = d3.scaleLinear()
-        .domain([1893, 2022])
+    const x = d3.scaleBand()
+        .domain(arithmeticArray(1893, 2022, 1))
         .range([0, height]);
 
     let y;
@@ -527,6 +530,7 @@ export class OverviewRenderManager {
         .attr('transform', `translate(${width}, 0)`)
         .call(d3.axisRight(x)
             .tickFormat((d) => d)
+            .tickValues(arithmeticArray(1900, 2020, 10))
             .tickSize(5),
         )
         .style('font-size', '12px')
@@ -549,27 +553,52 @@ export class OverviewRenderManager {
             .tickSize(-height),
         );
 
-    const areas = trendSvg.append('g');
-    const eventTypes: UniversityEventType[] = ['rename', 'relocation', 'restructure'];
-    const orderedEventTypes = eventTypes.filter((t) => t != highlightingEvent);
-    orderedEventTypes.push(highlightingEvent);
-    orderedEventTypes.forEach((type) => {
-      areas.append('path')
-          .datum(data)
-          .attr('fill',
-            type == highlightingEvent ? config.universityEvents[type].trendColor: config.colors.inactiveTrend)
-          .attr('stroke',
-            type == highlightingEvent ? config.universityEvents[type].trendColor: config.colors.inactiveTrend)
-          .attr('stroke-width', 1.5)
-          .attr('stroke-opacity', 0.8)
-          .attr('fill-opacity', 0.4)
-          .attr('d', d3.area()
-              .curve(d3.curveMonotoneY)
-              .y((d) => x(d.year))
-              .x0(y(0))
-              .x1((d) => y(d[type])),
-          );
-    });
+    // const areas = trendSvg.append('g');
+    // const eventTypes: UniversityEventType[] = ['rename', 'relocation', 'restructure'];
+    // const orderedEventTypes = eventTypes.filter((t) => t != highlightingEvent);
+    // orderedEventTypes.push(highlightingEvent);
+    // orderedEventTypes.forEach((type) => {
+    //   areas.append('path')
+    //       .datum(data)
+    //       .attr('fill',
+    //         type == highlightingEvent ? config.universityEvents[type].trendColor: config.colors.inactiveTrend)
+    //       .attr('stroke',
+    //         type == highlightingEvent ? config.universityEvents[type].trendColor: config.colors.inactiveTrend)
+    //       .attr('stroke-width', 1.5)
+    //       .attr('stroke-opacity', 0.8)
+    //       .attr('fill-opacity', 0.4)
+    //       .attr('d', d3.area()
+    //           .curve(d3.curveMonotoneY)
+    //           .y((d) => x(d.year))
+    //           .x0(y(0))
+    //           .x1((d) => y(d[type])),
+    //       );
+    // });
+
+    // Add trend overview tooltip
+    const tooltip = d3.select('body')
+        .append('div')
+        .attr('class', 'tooltip')
+        .attr('id', 'trend-tooltip')
+        .style('background-color', config.universityEvents[highlightingEvent].trendColor)
+        .style('opacity', 0)
+        .style('color', 'white');
+
+    const barMouseOver = (event, d) => {
+      tooltip
+          .style('opacity', 1);
+    };
+    const barMouseMove = (event, d: IUniversityTrendItem) => {
+      tooltip
+          .html(`${d.year}年，共 ${d[highlightingEvent]} 次`)
+          .style('left', `${event.layerX-110}px`)
+          .style('top', `${event.layerY}px`);
+    };
+    const barMouseLeave = (event, d) => {
+      tooltip
+          .style('opacity', 0);
+    };
+
 
     // Add trend hover gestures:
     const trendMouseMove = (event) => {
@@ -593,9 +622,11 @@ export class OverviewRenderManager {
     const trendMouseLeave = (event, d) => {
       this.trendMouseTimer = setTimeout(() => {
         this.hideCircleHighlightScale();
-        this.trendSvgHoverLine
+        d3.select('#trend-hover-line')
+            .transition()
+            .duration(500)
             .attr('opacity', 0);
-      }, 300);
+      }, 1000);
     };
 
     trendSvg.append('rect')
@@ -616,46 +647,48 @@ export class OverviewRenderManager {
         .attr('stroke', config.colors.importantText)
         .attr('stroke-width', '2px');
 
+    // Add bars
 
-    // Add trend overview tooltip
-    const tooltip = d3.select('body')
-        .append('div')
-        .attr('class', 'tooltip')
-        .attr('id', 'trend-tooltip')
-        .style('background-color', config.universityEvents[highlightingEvent].trendColor)
-        .style('opacity', 0)
-        .style('color', 'white');
+    const bars = trendSvg.append('g');
+    const eventTypes: UniversityEventType[] = ['rename', 'relocation', 'restructure'];
+    const orderedEventTypes = eventTypes.filter((t) => t != highlightingEvent);
+    orderedEventTypes.push(highlightingEvent);
+    orderedEventTypes.forEach((type) => {
+      bars.selectAll('.trend-bars')
+          .data(data)
+          .join('rect')
+          .attr('fill',
+            type == highlightingEvent ? config.universityEvents[type].trendColor: config.colors.inactiveTrend)
+          .attr('stroke',
+            type == highlightingEvent ? config.universityEvents[type].trendColor: config.colors.inactiveTrend)
+          .attr('stroke-width', 1.5)
+          .attr('stroke-opacity', 0.8)
+          .attr('fill-opacity', 0.4)
+          .attr('y', (d) => x(d.year))
+          .attr('x', (d) => y(d[type]))
+          .attr('height', (d) => x.bandwidth())
+          .attr('width', (d) => width - y(d[type]))
+          .on('mouseover', barMouseOver)
+          .on('mousemove', barMouseMove)
+          .on('mouseleave', barMouseLeave);
+    });
 
-    const circleMouseOver = (event, d) => {
-      tooltip
-          .style('opacity', 1);
-    };
-    const circleMouseMove = (event, d: IUniversityTrendItem) => {
-      tooltip
-          .html(`${d.year}年，共 ${d[highlightingEvent]} 次`)
-          .style('left', `${event.layerX-110}px`)
-          .style('top', `${event.layerY}px`);
-    };
-    const circleMouseLeave = (event, d) => {
-      tooltip
-          .style('opacity', 0);
-    };
 
-    trendSvg.append('g')
-        .selectAll('dot')
-        .data(data.filter((d) => d[highlightingEvent] > 0))
-        .join('circle')
-        .attr('cx', (d) => y(d[highlightingEvent]))
-        .attr('cy', (d) => x(d.year))
-        .attr('r', 4)
-        .attr('fill', config.universityEvents[highlightingEvent].trendColor)
-        .attr('stroke', config.universityEvents[highlightingEvent].trendColor)
-        .attr('stroke-width', 2)
-        .attr('fill-opacity', 0.2)
-        .attr('stroke-opacity', 0.4)
-        .on('mouseover', circleMouseOver)
-        .on('mousemove', circleMouseMove)
-        .on('mouseleave', circleMouseLeave);
+    // trendSvg.append('g')
+    //     .selectAll('dot')
+    //     .data(data.filter((d) => d[highlightingEvent] > 0))
+    //     .join('circle')
+    //     .attr('cx', (d) => y(d[highlightingEvent]))
+    //     .attr('cy', (d) => x(d.year))
+    //     .attr('r', 4)
+    //     .attr('fill', config.universityEvents[highlightingEvent].trendColor)
+    //     .attr('stroke', config.universityEvents[highlightingEvent].trendColor)
+    //     .attr('stroke-width', 2)
+    //     .attr('fill-opacity', 0.2)
+    //     .attr('stroke-opacity', 0.4)
+    //     .on('mouseover', circleMouseOver)
+    //     .on('mousemove', circleMouseMove)
+    //     .on('mouseleave', circleMouseLeave);
   }
 }
 

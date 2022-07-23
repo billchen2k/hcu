@@ -5,6 +5,7 @@ import {SortingCriteria, UniversityEventType} from '../types';
 import {useAppDispatch, useAppSelector} from '../store/hooks';
 import config from '../config';
 import siteSlice from '../store/slices/siteSlice';
+import {useTranslation} from 'react-i18next';
 
 export interface IEventSelectorProps {
 }
@@ -12,6 +13,7 @@ export interface IEventSelectorProps {
 const EventSelector = (props: IEventSelectorProps) => {
   const dispatch = useAppDispatch();
   const {highlightingEvent} = useAppSelector((state) => state.site);
+  const {t, i18n} = useTranslation();
   const eventTypes: UniversityEventType[] = ['rename', 'relocation', 'restructure'];
 
   const setEventType = (type: UniversityEventType) => {
@@ -21,7 +23,7 @@ const EventSelector = (props: IEventSelectorProps) => {
   return (
     <Box sx={{position: 'absolute', width: '23%', top: 20, right: 20}}>
       <Stack spacing={2}>
-        <HeadingWithSplit title={'事件选择'} textPosition={'end'}/>
+        <HeadingWithSplit title={t('heading-event')} textPosition={'end'}/>
         <ButtonGroup fullWidth={true}
           variant={'text'}
           color={'primary'}
@@ -35,7 +37,7 @@ const EventSelector = (props: IEventSelectorProps) => {
               onClick={() => setEventType(eventType as UniversityEventType)}
               variant={highlightingEvent === eventType ? 'contained' : 'text'}
             >
-              {config.universityEvents[eventType].name}
+              {t(`event-${eventType}`)}
             </Button>
           ))
           }
