@@ -20,6 +20,7 @@ export class OverviewRenderManager {
 
   private hcuLogoTimer?: NodeJS.Timeout;
   private hoverSwitchTimer?: NodeJS.Timeout;
+  private trendMouseTimer?: NodeJS.Timeout;
   private lastDrawnEventType?: string;
 
   private centerG: d3.Selection;
@@ -34,7 +35,9 @@ export class OverviewRenderManager {
   private outerRadius?: number;
   private innerRadius?: number;
   private logoRadius?: number;
-  private trendSvg: d3.Selection;
+  private highlightHoverOpacity?: number;
+  private trendSvg?: d3.Selection;
+  private trendSvgHoverLine?: d3.Selection;
 
   public constructor(svg: SVGSVGElement, navigate: NavigateFunction) {
     this.svg = svg;
@@ -54,6 +57,7 @@ export class OverviewRenderManager {
     this.innerRadius = this.size * 0.35 / 2;
     this.outerRadius = this.size * 0.8 / 2;
     this.logoRadius = this.size * 0.12 / 2;
+    this.highlightHoverOpacity = 0.8;
 
     d3.select(this.svg)
         .attr('width', this.width)
@@ -138,6 +142,22 @@ export class OverviewRenderManager {
       this.navigate(`/${d.englishName.toLowerCase()}`);
     }
   };
+
+  private displayCircleHighlightScale(year) {
+    d3.select('#highlight-scale-circle')
+        .attr('r', this.circleY(2022 - year));
+    d3.select('#highlight-scale-text')
+        .attr('y', -this.circleY(2022 - year) - 4)
+        .text(year);
+    this.highlightScale
+        .attr('opacity', this.highlightHoverOpacity);
+  }
+
+  private hideCircleHighlightScale() {
+    this.highlightScale
+        .attr('opacity', 0);
+  }
+
 
   public drawCircle(sortingCriteria: SortingCriteria) {
     let data = [...this.data.info]
@@ -370,6 +390,26 @@ export class OverviewRenderManager {
         .style('font-size', '13px')
         .style('font-family', 'FZQKBYS');
 
+    // Highlight Scale
+    this.highlightScale = g.append('g');
+    this.highlightScale.append('circle')
+        .attr('id', 'highlight-scale-circle')
+        .attr('fill', 'none')
+        .attr('stroke-width', '2px')
+        .attr('stroke', config.colors.importantText)
+        .attr('r', (r) => this.circleY(2022 - 1950));
+    this.highlightScale.append('text')
+        .attr('y', (d) => -this.circleY(2022 - 1950) + 4)
+        .attr('id', 'highlight-scale-text')
+        .attr('fill', config.colors.importantText)
+        .attr('text-anchor', 'middle')
+        .attr('transform', `rotate(${-5})`)
+        .style('font-size', '13px')
+        .style('font-family', 'FZQKBYS')
+        .text('1950');
+    this.highlightScale.attr('opacity', 0);
+
+
     if (this.firstLoad) {
       // Initial transition
       g.transition()
@@ -531,6 +571,53 @@ export class OverviewRenderManager {
           );
     });
 
+    // Add trend hover gestures:
+    const trendMouseMove = (event) => {
+      if (this.trendMouseTimer) {
+        clearTimeout(this.trendMouseTimer);
+      }
+      const [xCord, yCord] = d3.pointer(event);
+      const ratio = yCord / height;
+      const highLightYear = 1893 + Math.round((2022 - 1893) * ratio);
+      if (yCord) {
+        d3.select('#trend-hover-line')
+            .attr('x1', 0)
+            .attr('y1', yCord)
+            .attr('x2', width)
+            .attr('y2', yCord)
+            .attr('opacity', this.highlightHoverOpacity);
+        this.displayCircleHighlightScale(highLightYear);
+      }
+    };
+
+    const trendMouseLeave = (event, d) => {
+      this.trendMouseTimer = setTimeout(() => {
+        this.hideCircleHighlightScale();
+        this.trendSvgHoverLine
+            .attr('opacity', 0);
+      }, 300);
+    };
+
+    trendSvg.append('rect')
+        .attr('width', width)
+        .attr('height', height)
+        .attr('fill', '#FFF')
+        .attr('opacity', 0.1)
+        .on('mousemove', trendMouseMove)
+        .on('mouseleave', trendMouseLeave);
+
+    this.trendSvgHoverLine = trendSvg.append('line')
+        .attr('id', 'trend-hover-line')
+        .attr('x1', 0)
+        .attr('y1', 1)
+        .attr('x2', width)
+        .attr('y2', 1)
+        .attr('opacity', 0)
+        .attr('stroke', config.colors.importantText)
+        .attr('stroke-width', '2px');
+
+
+    // Add trend overview tooltip
     const tooltip = d3.select('body')
         .append('div')
         .attr('class', 'tooltip')

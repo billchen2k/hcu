@@ -67,8 +67,8 @@ export class DetailRendererManager {
 
     // Circle sizes
     this.innerCircleBaseRadius = 30;
-    this.innerCircleStepRadius = 100;
-    this.entityCircleRadius = 6;
+    this.innerCircleStepRadius = 120;
+    this.entityCircleRadius = 7;
     this.eventLineLength = 100;
   }
 
@@ -236,7 +236,7 @@ export class DetailRendererManager {
         .selectAll('dot')
         .data(arithmeticArray(1890, 2020, 1))
         .join('circle')
-        .attr('r', 3)
+        .attr('r', 2)
         .attr('opacity', 0.5)
         .attr('fill', '#000')
         .attr('cx', (d) => this.scaleX(d))
@@ -247,7 +247,7 @@ export class DetailRendererManager {
         .delay((d, i) => i * 5)
         .duration(300)
         .attr('cy', (d) => this.scaleY(d))
-        .attr('opacity', 0.5);
+        .attr('opacity', 0.3);
 
 
     // 建校事件
@@ -298,7 +298,7 @@ export class DetailRendererManager {
         .attr('y2', (d) => -this.eventLineLength)
         .attr('stroke', '#769E74')
         .attr('stroke-width', 2)
-        .attr('opacity', 0.6);
+        .attr('opacity', 0.8);
     relocationMarkers.append('svg:image')
         .attr('xlink:href', '/assets/markers/relocation.png')
         .attr('x', (d) => -(relocationMarkerSize / 2))
@@ -335,7 +335,7 @@ export class DetailRendererManager {
         .attr('y2', (d) => this.eventLineLength)
         .attr('stroke', '#775C8E')
         .attr('stroke-width', 2)
-        .attr('opacity', 0.6);
+        .attr('opacity', 0.8);
     renameMarkers.append('svg:image')
         .attr('xlink:href', '/assets/markers/rename.png')
         .attr('x', (d) => -(renameMarkerSize / 2))
@@ -358,7 +358,7 @@ export class DetailRendererManager {
     detailThemeGradient.append('stop')
         .attr('offset', '100%')
         .attr('stop-color', config.colors.detailTheme)
-        .attr('stop-opacity', 0.05);
+        .attr('stop-opacity', 0.1);
 
     const detailEntityGradient = g.append('radialGradient')
         .attr('id', 'detail-entity-gradient');

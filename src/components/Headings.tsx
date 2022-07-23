@@ -1,7 +1,7 @@
 import * as React from 'react';
 import {Box, Grid, IconButton, Typography} from '@mui/material';
 import {matchPath, useLocation, useMatch, useNavigate, useParams} from 'react-router-dom';
-import {ChevronLeft} from '@mui/icons-material';
+import {ChevronLeft, Close} from '@mui/icons-material';
 import hcuHeading from '../assets/hcu-heading-v6.png';
 
 export interface IHeadingsProps {
@@ -22,7 +22,7 @@ const Headings = (props: IHeadingsProps) => {
           <IconButton size={'large'} sx={{border: '1px solid #888'}}
             onClick={() => navigateBack()}
           >
-            <ChevronLeft />
+            <Close />
           </IconButton>
         </Box>
       }
