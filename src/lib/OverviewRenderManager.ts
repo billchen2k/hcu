@@ -150,11 +150,17 @@ export class OverviewRenderManager {
     d3.select('#highlight-scale-text')
         .attr('y', -this.circleY(2022 - year) - 4)
         .text(year);
+    // d3.select(`.event-marks`)
+    //     .attr('fill', '#fff');
+    // d3.select(`.event-mark-${year}`)
+    //     .attr('fill', config.colors.universityHover);
     this.highlightScale
         .attr('opacity', this.highlightHoverOpacity);
   }
 
   private hideCircleHighlightScale() {
+    d3.select(`.event-marks`)
+        .attr('fill', '#fff');
     this.highlightScale
         .transition()
         .duration(500)
@@ -454,6 +460,7 @@ export class OverviewRenderManager {
         .enter()
         .append('path')
         .attr('fill', (d) => config.universityEvents[d.event].color)
+        .attr('class', (d) => `event-mark-${d.year} event-marks`)
         .attr('d', d3.arc()
             .innerRadius((d: IUniversityEvent) => this.circleY(2022 - d.year))
             .outerRadius((d: IUniversityEvent) => this.circleY(2022 - d.year) + 2.5)

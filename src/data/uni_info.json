@@ -11,7 +11,7 @@
     "c9": true,
     "985": true,
     "211": true,
-    "logo": "PKU.png"
+    "logo": "PKU.svg"
   },
   {
     "name": "中国人民大学",
@@ -599,7 +599,7 @@
     "c9": false,
     "985": false,
     "211": true,
-    "logo": "YBU.jpg"
+    "logo": "YBU.png"
   },
   {
     "name": "东北师范大学",
@@ -655,7 +655,7 @@
     "c9": false,
     "985": false,
     "211": true,
-    "logo": "NEAU.jpg"
+    "logo": "NEAU.png"
   },
   {
     "name": "东北林业大学",
@@ -669,7 +669,7 @@
     "c9": false,
     "985": false,
     "211": true,
-    "logo": "NEFU.jpg"
+    "logo": "NEFU.png"
   },
   {
     "name": "复旦大学",
@@ -809,7 +809,7 @@
     "c9": false,
     "985": false,
     "211": true,
-    "logo": "SUFE.jpg"
+    "logo": "SUFE.png"
   },
   {
     "name": "上海体育学院",
@@ -1957,7 +1957,7 @@
     "c9": false,
     "985": false,
     "211": false,
-    "logo": "NBU.jpg"
+    "logo": "NBU.png"
   },
   {
     "name": "南方科技大学",
@@ -2041,6 +2041,6 @@
     "c9": false,
     "985": false,
     "211": true,
-    "logo": "FMMU.jpg"
+    "logo": "FMMU.png"
   }
 ]
